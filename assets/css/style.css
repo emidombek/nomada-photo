@@ -5,6 +5,8 @@
     border: none;
 }
 
+/* Hero Image */
+
 .header-hero {
     position: relative;
     height: 700px; 
@@ -28,9 +30,13 @@
   object-fit: cover; 
   }  
 
+/* Logo Menu Banner */
+
   .logo-banner {
     background-color: #D8D5BF;
     padding: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .logo-container {
@@ -55,3 +61,33 @@
     margin-left: 10px;
     margin-bottom: 5px;
 }
+
+#menu {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-grow: 1;
+  font-size: 110%;
+  letter-spacing: 2px;
+  line-height: 75px;
+  }
+  
+  #menu li {
+    list-style-type: none;
+    margin-right: 20px;
+  }
+  
+  #menu a {
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #464646;
+    font-family: Raleway, sans-serif;
+    letter-spacing: 2px;
+  }
+  
+  #menu a:hover, .active {
+    border-bottom: 2px solid #CF755A;
+    font-weight: bold;
+  }
+
