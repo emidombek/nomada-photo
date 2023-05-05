@@ -30,14 +30,15 @@
   object-fit: cover; 
   }  
 
-/* Logo Menu Banner */
+/* Logo Banner */
 
   .logo-banner {
     background-color: #D8D5BF;
-    padding: 20px;
+    padding-top: 40px;
     display: flex;
     justify-content: space-between;
-}
+    align-items: flex-end;
+    padding-bottom: 20px;
 
 .logo-container {
     display: flex;
@@ -49,6 +50,8 @@
     font-size: 40px;
     color: #CF755A;
     font-family: Raleway, sans-serif;
+    padding-top: 25px;
+    margin-left: 20px;
 }
 
 #logo2 {
@@ -57,19 +60,19 @@
     color: #464646;
     font-family: Raleway, sans-serif;
     text-align: left;
-    vertical-align: bottom;
     margin-left: 10px;
-    margin-bottom: 5px;
+    padding-bottom: 5px;
 }
+
+/* Menu */
 
 #menu {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: flex-end;
   flex-grow: 1;
   font-size: 110%;
   letter-spacing: 2px;
-  line-height: 75px;
   }
   
   #menu li {
