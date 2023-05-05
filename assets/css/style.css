@@ -31,24 +31,27 @@
   .logo-banner {
     background-color: #D8D5BF;
     padding: 20px;
+}
+
+.logo-container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  #logo {
+    align-items: flex-end;
+}
+
+#logo {
     font-weight: bold;
     font-size: 40px;
     color: #CF755A;
     font-family: Raleway, sans-serif;
-    margin-right: 10px;
-  }
-  
-  #logo2 {
+}
+
+#logo2 {
     font-weight: 600;
     font-size: 16px;
     color: #464646;
     font-family: Raleway, sans-serif;
-    margin-left: 10;
-    vertical-align: middle;
-  }
+    text-align: left;
+    vertical-align: bottom;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
