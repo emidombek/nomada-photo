@@ -1,96 +1,138 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&family=Source+Serif+Pro&display=swap');
-* {
-    margin: 0;
-    padding: 0;
-    border: none;
-}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&family=Source+Serif+Pro&display=swap'); 
+ * { 
+     margin: 0; 
+     padding: 0; 
+     border: none; 
+ } 
+  
+ /* Hero Image */ 
+  
+ .header-hero { 
+     position: relative; 
+     height: 630px;  
+     overflow: hidden; 
+   } 
+    
+   #hero-image { 
+     position: absolute; 
+     top: 0; 
+     left: 0; 
+     right: 0; 
+     bottom: 0; 
+     background-size: contain; 
+     background-position: center; 
+   } 
+    
+   #hero-image img { 
+   width: 100%; 
+   height: 100%; 
+   display: block; 
+   object-fit: cover;  
+   }   
+  
+ /* Logo Banner */ 
+  
+   .logo-banner { 
+     background-color: #D8D5BF; 
+     padding-top: 40px; 
+     display: flex; 
+     justify-content: space-between; 
+     align-items: flex-end; 
+     padding-bottom: 20px; 
+  
+ .logo-container { 
+     display: flex; 
+     align-items: flex-end; 
+ } 
+  
+ #logo { 
+     font-weight: bold; 
+     font-size: 40px; 
+     color: #CF755A; 
+     font-family: Raleway, sans-serif; 
+     padding-top: 25px; 
+     margin-left: 20px; 
+ } 
+  
+ #logo2 { 
+     font-weight: 600; 
+     font-size: 16px; 
+     color: #464646; 
+     font-family: Raleway, sans-serif; 
+     text-align: left; 
+     margin-left: 10px; 
+     padding-bottom: 5px; 
+ } 
+  
+ /* Menu */ 
+  
+ #menu { 
+   display: flex; 
+   justify-content: space-between; 
+   align-items: flex-end; 
+   flex-grow: 1; 
+   font-size: 110%; 
+   letter-spacing: 2px; 
+   } 
+    
+   #menu li { 
+     list-style-type: none; 
+     margin-right: 20px; 
+   } 
+    
+   #menu a { 
+     font-size: 16px; 
+     font-weight: 600; 
+     text-decoration: none; 
+     color: #464646; 
+     font-family: Raleway, sans-serif; 
+     letter-spacing: 2px; 
+   } 
+    
+   #menu a:hover, .active { 
+     border-bottom: 2px solid #CF755A; 
+     font-weight: bold; 
+   } 
+ }
 
-/* Hero Image */
+ /* Gallery Grid */
 
-.header-hero {
-    position: relative;
-    height: 700px; 
-    overflow: hidden;
+ .gallery-container {
+    display: grid;
+    grid-template-columns: repeat(2, 530px);
+    grid-template-rows: repeat(4, 360px);
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px; 
   }
   
-  #hero-image {
+  .gallery-column {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .gallery-column img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+  }
+  
+  .image-overlay {
     position: absolute;
     top: 0;
     left: 0;
-    right: 0;
-    bottom: 0;
-    background-size: contain;
-    background-position: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: opacity 0.3s ease;
   }
   
-  #hero-image img {
-  width: 100%;
-  height: 100%;
-  display: block;
-  object-fit: cover; 
-  }  
-
-/* Logo Banner */
-
-  .logo-banner {
-    background-color: #D8D5BF;
-    padding-top: 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    padding-bottom: 20px;
-
-.logo-container {
-    display: flex;
-    align-items: flex-end;
-}
-
-#logo {
-    font-weight: bold;
-    font-size: 40px;
-    color: #CF755A;
-    font-family: Raleway, sans-serif;
-    padding-top: 25px;
-    margin-left: 20px;
-}
-
-#logo2 {
-    font-weight: 600;
-    font-size: 16px;
-    color: #464646;
-    font-family: Raleway, sans-serif;
-    text-align: left;
-    margin-left: 10px;
-    padding-bottom: 5px;
-}
-
-/* Menu */
-
-#menu {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  flex-grow: 1;
-  font-size: 110%;
-  letter-spacing: 2px;
+  .gallery-column:hover .image-overlay {
+    opacity: 0.7;
   }
-  
-  #menu li {
-    list-style-type: none;
-    margin-right: 20px;
-  }
-  
-  #menu a {
-    font-size: 16px;
-    font-weight: 600;
-    text-decoration: none;
-    color: #464646;
-    font-family: Raleway, sans-serif;
-    letter-spacing: 2px;
-  }
-  
-  #menu a:hover, .active {
-    border-bottom: 2px solid #CF755A;
-    font-weight: bold;
-  }
-}
