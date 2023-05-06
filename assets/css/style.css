@@ -51,7 +51,7 @@
      color: #CF755A; 
      font-family: Raleway, sans-serif; 
      padding-top: 25px; 
-     margin-left: 20px; 
+     padding-left: 20px; 
  } 
   
  #logo2 { 
@@ -60,10 +60,10 @@
      color: #464646; 
      font-family: Raleway, sans-serif; 
      text-align: left; 
-     margin-left: 10px; 
+     padding-left: 10px; 
      padding-bottom: 5px; 
  } 
-  
+ 
  /* Menu */ 
   
  #menu { 
@@ -72,7 +72,8 @@
    align-items: flex-end; 
    flex-grow: 1; 
    font-size: 110%; 
-   letter-spacing: 2px; 
+   letter-spacing: 2px;
+   padding-left: 25px;
    } 
     
    #menu li { 
@@ -104,11 +105,11 @@
     grid-column-gap: 20px;
     grid-row-gap: 30px;
     justify-content: center;
-    padding-top: 30px;
-    padding-bottom: 30px; 
-  }
+    padding-top: 50px;
+    padding-bottom: 50px; 
   
-  .gallery-column {
+  
+  .gallery-column,.gallery-column-center {
     position: relative;
     overflow: hidden;
     width: 100%;
@@ -120,6 +121,13 @@
     height: 100%;
     object-fit: cover;
     object-position: top;
+  }
+
+  .gallery-column-center img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
   }
   
   .image-overlay {
@@ -136,3 +144,64 @@
   .gallery-column:hover .image-overlay {
     opacity: 0.7;
   }
+
+  .gallery-column-center:hover .image-overlay {
+    opacity: 0.7;
+  }
+
+ }
+
+/* Footer Banner */
+ 
+
+ .footer-banner {
+    background-color: #AEC1BA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  
+  .footer-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  
+  .footer-text {
+    color: black;
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  .copyright-text {
+    color: #737373;
+    font-family: Source Serif Pro, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+  }
+}
+  
+  .social-networks {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .social-networks li {
+    margin: 0 10px;
+  }
+  
+  .social-networks i {
+    font-size: 200%;
+    text-align: center;
+    color: #CF755A;
+  }
+}
