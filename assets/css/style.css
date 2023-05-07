@@ -36,7 +36,7 @@
 
 .text-overlay {
   position: absolute;
-  top: 35%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -44,7 +44,7 @@
   font-size: 36px;
   font-weight: 600;
   font-family: Raleway, sans-serif;
-  padding-bottom: 10%;
+
 }
 
 .middle {
@@ -289,34 +289,26 @@
       flex-wrap: wrap;
       padding: 10px;
     }
-    
+
     #logo {
       padding: 0;
       margin-bottom: 10px;
     }
-    
+
     #menu {
       flex-wrap: wrap;
       padding-left: 0;
       margin-top: 10px;
     }
-    
+
     #menu li {
       margin: 0 10px 10px 0;
     }
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (max-width: 768px) {
+  .text-overlay {
+    padding-bottom: 15%;
+  }
+}
