@@ -157,9 +157,7 @@
   padding-top: 50px;
   padding-bottom: 50px;
 
-
-  .gallery-column,
-  .gallery-column-center {
+  .gallery-column, .gallery-column-center{
     position: relative;
     overflow: hidden;
     width: 100%;
@@ -207,11 +205,64 @@
     color: white;
     font-size: 7em;
   }
+}
+.gallery-container2 {
+  display: grid;
+  grid-template-columns: repeat(2, 530px);
+  grid-template-rows: repeat(2, minmax(360px, 1fr));
+  grid-column-gap: 20px;
+  grid-row-gap: 30px;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
 
+  .gallery-column2 {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+
+  .gallery-column2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+  }
+
+  .image-overlay2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .gallery-column2:hover .image-overlay2 {
+    opacity: 0.7;
+  }
+  
+  .text-overlay2 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    font-weight: normal;
+    font-family: Raleway, sans-serif;
+  
+  }
 }
 
 /* Footer Banner */
-
 
 .footer-banner {
   background-color: #AEC1BA;
@@ -265,6 +316,8 @@
   }
 }
 
+/* Media Queries */
+
 @media screen and (max-width: 1200px) {
   .gallery-container {
     grid-template-columns: repeat(2, 1fr);
@@ -273,7 +326,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .gallery-container {
+  .gallery-container, .gallery-container2 {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-row-gap: 20px;
@@ -282,6 +335,13 @@
   .gallery-column,
   .gallery-column-center {
     height: auto;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .text-overlay2 {
+      font-size: 16px;
+      top: 50%;
+    }
   }
 
   @media screen and (max-width: 768px) {
@@ -312,3 +372,5 @@
     padding-bottom: 15%;
   }
 }
+
+
