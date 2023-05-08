@@ -282,6 +282,52 @@
   }
 }
 
+/* About Page Body and Gallery*/
+
+.about-body-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+.about-textbox {
+  width: 40%;
+}
+
+.about-heading {
+  font-family: Raleway, sans-serif;
+  font-weight: Bold;
+  font-size: 50px;
+  color: black
+}
+
+.about-text {
+  font-family: Source Serif Pro, sans-serif;
+  font-weight: regular;
+  font-size: 16px;
+  color: #737373
+}
+
+.image-grid {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image-grid img {
+  width: 100%;
+}
+
+.small-images {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.small-images img {
+  width: 30%;
+}
+}
+
 /* Footer Banner */
 
 .footer-banner {
