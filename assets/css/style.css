@@ -67,15 +67,26 @@
   text-align: center;
 }
 
-.hero-image,.hero-image-top:hover .image-overlay {
+.hero-image:hover .image-overlay {
   opacity: 0.7;
 }
 
-.hero-image,.hero-image-top:hover .middle {
+.hero-image:hover .middle {
   opacity: 1;
 }
 
-.hero-image,.hero-image-top:hover .title-text {
+.hero-image:hover .title-text {
+  opacity: 1;
+}
+.hero-image-top:hover .image-overlay {
+  opacity: 0.7;
+}
+
+.hero-image-top:hover .middle {
+  opacity: 1;
+}
+
+.hero-image-top:hover .title-text {
   opacity: 1;
 }
 
