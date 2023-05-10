@@ -16,27 +16,28 @@
   <header>
     <section class="hero-container">
       <div class="hero-image">
-        <img src="/assets/images/PSX_20230428_111520.jpg" alt="Hero Image">
+        <img src="assets/images/tatras_slovakia_large.jpg" alt="Hero Image"
+          aria-label="Photo of a view of the Tatra Mountains in Slovakia">
         <div class="image-overlay">
-          <h1 class="text-overlay">Tatra Mountains, Slovakia & Poland</h1>
+          <h1 class="text-overlay">High Tatra Mountains, Slovakia & Poland</h1>
         </div>
-        <div class="middle">
-          <a href="#logo" style="text-decoration: none;">
-            <div class="text">Discover more</div>
+        <div class="middle" aria-label="Text overlay with a link that scrolls further down to the menu section">
+          <a href="#logo">
+            <div class="text-box-hover">See More Photos From Here</div>
           </a>
         </div>
       </div>
       </div>
     </section>
-    <section class="logo-banner">
+    <section class="logo-banner" role="banner">
       <div class="logo-container">
-        <h1 id="logo">Nomada</h1>
-        <h2 id="logo2">Photography</h2>
+        <h2 id="logo">Nomada</h2>
+        <h3 class="logo2">Photography</h3>
       </div>
-      <nav>
-        <ul id="menu">
+      <nav class="navbar">
+        <ul class="menu">
           <li>
-            <a href="index.html#logo">Home</a>
+            <a href="index.html#logo" class="active">Home</a>
           </li>
           <li>
             <a href="about.html">About</a>
@@ -48,32 +49,35 @@
       </nav>
     </section>
   </header>
-  <div class="gallery-container2">
-    <div class="gallery-column2">
-      <img src="/assets/images/238191811_10165423162595133_2761304442024844965_n.jpeg" alt="Image 1">
-      <div class="image-overlay2">
-        <div class="text-overlay2">Morskie Oko Lake, Poland - 2021</div>
+  <main>
+    <div class="gallery-container2">
+      <h4>#</h4>
+      <div class="gallery-column2">
+        <img src="assets/images/morskie_oko_tatra.jpeg" alt="Morskie Oko Lake">
+        <div class="image-overlay2">
+          <div class="text-overlay2">Morskie Oko Lake, Poland - 2021</div>
+        </div>
+      </div>
+      <div class="gallery-column2">
+        <img src="assets/images/forest_tatras.jpeg" alt="View of a forest and the Tatra Mountains">
+        <div class="image-overlay2">
+          <div class="text-overlay2">High Tatras, Slovakia - 2021</div>
+        </div>
+      </div>
+      <div class="gallery-column2">
+        <img src="assets/images/tatra_zakopane_shopping.jpeg" alt="View of the town of Zakopane">
+        <div class="image-overlay2">
+          <div class="text-overlay2">Zakopane, Poland - 2021</div>
+        </div>
+      </div>
+      <div class="gallery-column2">
+        <img src="assets/images/tatra_valley.jpeg" alt="The valley of Jaworzynki in the Tatra Mountains">
+        <div class="image-overlay2">
+          <div class="text-overlay2">Dolina Jaworzynki, Poland - 2021</div>
+        </div>
       </div>
     </div>
-    <div class="gallery-column2">
-      <img src="/assets/images/240899230_10165470430915133_1618656765099579430_n.jpeg" alt="Image 2">
-      <div class="image-overlay2">
-        <div class="text-overlay2">High Tatras, Slovakia - 2021</div>
-      </div>
-    </div>
-    <div class="gallery-column2">
-      <img src="/assets/images/237247917_10165426586865133_2717208397042793263_n.jpeg" alt="Image 3">
-      <div class="image-overlay2">
-        <div class="text-overlay2">Zakopane, Poland - 2021</div>
-      </div>
-    </div>
-    <div class="gallery-column2">
-      <img src="/assets/images/260959268_10165734669370133_1149420959967839163_n.jpeg" alt="Image 4">
-      <div class="image-overlay2">
-        <div class="text-overlay2">Dolina Jaworzynki, Poland - 2021</div>
-      </div>
-    </div>
-  </div>
+  </main>
   <footer>
     <section class="footer-banner">
       <ul class="social-networks">
@@ -96,11 +100,11 @@
       </ul>
       <br>
       <div class="footer-text-container">
-        <a href="#logo" style="text-decoration: none;">
-          <h1 class="footer-text">Nomada Photography</h1>
+        <a href="#logo" aria-label="Link to top of page">
+          <h5 class="footer-text">Nomada Photography</h5>
         </a>
         <br>
-        <h2 class="copyright-text">Copyright 2023 Emilia Dombek. All rights reserved.</h2>
+        <h6 class="copyright-text">Copyright 2023 Emilia Dombek. All rights reserved.</h6>
       </div>
       <!--font awesome script-->
       <script src="https://kit.fontawesome.com/d05b266593.js" crossorigin="anonymous"></script>
