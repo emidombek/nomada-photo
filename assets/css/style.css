@@ -291,6 +291,12 @@ h3 {
   padding-top: 50px;
   padding-bottom: 50px;
 
+}
+
+h3 {
+  display: none;
+}
+
   .gallery-column2 {
     position: relative;
     overflow: hidden;
@@ -342,6 +348,10 @@ h3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .about-body-container h3 {
+    display: none;
   }
 
   .about-textbox {
@@ -405,7 +415,6 @@ h3 {
     object-fit: cover;
     padding-top: 10px;
   }
-}
 
 /* Footer Banner */
 
