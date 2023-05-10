@@ -227,10 +227,6 @@ body footer {
   padding-bottom: 50px;
 }
 
-h3 {
-  display: none;
-}
-
 .gallery-column,
 .gallery-column-center {
   position: relative;
@@ -293,7 +289,7 @@ h3 {
 
 }
 
-h3 {
+h4 {
   display: none;
 }
 
