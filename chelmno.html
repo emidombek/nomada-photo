@@ -9,35 +9,35 @@
   <meta name="keywords" content="photography, travel, portfolio">
   <meta name="author" content="Emilia Dombek">
   <link rel="stylesheet" href="assets/css/style.css">
-  <title>Nomada Photography: Chełmno Gallery</title>
+  <title>Nomada Photography: Chelmno Gallery</title>
 </head>
 
 <body>
   <header>
     <section class="hero-container">
       <div class="hero-image">
-        
-        <img src="/assets/images/IMG_20201022_130657.jpg" alt="Hero Image">
+        <img src="assets/images/book_house_chelmno.jpg" alt="Hero Image"
+          aria-label="Building in Chelmno with Book Mural">
         <div class="image-overlay">
           <h1 class="text-overlay">Chełmno, Poland</h1>
         </div>
-        <div class="middle">
-          <a href="#logo" style="text-decoration: none;">
-            <div class="text">Discover more</div>
+        <div class="middle" aria-label="Text overlay with a link that scrolls further down to the menu section">
+          <a href="#logo">
+            <div class="text-box-hover">See More Photos From Here</div>
           </a>
         </div>
       </div>
       </div>
     </section>
-    <section class="logo-banner">
+    <section class="logo-banner" role="banner">
       <div class="logo-container">
-        <h1 id="logo">Nomada</h1>
-        <h2 id="logo2">Photography</h2>
+        <h2 id="logo">Nomada</h2>
+        <h3 class="logo2">Photography</h3>
       </div>
-      <nav>
-        <ul id="menu">
+      <nav class="navbar">
+        <ul class="menu">
           <li>
-            <a href="index.html#logo">Home</a>
+            <a href="index.html#logo" class="active">Home</a>
           </li>
           <li>
             <a href="about.html">About</a>
@@ -49,32 +49,35 @@
       </nav>
     </section>
   </header>
+  <main>
   <div class="gallery-container2">
+    <h4></h4>
     <div class="gallery-column2">
-      <img src="/assets/images/122083729_10164233452140133_6705223631809983308_n.jpeg" alt="Image 1">
+      <img src="assets/images/chemno_cityhall.jpeg" alt="Chelmno City Hall and Main Square">
       <div class="image-overlay2">
         <div class="text-overlay2">City Hall & Main Square - 2020</div>
       </div>
     </div>
     <div class="gallery-column2">
-      <img src="/assets/images/PSX_20230508_140201.jpg" alt="Image 2">
+      <img src="assets/images/chelmno_graffiti_large.jpg" alt="Chelmno Street Art Mural">
       <div class="image-overlay2">
         <div class="text-overlay2">Street Art - 2020</div>
       </div>
     </div>
     <div class="gallery-column2">
-      <img src="/assets/images/122150879_10164233452790133_4680910668635610517_n.jpeg" alt="Image 3">
+      <img src="assets/images/deer_sculpture_chelmno.jpeg" alt="17th Century Deer's Head Sculpture">
       <div class="image-overlay2">
         <div class="text-overlay2">17th Century Deer's Head Sculpture - 2020</div>
       </div>
     </div>
     <div class="gallery-column2">
-      <img src="/assets/images/121966719_10164233452410133_8868883350228726530_n.jpeg" alt="Image 4">
+      <img src="assets/images/gothic_church_chelmno.jpeg" alt="Teutonic Style Gothic Church">
       <div class="image-overlay2">
         <div class="text-overlay2">Teutonic Style Gothic Church - 2020</div>
       </div>
     </div>
   </div>
+</main>
   <footer>
     <section class="footer-banner">
       <ul class="social-networks">
@@ -97,11 +100,11 @@
       </ul>
       <br>
       <div class="footer-text-container">
-        <a href="#logo" style="text-decoration: none;">
-          <h1 class="footer-text">Nomada Photography</h1>
+        <a href="#logo" aria-label="Link to top of page">
+          <h5 class="footer-text">Nomada Photography</h5>
         </a>
         <br>
-        <h2 class="copyright-text">Copyright 2023 Emilia Dombek. All rights reserved.</h2>
+        <h6 class="copyright-text">Copyright 2023 Emilia Dombek. All rights reserved.</h6>
       </div>
       <!--font awesome script-->
       <script src="https://kit.fontawesome.com/d05b266593.js" crossorigin="anonymous"></script>
