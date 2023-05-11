@@ -10,11 +10,13 @@
     <meta name="author" content="Emilia Dombek">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Nomada Photography: Contact</title>
+</head>
+
+<body>
     <header>
         <section class="hero-container">
             <div class="hero-image">
-                <img src="assets/images/kaszuby_large.jpg" alt="Hero Image"
-                    aria-label="Photo of a lake in Kashubia">
+                <img src="assets/images/kaszuby_large.jpg" alt="Hero Image" aria-label="Photo of a lake in Kashubia">
                 <div class="image-overlay">
                     <h1 class="text-overlay">Contact: Get in Touch</h1>
                 </div>
@@ -40,17 +42,22 @@
                         <a href="about.html">About</a>
                     </li>
                     <li>
-                        <a href="contact.html"class="active">Contact</a>
+                        <a href="contact.html" class="active">Contact</a>
                     </li>
                 </ul>
             </nav>
-        </section>
     </header>
-</head>
-
-<body>
     <main>
-        Webform
+    <section class="contact-form-container">
+        <form class="contact-form" method="POST" action="https://formdump.codeinstitute.net/">
+            <h2>Get in Touch!</h2>
+            <label for="fname">First Name</label>
+            <input class="fname" name="first_name" type="text" required class="text-input">
+            <label for="email">Email Address</label>
+            <input type="email" class="email" name="email_address" required class="text-input">
+            <input class="join-button" type="submit" value="Send">
+        </form>
+        </section>
     </main>
     <footer>
         <section class="footer-banner">
