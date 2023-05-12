@@ -47,18 +47,31 @@
                 </ul>
             </nav>
     </header>
+    <br>
     <main>
-    <section class="contact-form-container">
-        <form class="contact-form" method="POST" action="https://formdump.codeinstitute.net/">
-            <h2>Get in Touch!</h2>
-            <label for="fname">First Name</label>
-            <input class="fname" name="first_name" type="text" required class="text-input">
-            <label for="email">Email Address</label>
-            <input type="email" class="email" name="email_address" required class="text-input">
-            <input class="join-button" type="submit" value="Send">
-        </form>
-        </section>
+        <div class="contact-form-container">
+            <div class="contact-form">
+              <h5 class="contact-title">Contact Us</h5> 
+              <br>
+              <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" class="text-input-contact">
+          
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" class="text-input-contact">
+          
+                <label for="message">Message</label>
+                <textarea id="message" name="message" class="text-input-contact"></textarea>
+          
+                <button type="submit" class="submit-button">Submit</button>
+              </form>
+            </div>
+            <div class="contact-form-image">
+              <img src="your-image-url" alt="Image">
+            </div>
+          </div>          
     </main>
+    <br>
     <footer>
         <section class="footer-banner">
             <ul class="social-networks">

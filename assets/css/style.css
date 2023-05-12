@@ -416,30 +416,53 @@ h4 {
 
 .contact-form-container {
   display: flex;
+  justify-content: space-between;
   align-items: center;
+  width: 50%;
+  border: 20px solid #AEC1BA;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .contact-form {
-  position: absolute;
-  left: 10%;
-  margin: 150px 10% 0 0;
   background-color: white;
-  max-width: 400px;
-  padding: 30px;
-  color:#fff;
-  border-color:#AEC1BA; 
-
+  max-width: 300px;
+  padding: 2em;
+  color: #464646;
+  border-color:#AEC1BA;
 }
 
-.text-input:hover {
+.contact-title h5 {
+  font-family: Raleway, sans-serif;
+  font-weight: Bold;
+  font-size: 48px;
+  color: black
+}
+
+.contact-form-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  max-width: 40%;
+}
+
+.contact-form-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.text-input-contact {
+  border-color:#AEC1BA;
+}
+
+.text-input-contact:hover {
   border-color: #f16c6b;
 }
 
-.join-button {
-  margin-top: 20px;
+.submit-button {
+  margin-top: 2%;
   border-radius: 2px;
-  padding: 15px 32px;
-  text-align: center;
+  padding: 1em 2em;
   font-size: 100%;
   background-color: #f16c6b;
   color: #fafafa;
@@ -449,7 +472,7 @@ h4 {
 .join-button:hover {
   background-color: #fafafa;
   color: #f16c6b;
-}
+} 
 
 /* Footer Banner */
 
