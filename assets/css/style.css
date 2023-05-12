@@ -414,6 +414,13 @@ h4 {
 
 /* Contact Us Form */
 
+.contact-title h5 {
+  font-family: Raleway, sans-serif;
+  font-weight: Bold;
+  font-size: 48px;
+  color: black
+}
+
 .contact-form-container {
   display: flex;
   justify-content: space-between;
@@ -426,19 +433,11 @@ h4 {
 
 .contact-form {
   background-color: white;
-  max-width: 300px;
+  max-width: 30%;
   padding: 2em;
   color: #464646;
   border-color:#AEC1BA;
 }
-
-.contact-title h5 {
-  font-family: Raleway, sans-serif;
-  font-weight: Bold;
-  font-size: 48px;
-  color: black
-}
-
 .contact-form-image {
   flex: 1;
   display: flex;
@@ -469,7 +468,7 @@ h4 {
   display: block;
 }
 
-.join-button:hover {
+.submit-button:hover {
   background-color: #fafafa;
   color: #f16c6b;
 } 
