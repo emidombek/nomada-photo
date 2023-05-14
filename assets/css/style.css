@@ -520,15 +520,13 @@ h5.contact-title {
 .social-networks i {
   font-size: 200%;
   text-align: center;
-  color: #CF755A;
-  border-radius: 0%; 
-  transition: all 0.2s ease-in-out; 
+  color: #CF755A; 
+  transition: all 0.2s ease-in-out;
+  border-radius: 0%;
 }
 
 .social-networks i:hover {
-  background-color: #CF755A; 
-  color: white; 
-  transform: scale(1.2); 
+  color: white;
 }
 
 /* Media Queries */
