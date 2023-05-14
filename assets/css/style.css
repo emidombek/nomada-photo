@@ -62,14 +62,6 @@ body footer {
   height: 100%;
 }
 
-.hero-image-top img {
-  flex: 1;
-  object-fit: cover;
-  object-position: top;
-  width: 100%;
-  height: 100%;
-}
-
 .image-overlay {
   position: absolute;
   top: 0;
@@ -95,7 +87,7 @@ body footer {
 }
 
 .middle {
-  transition: .5s ease;
+  transition: opacity 0.3s ease;
   opacity: 0;
   position: absolute;
   top: 50%;
@@ -118,27 +110,15 @@ body footer {
   opacity: 1;
 }
 
-.hero-image-top:hover .image-overlay {
-  opacity: 0.7;
-}
-
-.hero-image-top:hover .middle {
-  opacity: 1;
-}
-
-.hero-image-top:hover .title-text {
-  opacity: 1;
-}
-
 .text-box-hover {
   background-color: #CF755A;
   color: white;
-  font-size: 16px;
+  font-size: 1em;
   font-weight: 600;
   font-family: Raleway, sans-serif;
-  padding: 16px 32px;
-
+  padding: 1em 2em;
 }
+
 
 /* Logo Banner */
 
@@ -524,8 +504,6 @@ h5.contact-title {
   text-align: center;
   display: absolute;
 }
-
-
 .social-networks {
   list-style: none;
   display: flex;
@@ -543,6 +521,14 @@ h5.contact-title {
   font-size: 200%;
   text-align: center;
   color: #CF755A;
+  border-radius: 0%; 
+  transition: all 0.2s ease-in-out; 
+}
+
+.social-networks i:hover {
+  background-color: #CF755A; 
+  color: white; 
+  transform: scale(1.2); 
 }
 
 /* Media Queries */
