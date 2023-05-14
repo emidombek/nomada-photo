@@ -487,13 +487,17 @@ h5.contact-title {
   align-items: center;
 }
 
-
 .footer-text {
   color: black;
   font-family: Raleway, sans-serif;
   font-weight: bold;
   font-size: 25px;
   text-align: center;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-text:hover {
+  color: white;
 }
 
 .copyright-text {
@@ -522,7 +526,6 @@ h5.contact-title {
   text-align: center;
   color: #CF755A; 
   transition: all 0.2s ease-in-out;
-  border-radius: 0%;
 }
 
 .social-networks i:hover {
