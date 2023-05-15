@@ -205,6 +205,40 @@ body footer {
   color: var(--text-color-secondary);
   font-family: var(--primary-font);
   letter-spacing: var(--nav-letter-spacing);
+  position: relative;
+}
+
+.dropdown-container {
+  display: none;
+  position: absolute;
+  top: calc(116% + 5px);
+  left: 78%;
+  width: 200px;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition-delay: 0.3s;
+  z-index: 999;
+}
+
+li:hover .dropdown-container {
+  display: block;
+  transition-delay: 0;
+}
+
+.dropdown {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown a {
+  color: var(--text-color-secondary);
+  font-weight: normal;
+  padding: 5px 0;
+}
+
+.dropdown a:hover {
+  color: var(--text-color-accent);
 }
 
 .menu a:hover,
@@ -239,7 +273,9 @@ body footer {
 
 .gallery-container2 {
   grid-template-rows: repeat(2, minmax(var(--gallery-row-height), 1fr));
-} /* sets min and max row height to var and repeats twice 1fr ensures equal amount of space in the container is occupied by the rows */
+}
+
+/* sets min and max row height to var and repeats twice 1fr ensures equal amount of space in the container is occupied by the rows */
 
 h4 {
   display: none;
@@ -485,14 +521,14 @@ h5.contact-title {
   display: absolute;
   flex-direction: column;
   align-items: center;
-  background-color:var(--secondary-color);
-  color:var(--text-color-primary);
+  background-color: var(--secondary-color);
+  color: var(--text-color-primary);
 }
 
 .footer-text {
   background-color: var(--secondary-color);
   font-family: var(--primary-font);
-  color:var(--text-color-primary);
+  color: var(--text-color-primary);
   font-weight: bold;
   font-size: 25px;
   text-align: center;
@@ -570,23 +606,40 @@ h5.contact-title {
 
 @media screen and (max-width: 768px) {
   .logo-banner {
+    display: flex;
     flex-wrap: wrap;
     padding: 10px;
   }
 
   #logo {
     padding: 0;
-    margin-bottom: 10px;
+    
+  }
+
+  .logo2 {
+    margin-bottom: 2px;
   }
 
   .menu {
-    flex-wrap: wrap;
-    padding-left: 0;
     margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    padding-left:10%;
   }
 
   .menu li {
     margin: 0 10px 10px 0;
+  }
+
+  li:hover .dropdown-container {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 885px)  {
+  .dropdown-container{
+    left: 85%;
+    transform: translateX(-85%);
   }
 }
 
@@ -640,3 +693,4 @@ h5.contact-title {
     max-height: 300px;
   }
 }
+
