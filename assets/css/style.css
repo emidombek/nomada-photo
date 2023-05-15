@@ -73,6 +73,7 @@ body footer {
   flex: 1;
   object-fit: cover;
   object-position: center;
+  align-items: center;
   width: 100%;
   height: 100%;
 }
@@ -84,8 +85,6 @@ body footer {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.7);
-  opacity: 0;
-  transition: opacity 0.3s ease;
 }
 
 .text-overlay {
@@ -102,8 +101,6 @@ body footer {
 }
 
 .middle {
-  transition: opacity 0.3s ease;
-  opacity: 0;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -196,6 +193,12 @@ body footer {
   position: relative;
 }
 
+.menu a:hover,
+.active {
+  border-bottom: 2px solid var(--text-color-accent);
+  font-weight: bold;
+}
+
 .dropdown-container {
   display: none;
   position: absolute;
@@ -284,8 +287,6 @@ h4 {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.7);
-  opacity: 0;
-  transition: opacity 0.3s ease;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -595,7 +596,11 @@ h5.contact-title {
 
 @media screen and (max-width: 885px) {
   .text-overlay {
-    padding-bottom: 15%;
+    margin-bottom: 15%
+  }
+
+  .text-box-hover {
+    margin-top: 25%;
   }
 }
 
@@ -647,16 +652,15 @@ h5.contact-title {
 @media (hover: hover) {
   /* only targets devices that can hover */
 
-  .hero-image:hover .image-overlay {
-    opacity: 0.7;
+  .hero-image .image-overlay,
+  .hero-image .middle {
+    opacity: 0;
+    transition: opacity 0.3s ease;
   }
 
+  .hero-image:hover .image-overlay,
   .hero-image:hover .middle {
-    opacity: 1;
-  }
-
-  .hero-image:hover .title-text {
-    opacity: 1;
+    opacity: 0.7;
   }
 
   li:hover .dropdown-container {
@@ -668,10 +672,16 @@ h5.contact-title {
     color: var(--text-color-accent);
   }
 
-  .menu a:hover,
-  .active {
-    border-bottom: 2px solid var(--text-color-accent);
-    font-weight: bold;
+  .gallery-column,
+  .gallery-column-center,
+  .gallery-column2 {
+  transition: opacity 0.3s ease;
+  }
+
+  .image-overlay,
+  .image-overlay2 {
+    opacity: 0;
+    transition: opacity 0.3s ease;
   }
 
   .gallery-column:hover .image-overlay,
