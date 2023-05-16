@@ -107,6 +107,8 @@ Contact Page description of Code and Content:
                 - When the input fields are in focus, they have an outline removed and a border color of "--accent-color".
                 - The submit button has the class "submit-button" and has a width of 100%, box-sizing of border-box, margin-top of 2%, border radius of 2px, and padding of 1em. Its font size is set to 100%, and it has a background color defined by the variable "--accent-color" and text color defined by the variable "--main-color". The button is displayed as a block element. The submit button also has a hover effect that changes it's color.
 
+Media Queries:
+
 ## Design and Layout
 
 - Primary Design System is as follows:
