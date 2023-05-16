@@ -62,19 +62,19 @@
     <br>
     <main>
         <div class="contact-form-container">
-            <div class="contact-form">
+            <form class="contact-form" method="GET" action="./contact.html">
               <h5 class="contact-title">Get in Touch</h5> 
               <br>
               <form>
-                <input type="text" id="name" name="name" class="text-input-contact" placeholder="Name">
+                <input type="text" id="name" name="name" class="text-input-contact" placeholder="Name" required>
                 <br>
-                <input type="email" id="email" name="email" class="text-input-contact" placeholder="Email">
+                <input type="email" id="email" name="email" class="text-input-contact" placeholder="Email" required>
                 <br>
-                <textarea class="message" name="message" placeholder="Message"></textarea>
+                <textarea class="message" name="message" placeholder="Message" required></textarea>
                 <br>
                 <button type="submit" class="submit-button">Submit</button>
               </form>
-            </div>
+            </form>
             <div class="contact-form-image">
               <img src="assets/images/torun_view_of_oldtown.jpeg" alt="Image">
             </div>
