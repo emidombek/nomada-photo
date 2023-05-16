@@ -19,30 +19,14 @@ To showcase the travel photography work of Nomada photography. This could includ
   - Gallery Landing Page, Destination Pages (8) About and Contact in total there are 11 pages.
   - Overall styling: Removing default margins/padding/borders, adding basic backround color,text styles and display properties to the Body through selecting Body/Header/Main/Footer.
   - Custom styling on some elements, several hover effects have been used in the Header, Main and Footer section of the Body many of these have been removed or modified for smaller screens via media queries.
+- The Landing Page and Destination pages only differ in gallery containers and hover effects used with those gallery containers.
+- The Destination Pages differ only in text descriptions and images. The HTML/CSS is the same on each page besides the different image files and text.
 
 ## Code
 
 All pages:
 
 - HTML boilerplate for all pages to start, styled using CSS flexbox. All pages have the same Head, Header and Footer.
-- The Landing Page and Destination pages only differ in gallery containers and hover effects used with those gallery containers.
-- The Destination Pages differ only in text descriptions and images. The styling is the same on each page.
-
-- Primary Design system is as follows:
-
- --font-family: Raleway, sans-serif, Source Serif Pro, sans-serif;
-  --primary-font: Raleway, sans-serif;
-  --secondary-font: Source Serif Pro, sans-serif;
-  --main-color: white;
-  --background-color: white;
-  --primary-color: #D8D5BF;
-  --secondary-color: #AEC1BA;
-  --accent-color: #CF755A;
-  --text-color-primary: #000000;
-  --text-color-secondary: #464646;
-  --text-color-accent: #CF755A;
-  --text-color-secondary-accent: #737373;
-  --line-height: 1.5;
 
 Gallery Landing and Destination Pages description of Code and Content:
 
@@ -98,27 +82,50 @@ About Page description of Code and Content:
 
 - Head: Same content as the Gallery Landing and Destination Pages.
   - Body: Header and Footer are the same as the Gallery Landing and Destination Pages.
-    - Main
-        1.
+    - Main: The section is divided into two parts: a text area and an image area.
+        1. About Body Container
+            - The entire section is contained within a section container element with class name "about-body-container", with a maximum width of 1200 pixels, centered horizontally on the page with margins set to 0, and aligned vertically with the center of the page using flexbox properties.
+        2. About Textbox
+            - The text area is divided into a h3 heading with class name "about-heading" and a div body of text with class name "about-textbox". The heading is styled with a large, bold font and a primary text color. The body of text is styled with a smaller font and a secondary text color.
+        3. About Image Grid
+            - The image area is divided into two rows: a row of smaller images with class name "about-small-images" and a single larger image with class name "bottom-image" beneath them.
+            - The smaller images are arranged in a row with a gap of 10 pixels between them and are each no wider than a certain width, with each image contained within an img tag with class name "about-small-images img". The larger image is twice the width of the smaller images and has a maximum height of 200 pixels, contained within an img tag with class name "bottom-image img".
+
+Contact Page description of Code and Content:
+
+    - Head: Same content as the Gallery Landing and Destination Pages.
+       - Body: Header and Footer are the same as the Gallery Landing and Destination Pages.
+         - Main
+             1. Contact Form Container
+                - The form is contained within a forum element with the class "contact-form-container", which is styled to be centered, have a width of 50%, and a border of 20px with a color defined by the variable "--secondary-color". The form itself is within a div with the class "contact-form", which has a background color defined by the variable "--background-color", a maximum width of 40%, and padding of 2em. The form title, defined by an h5 element with the class "contact-title", is styled to have a font family of "--primary-font", be bold and have a font size of 34px.
+             2. Contact Form Image 
+                - An image is also included in the form, within a div with the class "contact-form-image". The image is centered and has a maximum width of 50%.
+             3. Contact Forum
+                - This form is a dummy forum setup with GET and an action that will redirect the user back to contact.html essentially reloading the page. The Name, Email and Message text input fields are all required to be completed before the form can be submitted.
+                - Text inputs within the form, defined by elements with the class "text-input-contact", have a font family of "--primary-font", regular font weight, font size of 16px, and a color defined by the variable "--text-color-secondary". The input fields have a width of 100%, height of 25px, and a margin of 5px 0 20px 0. They also have a border of 3px with a color defined by the variable "--text-color-secondary" and a border radius of 3px.
+                - The message input field, defined by an element with the class "message", has the same styling as the text input fields, but with a height of 150px.
+                - When the input fields are in focus, they have an outline removed and a border color of "--accent-color".
+                - The submit button has the class "submit-button" and has a width of 100%, box-sizing of border-box, margin-top of 2%, border radius of 2px, and padding of 1em. Its font size is set to 100%, and it has a background color defined by the variable "--accent-color" and text color defined by the variable "--main-color". The button is displayed as a block element. The submit button also has a hover effect that changes it's color.
 
 ## Design and Layout
+
+- Primary Design System is as follows:
+
+ --font-family: Raleway, sans-serif, Source Serif Pro, sans-serif;
+  --primary-font: Raleway, sans-serif;
+  --secondary-font: Source Serif Pro, sans-serif;
+  --main-color: white;
+  --background-color: white;
+  --primary-color: #D8D5BF;
+  --secondary-color: #AEC1BA;
+  --accent-color: #CF755A;
+  --text-color-primary: #000000;
+  --text-color-secondary: #464646;
+  --text-color-accent: #CF755A;
+  --text-color-secondary-accent: #737373;
+  --line-height: 1.5;
 
 High Fidelity Wireframes and a Prototype that have been created in Adobe XD can be found here:
 
 - Developer Prototype: <https://xd.adobe.com/view/4d002e9a-15fe-4078-863d-420e3ac33da3-1853/>
 - Design Review Prototype: <https://xd.adobe.com/view/4d002e9a-15fe-4078-863d-420e3ac33da3-1853/>
-
-Header element:
-
-- Hero image on each page, banner color #D8D5BF containing Logo and Menu with hover bottom border, menu text is Raleway 16px semibold with 2px hover border in #CF755A.
-- Logo is 40px Bold Raleway in #CF755A and 16px Raleway in Semibold using #464646.
-
-Gallery Landing Page Main Body:
-
-- Body for Gallery Landing page to have white background color and 2 columns of 4 images each, within a div container.
-- Hover element that grays over image with 70 percent transparency + icon.
-- Clickable images on the landing page will lead to destination pages that include a further 4 images from each destination along with a description via hover element.
-
-About Main Body:
-
-- H1 header for About section on About page, Left side section or div with p child element containing about description. Font is Source Serif Pro in 16px.
