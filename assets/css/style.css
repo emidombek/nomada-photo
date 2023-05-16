@@ -251,7 +251,6 @@ body footer {
 .gallery-container2 {
   grid-template-rows: repeat(2, minmax(var(--gallery-row-height), 1fr));
 }
-
 /* sets min and max row height to var and repeats twice 1fr ensures equal amount of space in the container is occupied by the rows */
 
 h4 {
@@ -372,7 +371,7 @@ h4 {
 .bottom-image {
   grid-row: 2 / 3;
   grid-column: 1 / -1;
-  width: calc(2 * var(--small-image-width));
+  width: calc(2 * var(--small-image-width)); /* caculates witdh based on smaller images x2 */
   max-height: 200px;
   overflow: hidden;
 }
@@ -609,7 +608,7 @@ h5.contact-title {
 
 @media screen and (max-width: 885px) {
   .text-overlay {
-    margin-bottom: 15%
+    margin-bottom: 15%;
   }
 
   .text-box-hover {
@@ -645,8 +644,8 @@ h5.contact-title {
 
   .about-textbox,
   .about-image-grid {
-    width: 100%;
-    padding: 5%;
+    width: auto;
+    margin: 5%;
   }
 
   .about-heading {
@@ -663,8 +662,17 @@ h5.contact-title {
   }
 
   .bottom-image {
-    width: 100%;
-    max-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1% auto;
+    width: 83%;
+    height: auto;
+  }
+  
+  .bottom-image img {
+    max-width: 100%;
+    max-height: 100%;
   }
 }
 
@@ -759,6 +767,7 @@ h5.contact-title {
 @media (max-width: 479px) {
   .hero-image img {
     max-height: 200px;
+    width: 100%;
   }
 /* Show overlay on index gallery images*/
 
