@@ -530,6 +530,8 @@ h5.contact-title {
 
 /* Media Queries */
 
+/* Gallery media queries */
+
 @media screen and (max-width: 1200px) {
   .gallery-container {
     grid-template-columns: repeat(2, 1fr);
@@ -542,14 +544,15 @@ h5.contact-title {
   .gallery-container,
   .gallery-container2 {
     grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    grid-row-gap: 20px;
+    grid-template-rows: 1fr;
+    grid-row-gap: 30px;
+    padding: 5%;
   }
 
 
   .gallery-column,
   .gallery-column-center {
-    height: auto;
+    flex:1;
   }
 }
 
@@ -560,7 +563,12 @@ h5.contact-title {
   }
 }
 
+/* Logo banner and menu media queries */
+
 @media screen and (max-width: 768px) {
+
+  
+
   .logo-banner {
     display: flex;
     flex-wrap: wrap;
@@ -584,7 +592,11 @@ h5.contact-title {
   }
 
   .menu li {
-    margin: 0 10px 10px 0;
+    margin: 0 20px 20px 0;
+  }
+
+  .menu a {
+    flex:1  
   }
 }
 
@@ -605,7 +617,10 @@ h5.contact-title {
   }
 }
 
+ /* Contact form media queries */
+
 @media only screen and (max-width: 768px) {
+
   .contact-form-container {
     width: 80%;
   }
@@ -620,6 +635,9 @@ h5.contact-title {
 }
 
 @media screen and (max-width: 768px) {
+
+  /* About page media queries */
+
   .about-body-container {
     flex-direction: column;
     text-align: center;
@@ -650,8 +668,9 @@ h5.contact-title {
   }
 }
 
+/* Only targets devices that can hover */
+
 @media (hover: hover) {
-  /* only targets devices that can hover */
 
   .hero-image .image-overlay,
   .hero-image .middle {
@@ -661,12 +680,12 @@ h5.contact-title {
 
   .hero-image:hover .image-overlay,
   .hero-image:hover .middle {
-    opacity: 0.7;
+    opacity: 0.9;
   }
 
   li:hover .dropdown-container {
     display: block;
-    transition-delay: 0;
+    transition-delay: 2;
   }
 
   .dropdown a:hover {
@@ -706,7 +725,8 @@ h5.contact-title {
 
 }
 
-/* For screens smaller than 767px */
+/* For screens smaller than 767px hero image media queries*/
+
 @media (max-width: 767px) {
   .hero-image {
     height: auto;
@@ -717,35 +737,59 @@ h5.contact-title {
   }
 
   .image-overlay {
-    display: none;
+    opacity: 0.3;
+  }
+
+  .image-overlay2 {
+    opacity: 0.3;
   }
 
   .text-overlay {
     top: 30%;
     font-size: 24px;
   }
-  
+
   .text-box-hover {
     display: none;
   }
 }
 
-/* For screens smaller than 480px */
+/* For screens smaller than 480px hero image media queries */
+
 @media (max-width: 479px) {
   .hero-image img {
     max-height: 200px;
   }
+/* Show overlay on index gallery images*/
 
   .image-overlay {
+    opacity: 0.7;
+  }
+/* Exclude overlay from hero images */
+  .hero-container .hero-image .image-overlay {
     display: none;
   }
 
   .text-overlay {
-    top: 20%;
-    font-size: 18px;
+    top: 50%;
+    font-size: 16px;
+    opacity: 0;
   }
 
-  .text-box-hover {
-    display: none;
+  .text-overlay2 {
+    top: 50%;
+    font-size: 16px;
+    opacity: 0;
+  }
+  
+  /* Show the overlay on tap on destination galleries */
+
+  .gallery-column2:hover .image-overlay2,
+  .gallery-column2:focus-within .image-overlay2 {
+  opacity: 0.7;
+  }
+  .gallery-column2:hover .text-overlay2,
+  .gallery-column2:focus-within .text-overlay2 {
+  opacity: 1;
   }
 }
