@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&family=Source+Serif+Pro&display=swap');
-
+/* Remove default settings */
 * {
   margin: 0;
   padding: 0;
   border: none;
 }
-
+/* Design System */
 :root {
   --font-family: Raleway, sans-serif, Source Serif Pro, sans-serif;
   --primary-font: Raleway, sans-serif;
@@ -22,7 +22,7 @@
   --line-height: 1.5;
 }
 
-/* Body  */
+/* Default Body Styling*/
 
 body {
   display: absolute;
@@ -59,8 +59,9 @@ body footer {
   padding-bottom: 100px;
 }
 
-/* Hero Image */
+/* --Hero Image-- */
 
+/* Hero image container and img display settings */
 .hero-image {
   display: flex;
   justify-content: center;
@@ -78,7 +79,8 @@ body footer {
   height: 100%;
 }
 
-.image-overlay {
+/* Image overlay that darkens the image for effects */
+.image-overlay { 
   position: absolute;
   top: 0;
   left: 0;
@@ -87,6 +89,7 @@ body footer {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+/* Styling and position of text in overlay for effects */
 .text-overlay {
   position: absolute;
   top: 40%;
@@ -100,6 +103,7 @@ body footer {
 
 }
 
+/* text overlay positioning for hover effect*/
 .middle {
   position: absolute;
   top: 50%;
@@ -109,7 +113,7 @@ body footer {
   text-align: center;
 
 }
-
+/* box styling and positioning for hover effect */
 .text-box-hover {
   background-color: var(--accent-color);
   color: var(--main-color);
@@ -119,8 +123,9 @@ body footer {
   padding: 1em 2em;
 }
 
-/* Logo Banner */
+/* --Logo Banner-- */
 
+/* styling and positioning of the banner */
 .logo-banner {
   background-color: var(--primary-color);
   padding-top: 40px;
@@ -130,14 +135,16 @@ body footer {
   padding-bottom: 20px;
 }
 
+/* positioning for the logo container */
 .logo-container {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
 }
 
+/* Styling and positioning for first word of logo */
 #logo {
-  /* keeping this logo as an id so it can be used in a hyperlink */
+  /* keeping this logo as an id so it can be used in a hyperlinks linking to the top of the logobanner */
   font-weight: bold;
   font-size: 40px;
   color: var(--text-color-accent);
@@ -148,6 +155,7 @@ body footer {
   align-self: flex-end;
 }
 
+/* Styling and position for second word of logo */
 .logo2 {
   font-weight: 600;
   font-size: 16px;
@@ -159,8 +167,9 @@ body footer {
   align-self: flex-end;
 }
 
-/* Menu */
+/* --Menu--- */
 
+/* Styles used in Navbar Menu */
 :root {
   --nav-font-size: 110%;
   --nav-letter-spacing: 5px;
@@ -168,6 +177,7 @@ body footer {
   --padding-left: 50px;
 }
 
+/* Styling and positioning of the Navbar and menu */
 .navbar,
 .menu {
   display: inline-flex;
@@ -179,11 +189,13 @@ body footer {
   padding-left: var(--padding-left);
 }
 
+/* Removing bullet points from list items on Menu list items and pusing them right*/
 .menu li {
   list-style-type: none;
   margin-right: var(--margin-right);
 }
 
+/* Removing hyperlink underline and default color and well as styling items within the a element */
 .menu a {
   font-size: 16px;
   font-weight: 600;
@@ -194,12 +206,14 @@ body footer {
   position: relative;
 }
 
+/* underline hover effect on menu and styling of the effect */
 .menu a:hover,
 .active {
   border-bottom: 2px solid var(--text-color-accent);
   font-weight: bold;
 }
 
+/* dropdown container styling, display settings and positioning */
 .dropdown-container {
   display: none;
   position: absolute;
@@ -210,22 +224,24 @@ body footer {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   transition-delay: 0.3s;
-  z-index: 999;
+  z-index: 999; /* ensures dropdown displays overtop everything else */
 }
-
+/* dropdown position and display settings */
 .dropdown {
   display: flex;
   flex-direction: column;
 }
 
+/* styling and position of the dropdown menu links */
 .dropdown a {
   color: var(--text-color-secondary);
   font-weight: normal;
   padding: 5px 0;
 }
 
-/* Gallery Grid for Index and Destination Pages */
+/* --Gallery Grid for Index and Destination Pages-- */
 
+/* Grid styles */
 :root {
   --gallery-columns: 2;
   --gallery-column-width: 530px;
@@ -236,6 +252,7 @@ body footer {
   --gallery-container-padding-bottom: 50px;
 }
 
+/* Grid display settings for the containers for the landing and destination pages*/
 .gallery-container,
 .gallery-container2 {
   display: grid;
@@ -248,15 +265,17 @@ body footer {
   padding-bottom: var(--gallery-container-padding-bottom);
 }
 
+/* Sets min and max row height to var and repeats twice 1fr ensures equal amount of space in the container is occupied by the rows */
 .gallery-container2 {
   grid-template-rows: repeat(2, minmax(var(--gallery-row-height), 1fr));
 }
-/* sets min and max row height to var and repeats twice 1fr ensures equal amount of space in the container is occupied by the rows */
 
+/* h4 hidden */
 h4 {
   display: none;
 }
 
+/* display settings for the grid columns */
 .gallery-column,
 .gallery-column-center,
 .gallery-column2 {
@@ -266,6 +285,7 @@ h4 {
   height: 100%;
 }
 
+/* display settings for the grid images */
 .gallery-column img,
 .gallery-column-center img,
 .gallery-column2 img {
@@ -275,10 +295,11 @@ h4 {
   object-position: top;
 }
 
+/* class that allows for image being positioned from the center */
 .gallery-column-center img {
   object-position: center;
 }
-
+/* styling and positioning of overlay for the gallery grids that darkens the image */
 .image-overlay,
 .image-overlay2 {
   position: absolute;
@@ -292,12 +313,14 @@ h4 {
   justify-content: center;
 }
 
+/* styling of the icons that appear on the image overlay */
 .gallery-column i,
 .gallery-column-center i {
   color: var(--main-color);
   font-size: 7em;
 }
 
+/* styling of the text that appear on the image overlay */
 .text-overlay2 {
   position: absolute;
   top: 40%;
@@ -310,12 +333,14 @@ h4 {
   font-family: var(--primary-font);
 }
 
-/* About Page Body and Gallery */
+/* --About Page Body and Gallery--- */
 
+/* Styles for About Page */
 :root {
   --small-image-width: 252px;
 }
 
+/* stying and positioning for the container */
 .about-body-container {
   display: flex;
   justify-content: space-between;
@@ -324,15 +349,16 @@ h4 {
   margin: 0 auto;
 }
 
+/* h3 hidden */
 .about-body-container h3 {
   display: none;
 }
-
+/* about text box sizing */
 .about-textbox {
   width: 50%;
   padding: 5%;
 }
-
+/* heading styling */
 .about-heading {
   font-family: var(--primary-font);
   font-weight: Bold;
@@ -340,6 +366,7 @@ h4 {
   color: var(--text-color-primary);
 }
 
+/* about text box styling */
 .about-text {
   font-family: var(--font-family);
   font-weight: regular;
@@ -347,6 +374,7 @@ h4 {
   color: var(--text-color-secondary-accent);
 }
 
+/* settings and position of the about image grid */
 .about-image-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -354,28 +382,30 @@ h4 {
   padding: 5%;
 }
 
+/* setting up image container to display two small images on top*/
 .about-small-images {
-  grid-row: 1 / 2;
-  grid-column: 1 / -1;
+  grid-row: 1 / 2;  /* setting grid rows */
+  grid-column: 1 / -1; /* subtracting a column to allow for two images on the top */
   display: flex;
   gap: 10px;
   justify-content: space-between;
 }
 
+/* Sizing smaller images */
 .about-small-images img {
   width: 100%;
   max-width: var(--small-image-width);
   max-height: 200px;
 }
-
+ /* setting container to display one larger image on the bottom */
 .bottom-image {
-  grid-row: 2 / 3;
-  grid-column: 1 / -1;
+  grid-row: 2 / 3; /* setting grid rows */
+  grid-column: 1 / -1; /* subtracting a column to allow for one larger image on the bottom */
   width: calc(2 * var(--small-image-width)); /* caculates witdh based on smaller images x2 */
   max-height: 200px;
   overflow: hidden;
 }
-
+/* sizing and setting fit of bottom image */
 .bottom-image img {
   width: 100%;
   height: 100%;
@@ -383,8 +413,9 @@ h4 {
   padding-top: 10px;
 }
 
-/* Contact Us Form */
+/* --Contact Us Form-- */
 
+/* contact form container positioning and display settings */
 .contact-form-container {
   display: flex;
   justify-content: center;
@@ -397,6 +428,7 @@ h4 {
   margin-bottom: 5%;
 }
 
+/* contact form styling and sizing */
 .contact-form {
   background-color: var(--background-color);
   max-width: 40%;
@@ -405,6 +437,7 @@ h4 {
   border-color: var(--secondary-color);
 }
 
+/* heading styling */
 h5.contact-title {
   font-family: var(--primary-font);
   font-weight: Bold;
@@ -412,6 +445,7 @@ h5.contact-title {
   color: var(--text-color-primary);
 }
 
+/* contact form image container position and display settings */
 .contact-form-image {
   flex: 1;
   display: flex;
@@ -420,11 +454,13 @@ h5.contact-title {
   padding: 5%;
 }
 
+/* contact image display settings */
 .contact-form-image img {
   max-width: 100%;
   height: auto;
 }
 
+/* text input box styling, positioning settings */
 .text-input-contact {
   font-family: var(--primary-font);
   font-weight: regular;
@@ -437,7 +473,7 @@ h5.contact-title {
   border-radius: 3px;
   background-color: var(--background-color);
 }
-
+/* mesage box styling and position settings */ 
 .message {
   width: 100%;
   height: 150px;
@@ -451,21 +487,25 @@ h5.contact-title {
   color: var(--text-color-secondary);
 }
 
+/* border color for the two text input box classes */
 .text-input-contact,
 .message {
   border-color: var(--secondary-color);
 }
 
+/* focus effect */
 .text-input-contact:focus {
   outline: none;
   border-color: var(--accent-color);
 }
 
+/* focus effect */
 .message:focus {
   outline: none;
   border-color: var(--accent-color);
 }
 
+/* submit button styling and position */
 .submit-button {
   width: 100%;
   box-sizing: border-box;
@@ -478,7 +518,7 @@ h5.contact-title {
   display: block;
 }
 
-/* Footer Banner */
+/* --Footer Banner-- */
 
 .footer-text-container {
   display: absolute;
@@ -527,7 +567,7 @@ h5.contact-title {
   transition: all 0.2s ease-in-out;
 }
 
-/* Media Queries */
+/* --Media Queries-- */
 
 /* Gallery media queries */
 
@@ -565,8 +605,6 @@ h5.contact-title {
 /* Logo banner and menu media queries */
 
 @media screen and (max-width: 768px) {
-
-  
 
   .logo-banner {
     display: flex;
