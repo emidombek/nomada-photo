@@ -26,19 +26,25 @@ To showcase the travel photography work of Nomada photography. This could includ
      ![Footer Banner](..//images/landing_page_footer_screenshot.png)
 
   2. Destination Pages
-  - The Destination Pages allow the user to view an additional 4 images from the selected destination. There is a hover/tap to reveal that allows users to view information on where and when the photo was taken:
-    ![Footer Banner](..//images/destination_page_gallery_screenshot.png)
-  - The Destination Pages differ only in text descriptions and images. The HTML/CSS is the same on each page besides the different image files and text.
+      - The Destination Pages allow the user to view an additional 4 images from the selected destination. There is a hover/tap to reveal that allows users to view information on where and when the photo was taken:
+      ![Footer Banner](..//images/destination_page_gallery_screenshot.png)
+      - The Destination Pages differ only in text descriptions and images. The HTML/CSS is the same on each page besides the different image files and text.
 
   3. About Page
+      - The About Page contains a small gallery of selected images and a small about section:
+      ![Footer Banner](..//images/about_page_screenshot.png)
+
+  4. Contact Page
+      - The Contact Page includes a dummy webform:
+      ![Footer Banner](..//images/contact_page_screenshot.png)
 
 ## Design and Layout
 
 The design for the website was created in Adobe XD with the quick mockup plugin. The design has evolved somewhat as I have been implementing and testing it.
 
-  - Overall styling: Removing default margins/padding/borders, adding basic backround color,text styles and display properties to the Body through selecting Body/Header/Main/Footer.
-  - Custom styling on some elements, several hover effects have been used in the Header, Main and Footer section of the Body many of these have been removed or modified for smaller screens via media queries.
-  - The Landing Page and Destination pages only differ in gallery containers and hover effects used with those gallery containers.
+- Overall styling: Removing default margins/padding/borders, adding basic backround color,text styles and display properties to the Body through selecting Body/Header/Main/Footer.
+- Custom styling on some elements, several hover effects have been used in the Header, Main and Footer section of the Body many of these have been removed or modified for smaller screens via media queries.
+- The Landing Page and Destination pages only differ in gallery containers and hover effects used with those gallery containers.
 
 - Primary Design System is as follows:
 
@@ -62,7 +68,7 @@ High Fidelity Wireframes and a Prototype that have been created in Adobe XD can 
 
 - Wireframes imported into Figma: <https://www.figma.com/file/Vz4TudFv2r2o7fMv8JYdDF/Nomada-Photography?type=design&node-id=0%3A1&t=55xebaSEyXd1LKoy-1>
 
-Main Landing Page:
+Main Landing Page Wireframe:
 
 ![Main Gallery Landing Page Wireframe](..//images/Photography%20Home.jpg)
 
@@ -210,5 +216,13 @@ About Page description of Code and Content:
   4. When icons within .social-networks are hovered over, their color is changed to var(--main-color).
 
   5. When text within .footer-text is hovered over, its color is changed to var(--main-color).When .submit-button is hovered over, its background color becomes var(--primary-color) and its text color becomes var(--main-color).
+
+## Deployment
+
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+
+1. In the GitHub repository, on the Code page navigate to the Environments section on the righthand side of the page.
+2. Click on github pages, this will take you to deployments history where you willl be able to click on 'view deployment'.
+The live link can be found here - ![Link to deployed site](https://github.com/emidombek/nomada-photo)
 
 ## Known Issues and Bugs
