@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&family=Source+Serif+Pro&display=swap');
-/* Remove default settings */
+/* Remove default settings taken from the Love Running Project */
 * {
   margin: 0;
   padding: 0;
@@ -103,7 +103,7 @@ body footer {
 
 }
 
-/* text overlay positioning for hover effect*/
+/* Text overlay positioning for hover effect this idea and code was taken from WW3 schools https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_opacity */
 .middle {
   position: absolute;
   top: 50%;
@@ -340,7 +340,7 @@ h4 {
   --small-image-width: 252px;
 }
 
-/* stying and positioning for the container */
+/* Stying and positioning for the container */
 .about-body-container {
   display: flex;
   justify-content: space-between;
@@ -353,12 +353,12 @@ h4 {
 .about-body-container h3 {
   display: none;
 }
-/* about text box sizing */
+/* About text box sizing */
 .about-textbox {
   width: 50%;
   padding: 5%;
 }
-/* heading styling */
+/* Heading styling */
 .about-heading {
   font-family: var(--primary-font);
   font-weight: Bold;
@@ -366,7 +366,7 @@ h4 {
   color: var(--text-color-primary);
 }
 
-/* about text box styling */
+/* About text box styling */
 .about-text {
   font-family: var(--font-family);
   font-weight: regular;
@@ -374,7 +374,7 @@ h4 {
   color: var(--text-color-secondary-accent);
 }
 
-/* settings and position of the about image grid */
+/* Settings and position of the about image grid */
 .about-image-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -382,7 +382,7 @@ h4 {
   padding: 5%;
 }
 
-/* setting up image container to display two small images on top*/
+/* Setting up image container to display two small images on top*/
 .about-small-images {
   grid-row: 1 / 2;  /* setting grid rows */
   grid-column: 1 / -1; /* subtracting a column to allow for two images on the top */
@@ -397,7 +397,7 @@ h4 {
   max-width: var(--small-image-width);
   max-height: 200px;
 }
- /* setting container to display one larger image on the bottom */
+ /* Setting container to display one larger image on the bottom */
 .bottom-image {
   grid-row: 2 / 3; /* setting grid rows */
   grid-column: 1 / -1; /* subtracting a column to allow for one larger image on the bottom */
@@ -405,7 +405,7 @@ h4 {
   max-height: 200px;
   overflow: hidden;
 }
-/* sizing and setting fit of bottom image */
+/* Sizing and setting fit of bottom image */
 .bottom-image img {
   width: 100%;
   height: 100%;
@@ -415,7 +415,7 @@ h4 {
 
 /* --Contact Us Form-- */
 
-/* contact form container positioning and display settings */
+/* Contact form container positioning and display settings */
 .contact-form-container {
   display: flex;
   justify-content: center;
@@ -428,7 +428,7 @@ h4 {
   margin-bottom: 5%;
 }
 
-/* contact form styling and sizing */
+/* Contact form styling and sizing */
 .contact-form {
   background-color: var(--background-color);
   max-width: 40%;
@@ -437,7 +437,7 @@ h4 {
   border-color: var(--secondary-color);
 }
 
-/* heading styling */
+/* Heading styling */
 h5.contact-title {
   font-family: var(--primary-font);
   font-weight: Bold;
@@ -445,7 +445,7 @@ h5.contact-title {
   color: var(--text-color-primary);
 }
 
-/* contact form image container position and display settings */
+/* Contact form image container position and display settings */
 .contact-form-image {
   flex: 1;
   display: flex;
@@ -454,13 +454,13 @@ h5.contact-title {
   padding: 5%;
 }
 
-/* contact image display settings */
+/* Contact image display settings */
 .contact-form-image img {
   max-width: 100%;
   height: auto;
 }
 
-/* text input box styling, positioning settings */
+/* Text input box styling, positioning settings */
 .text-input-contact {
   font-family: var(--primary-font);
   font-weight: regular;
@@ -473,7 +473,7 @@ h5.contact-title {
   border-radius: 3px;
   background-color: var(--background-color);
 }
-/* mesage box styling and position settings */ 
+/* Mesage box styling and position settings */ 
 .message {
   width: 100%;
   height: 150px;
@@ -487,25 +487,25 @@ h5.contact-title {
   color: var(--text-color-secondary);
 }
 
-/* border color for the two text input box classes */
+/* Border color for the two text input box classes */
 .text-input-contact,
 .message {
   border-color: var(--secondary-color);
 }
 
-/* focus effect */
+/* Focus effect */
 .text-input-contact:focus {
   outline: none;
   border-color: var(--accent-color);
 }
 
-/* focus effect */
+/* Focus effect */
 .message:focus {
   outline: none;
   border-color: var(--accent-color);
 }
 
-/* submit button styling and position */
+/* Submit button styling and position */
 .submit-button {
   width: 100%;
   box-sizing: border-box;
@@ -520,6 +520,7 @@ h5.contact-title {
 
 /* --Footer Banner-- */
 
+/* Footer text container position and styling */
 .footer-text-container {
   display: absolute;
   flex-direction: column;
@@ -528,6 +529,8 @@ h5.contact-title {
   color: var(--text-color-primary);
 }
 
+
+/* Footer heading text position and styling */
 .footer-text {
   background-color: var(--secondary-color);
   font-family: var(--primary-font);
@@ -538,6 +541,7 @@ h5.contact-title {
   transition: color 0.3s ease-in-out;
 }
 
+/* Footer heading text position and styling */
 .copyright-text {
   color: var(--text-color-secondary-accent);
   font-family: var(--secondary-font);
@@ -547,6 +551,7 @@ h5.contact-title {
   display: absolute;
 }
 
+/* Social network icons list positioning and display */
 .social-networks {
   list-style: none;
   display: flex;
@@ -556,10 +561,12 @@ h5.contact-title {
   padding: 0;
 }
 
+/* Spacing between list items */
 .social-networks li {
   margin: 0 10px;
 }
 
+/* Social media positioning and styling */
 .social-networks i {
   font-size: 200%;
   text-align: center;
@@ -716,7 +723,8 @@ h5.contact-title {
 
 /* Only targets devices that can hover */
 
-@media (hover: hover) {
+/* code for this was taken from Kevin Powell's youtube video https://youtu.be/uuluAyw9AI0 */
+@media (hover: hover) {  
 
   .hero-image .image-overlay,
   .hero-image .middle {
@@ -771,7 +779,7 @@ h5.contact-title {
 
 }
 
-/* For screens smaller than 767px hero image media queries*/
+/* For screens smaller than 767px Hero Image media queries*/
 
 @media (max-width: 767px) {
   .hero-image {
@@ -812,7 +820,7 @@ h5.contact-title {
   .image-overlay {
     opacity: 0.7;
   }
-/* Exclude overlay from hero images */
+/* Exclude overlay from hero images*/
   .hero-container .hero-image .image-overlay {
     display: none;
   }
