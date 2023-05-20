@@ -612,37 +612,44 @@ h5.contact-title {
 
 /* Logo banner and menu media queries */
 
-@media screen and (max-width: 768px) {
+.logo-banner {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: flex-end; 
+  align-items: center;
+  padding:10px;
+}
 
-  .logo-banner {
-    display: flex;
-    flex-wrap: wrap-reverse;
-    justify-content: flex-end; 
-    align-items: center;
-    padding:10px;
-    overflow-x: hidden; /* Prevent horizontal overflow */
-  }
+#logo {
+  padding: 0;
 
-  #logo {
-    padding: 0;
+}
 
-  }
+.logo2 {
+  margin-bottom: 2px;
+  margin-right: 25px;
+}
 
-  .logo2 {
-    margin-bottom: 2px;
-  }
+.navbar {
+  display: flex;
+}
 
-  .navbar {
-    display: flex;
-  }
+.menu li {
+  padding: 5px;
+  text-align: center;
+}
 
-  .menu li {
-    padding: 5px;
-    text-align: center;
-  }
+.menu a {
+  text-align: center;
+}
 
+@media screen and (max-width: 480px) {
+  /* Styles for screens up to 480px */
   .menu a {
-    text-align: center;
+    font-size: 60%;
+  }
+  .logo2 {
+    margin-bottom: 4px;
   }
 }
 
