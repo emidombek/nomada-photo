@@ -211,6 +211,7 @@ body footer {
 .active {
   border-bottom: 2px solid var(--text-color-accent);
   font-weight: bold;
+  text-align: center;
 }
 
 /* dropdown container styling, display settings and positioning */
@@ -615,8 +616,11 @@ h5.contact-title {
 
   .logo-banner {
     display: flex;
-    flex-wrap: wrap;
-    padding: 10px;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-end; 
+    align-items: center;
+    padding:10px;
+    overflow-x: hidden; /* Prevent horizontal overflow */
   }
 
   #logo {
@@ -628,19 +632,17 @@ h5.contact-title {
     margin-bottom: 2px;
   }
 
-  .menu {
-    margin-top: 10px;
+  .navbar {
     display: flex;
-    justify-content: center;
-    padding-left: 10%;
   }
 
   .menu li {
-    margin: 0 20px 20px 0;
+    padding: 5px;
+    text-align: center;
   }
 
   .menu a {
-    flex:1  
+    text-align: center;
   }
 }
 

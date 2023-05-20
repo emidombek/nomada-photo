@@ -18,25 +18,25 @@ To showcase the travel photography work of Nomada photography. This could includ
   - Gallery Landing Page, Destination Pages (8) About and Contact in total there are 11 pages:
   1. Gallery Landing Page:
      - The first thing the user sees on a is a large fullscreen hero image that on hover allows the use to click on link that takes them down further to the Logo Banner and Navigation Menu. This is meant to engage and immerse the user in the image and the place the photograph was taken in (this same large hero image and hero link is employed for every webpage on the site):
-     ![Main Gallery Landing Page Screenshot](..//images/landing_page_screenshot.png)
+     ![Main Gallery Landing Page Screenshot](assets/images/landing_page_screenshot.png)
      - After the user clicks the link the page jumps down to the Logo Banner where the logo of the Photographer is seen as well as a Navigation Menu (the page layout has been modified for mobile devices and other devices that respond to touch). The gallery of the main body is also partially visible this is meant to entice the user to scroll through. There are eight photos in total of different destinations in this gallery that lead to 8 destination pages when the photo is clicked on or tapped, on devices that can hover an icon will appear that can be clicked on non-hover devices the icon will be displayed immediately. On hover enabled devices/desktop the user can also access a dropdown menu with the destination page galleries listed by hovering over the 'Menu' link in the navigation bar:
-      ![Main Gallery Landing Page Screenshot with icon hover](..//images/landing_page_hover_icon_link_screenshot.png)
-      ![Main Gallery Landing Page Screenshot with dropdown menu](..//images/landing_page_hover_menu_screenshot.png)
+      ![Main Gallery Landing Page Screenshot with icon hover](assets/images/landing_page_hover_icon_link_screenshot.png)
+      ![Main Gallery Landing Page Screenshot with dropdown menu](assets/images/landing_page_hover_menu_screenshot.png)
      - At the bottom of every page is a footer with social media links and a 'Nomada Photography' link that takes the user back to the top of the Logo Banner where the Navigation Menu is. Underneath this is the copyright text:
-     ![Footer Banner](..//images/landing_page_footer_screenshot.png)
+     ![Footer Banner](assets/images/landing_page_footer_screenshot.png)
 
   2. Destination Pages
       - The Destination Pages allow the user to view an additional 4 images from the selected destination. There is a hover/tap to reveal that allows users to view information on where and when the photo was taken:
-      ![Footer Banner](..//images/destination_page_gallery_screenshot.png)
+      ![Footer Banner](assets/images/destination_page_gallery_screenshot.png)
       - The Destination Pages differ only in text descriptions and images. The HTML/CSS is the same on each page besides the different image files and text.
 
   3. About Page
       - The About Page contains a small gallery of selected images and a small about section:
-      ![Footer Banner](..//images/about_page_screenshot.png)
+      ![Footer Banner](assets/images/about_page_screenshot.png)
 
   4. Contact Page
       - The Contact Page includes a dummy webform:
-      ![Footer Banner](..//images/contact_page_screenshot.png)
+      ![Footer Banner](assets/images/contact_page_screenshot.png)
 
 ## Design and Layout
 
@@ -70,7 +70,7 @@ High Fidelity Wireframes and a Prototype that have been created in Adobe XD can 
 
 Main Landing Page Wireframe:
 
-![Main Gallery Landing Page Wireframe](..//images/Photography%20Home.jpg)
+![Main Gallery Landing Page Wireframe](assets/images/Photography%20Home.jpg)
 
 ## Code
 
@@ -223,6 +223,6 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 1. In the GitHub repository, on the Code page navigate to the Environments section on the righthand side of the page.
 2. Click on github pages, this will take you to deployments history where you willl be able to click on 'view deployment'.
-The live link can be found here - ![Link to deployed site](https://github.com/emidombek/nomada-photo)
+The live link can be found here - [Link to Site Here](https://github.com/emidombek/nomada-photo)
 
 ## Known Issues and Bugs

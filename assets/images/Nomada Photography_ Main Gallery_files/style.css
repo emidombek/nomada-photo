@@ -1,0 +1,854 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&family=Source+Serif+Pro&display=swap');
+/* Remove default settings taken from the Love Running Project */
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+/* Design System */
+:root {
+  --font-family: Raleway, sans-serif, Source Serif Pro, sans-serif;
+  --primary-font: Raleway, sans-serif;
+  --secondary-font: Source Serif Pro, sans-serif;
+  --main-color: white;
+  --background-color: white;
+  --primary-color: #D8D5BF;
+  --secondary-color: #AEC1BA;
+  --accent-color: #CF755A;
+  --text-color-primary: #000000;
+  --text-color-secondary: #464646;
+  --text-color-accent: #CF755A;
+  --text-color-secondary-accent: #737373;
+  --line-height: 1.5;
+}
+
+/* Default Body Styling*/
+
+body {
+  display: absolute;
+  font-family: var(--font-family);
+  background-color: var(--background-color);
+  line-height: var(--line-height);
+}
+
+body a {
+  text-decoration: none;
+}
+
+body header {
+  background-color: var(--main-color);
+  font-family: var(--font-family);
+  line-height: var(--line-height);
+}
+
+body main {
+  display: absolute;
+  background-color: var(--main-color);
+  font-family: var(--font-family);
+  line-height: var(--line-height);
+}
+
+body footer {
+  background-color: var(--secondary-color);
+  display: absolute;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/* --Hero Image-- */
+
+/* Hero image container and img display settings */
+.hero-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.hero-image img {
+  flex: 1;
+  object-fit: cover;
+  object-position: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+/* Image overlay that darkens the image for effects */
+.image-overlay { 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Styling and position of text in overlay for effects */
+.text-overlay {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: var(--main-color);
+  font-size: 36px;
+  font-weight: 600;
+  font-family: var(--primary-font);
+
+}
+
+/* Text overlay positioning for hover effect this idea and code was taken from WW3 schools https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_opacity */
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+/* box styling and positioning for hover effect */
+.text-box-hover {
+  background-color: var(--accent-color);
+  color: var(--main-color);
+  font-size: 1em;
+  font-weight: 600;
+  font-family: var(--primary-font);
+  padding: 1em 2em;
+}
+
+/* --Logo Banner-- */
+
+/* styling and positioning of the banner */
+.logo-banner {
+  background-color: var(--primary-color);
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 20px;
+}
+
+/* positioning for the logo container */
+.logo-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+/* Styling and positioning for first word of logo */
+#logo {
+  /* keeping this logo as an id so it can be used in a hyperlinks linking to the top of the logobanner */
+  font-weight: bold;
+  font-size: 40px;
+  color: var(--text-color-accent);
+  font-family: var(--primary-font);
+  padding-top: 25px;
+  padding-left: 50px;
+  text-decoration: none;
+  align-self: flex-end;
+}
+
+/* Styling and position for second word of logo */
+.logo2 {
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--text-color-secondary);
+  font-family: var(--primary-font);
+  text-align: left;
+  padding-left: 10px;
+  padding-bottom: 8px;
+  align-self: flex-end;
+}
+
+/* --Menu--- */
+
+/* Styles used in Navbar Menu */
+:root {
+  --nav-font-size: 110%;
+  --nav-letter-spacing: 5px;
+  --margin-right: 25px;
+  --padding-left: 50px;
+}
+
+/* Styling and positioning of the Navbar and menu */
+.navbar,
+.menu {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-direction: row;
+  font-size: var(--nav-font-size);
+  letter-spacing: var(--nav-letter-spacing);
+  padding-left: var(--padding-left);
+}
+
+/* Removing bullet points from list items on Menu list items and pusing them right*/
+.menu li {
+  list-style-type: none;
+  margin-right: var(--margin-right);
+}
+
+/* Removing hyperlink underline and default color and well as styling items within the a element */
+.menu a {
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--text-color-secondary);
+  font-family: var(--primary-font);
+  letter-spacing: var(--nav-letter-spacing);
+  position: relative;
+}
+
+/* underline hover effect on menu and styling of the effect */
+.menu a:hover,
+.active {
+  border-bottom: 2px solid var(--text-color-accent);
+  font-weight: bold;
+}
+
+/* dropdown container styling, display settings and positioning */
+.dropdown-container {
+  display: none;
+  position: absolute;
+  top: calc(116% + 5px);
+  left: 78%;
+  width: 200px;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition-delay: 0.3s;
+  z-index: 999; /* ensures dropdown displays overtop everything else */
+}
+/* dropdown position and display settings */
+.dropdown {
+  display: flex;
+  flex-direction: column;
+}
+
+/* styling and position of the dropdown menu links */
+.dropdown a {
+  color: var(--text-color-secondary);
+  font-weight: normal;
+  padding: 5px 0;
+}
+
+/* --Gallery Grid for Index and Destination Pages-- */
+
+/* Grid styles */
+:root {
+  --gallery-columns: 2;
+  --gallery-column-width: 530px;
+  --gallery-row-height: 360px;
+  --gallery-column-gap: 20px;
+  --gallery-row-gap: 30px;
+  --gallery-container-padding-top: 50px;
+  --gallery-container-padding-bottom: 50px;
+}
+
+/* Grid display settings for the containers for the landing and destination pages*/
+.gallery-container,
+.gallery-container2 {
+  display: grid;
+  grid-template-columns: repeat(var(--gallery-columns), var(--gallery-column-width));
+  grid-template-rows: repeat(4, var(--gallery-row-height));
+  grid-column-gap: var(--gallery-column-gap);
+  grid-row-gap: var(--gallery-row-gap);
+  justify-content: center;
+  padding-top: var(--gallery-container-padding-top);
+  padding-bottom: var(--gallery-container-padding-bottom);
+}
+
+/* Sets min and max row height to var and repeats twice 1fr ensures equal amount of space in the container is occupied by the rows */
+.gallery-container2 {
+  grid-template-rows: repeat(2, minmax(var(--gallery-row-height), 1fr));
+}
+
+/* h4 hidden */
+h4 {
+  display: none;
+}
+
+/* display settings for the grid columns */
+.gallery-column,
+.gallery-column-center,
+.gallery-column2 {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+/* display settings for the grid images */
+.gallery-column img,
+.gallery-column-center img,
+.gallery-column2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+/* class that allows for image being positioned from the center */
+.gallery-column-center img {
+  object-position: center;
+}
+/* styling and positioning of overlay for the gallery grids that darkens the image */
+.image-overlay,
+.image-overlay2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* styling of the icons that appear on the image overlay */
+.gallery-column i,
+.gallery-column-center i {
+  color: var(--main-color);
+  font-size: 7em;
+}
+
+/* styling of the text that appear on the image overlay */
+.text-overlay2 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: var(--main-color);
+  font-size: 28px;
+  font-weight: 600;
+  font-family: var(--primary-font);
+}
+
+/* --About Page Body and Gallery--- */
+
+/* Styles for About Page */
+:root {
+  --small-image-width: 252px;
+}
+
+/* Stying and positioning for the container */
+.about-body-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* h3 hidden */
+.about-body-container h3 {
+  display: none;
+}
+/* About text box sizing */
+.about-textbox {
+  width: 50%;
+  padding: 5%;
+}
+/* Heading styling */
+.about-heading {
+  font-family: var(--primary-font);
+  font-weight: Bold;
+  font-size: 48px;
+  color: var(--text-color-primary);
+}
+
+/* About text box styling */
+.about-text {
+  font-family: var(--font-family);
+  font-weight: regular;
+  font-size: 16px;
+  color: var(--text-color-secondary-accent);
+}
+
+/* Settings and position of the about image grid */
+.about-image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
+  padding: 5%;
+}
+
+/* Setting up image container to display two small images on top*/
+.about-small-images {
+  grid-row: 1 / 2;  /* setting grid rows */
+  grid-column: 1 / -1; /* subtracting a column to allow for two images on the top */
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+/* Sizing smaller images */
+.about-small-images img {
+  width: 100%;
+  max-width: var(--small-image-width);
+  max-height: 200px;
+}
+ /* Setting container to display one larger image on the bottom */
+.bottom-image {
+  grid-row: 2 / 3; /* setting grid rows */
+  grid-column: 1 / -1; /* subtracting a column to allow for one larger image on the bottom */
+  width: calc(2 * var(--small-image-width)); /* caculates witdh based on smaller images x2 */
+  max-height: 200px;
+  overflow: hidden;
+}
+/* Sizing and setting fit of bottom image */
+.bottom-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding-top: 10px;
+}
+
+/* --Contact Us Form-- */
+
+/* Contact form container positioning and display settings */
+.contact-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  border: 20px solid var(--secondary-color);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+/* Contact form styling and sizing */
+.contact-form {
+  background-color: var(--background-color);
+  max-width: 40%;
+  padding: 2em;
+  color: var(--text-color-secondary-accent);
+  border-color: var(--secondary-color);
+}
+
+/* Heading styling */
+h5.contact-title {
+  font-family: var(--primary-font);
+  font-weight: Bold;
+  font-size: 34px;
+  color: var(--text-color-primary);
+}
+
+/* Contact form image container position and display settings */
+.contact-form-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  max-width: 50%;
+  padding: 5%;
+}
+
+/* Contact image display settings */
+.contact-form-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Text input box styling, positioning settings */
+.text-input-contact {
+  font-family: var(--primary-font);
+  font-weight: regular;
+  font-size: 16px;
+  color: var(--text-color-secondary);
+  width: 100%;
+  height: 25px;
+  margin: 5px 0 20px 0;
+  border: 3px solid var(--text-color-secondary);
+  border-radius: 3px;
+  background-color: var(--background-color);
+}
+/* Mesage box styling and position settings */ 
+.message {
+  width: 100%;
+  height: 150px;
+  margin: 5px 0 20px 0;
+  border: 3px solid var(--main-color);
+  border-radius: 3px;
+  background-color: var(--background-color);
+  font-family: var(--primary-font);
+  font-weight: regular;
+  font-size: 16px;
+  color: var(--text-color-secondary);
+}
+
+/* Border color for the two text input box classes */
+.text-input-contact,
+.message {
+  border-color: var(--secondary-color);
+}
+
+/* Focus effect */
+.text-input-contact:focus {
+  outline: none;
+  border-color: var(--accent-color);
+}
+
+/* Focus effect */
+.message:focus {
+  outline: none;
+  border-color: var(--accent-color);
+}
+
+/* Submit button styling and position */
+.submit-button {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 2%;
+  border-radius: 2px;
+  padding: 1em 1em;
+  font-size: 100%;
+  background-color: var(--accent-color);
+  color: var(--main-color);
+  display: block;
+}
+
+/* --Footer Banner-- */
+
+/* Footer text container position and styling */
+.footer-text-container {
+  display: absolute;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--secondary-color);
+  color: var(--text-color-primary);
+}
+
+
+/* Footer heading text position and styling */
+.footer-text {
+  background-color: var(--secondary-color);
+  font-family: var(--primary-font);
+  color: var(--text-color-primary);
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Footer heading text position and styling */
+.copyright-text {
+  color: var(--text-color-secondary-accent);
+  font-family: var(--secondary-font);
+  font-weight: normal;
+  font-size: 16px;
+  text-align: center;
+  display: absolute;
+}
+
+/* Social network icons list positioning and display */
+.social-networks {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Spacing between list items */
+.social-networks li {
+  margin: 0 10px;
+}
+
+/* Social media positioning and styling */
+.social-networks i {
+  font-size: 200%;
+  text-align: center;
+  color: var(--accent-color);
+  transition: all 0.2s ease-in-out;
+}
+
+/* --Media Queries-- */
+
+/* Gallery media queries */
+
+@media screen and (max-width: 1200px) {
+  .gallery-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+  }
+}
+
+@media screen and (max-width: 885px) {
+
+  .gallery-container,
+  .gallery-container2 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-row-gap: 30px;
+    padding: 5%;
+  }
+
+
+  .gallery-column,
+  .gallery-column-center {
+    flex:1;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .text-overlay2 {
+    font-size: 16px;
+    top: 50%;
+  }
+}
+
+/* Logo banner and menu media queries */
+
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+
+  .logo-banner {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    overflow-x: hidden; /* Prevent content from overflowing horizontally */
+  }
+
+  #logo {
+    padding: 0;
+  }
+
+  .logo2 {
+    margin-bottom: 2px;
+  }
+
+  .menu {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    padding-left: 10%; 
+    margin-left: 20px;
+    overflow-x: hidden; /* Prevent content from overflowing horizontally */
+  }
+
+  .menu li {
+    padding: 0 10px 10px 0;
+  }
+
+  .menu a {
+    flex: 1;
+}
+
+@media screen and (max-width: 885px) {
+  .dropdown-container {
+    left: 85%;
+    transform: translateX(-85%);
+  }
+}
+
+@media screen and (max-width: 885px) {
+  .text-overlay {
+    margin-bottom: 15%;
+  }
+
+  .text-box-hover {
+    margin-top: 25%;
+  }
+}
+
+ /* Contact form media queries */
+
+@media only screen and (max-width: 768px) {
+
+  .contact-form-container {
+    width: 80%;
+  }
+
+  .contact-form {
+    max-width: 60%;
+  }
+
+  .contact-form-image {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  /* About page media queries */
+
+  .about-body-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-textbox,
+  .about-image-grid {
+    width: auto;
+    margin: 5%;
+  }
+
+  .about-heading {
+    font-size: 36px;
+  }
+
+  .about-small-images {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .about-small-images img {
+    max-width: 40%;
+  }
+
+  .bottom-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1% auto;
+    width: 83%;
+    height: auto;
+  }
+  
+  .bottom-image img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+/* Only targets devices that can hover */
+
+/* code for this was taken from Kevin Powell's youtube video https://youtu.be/uuluAyw9AI0 */
+@media (hover: hover) {  
+
+  .hero-image .image-overlay,
+  .hero-image .middle {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .hero-image:hover .image-overlay,
+  .hero-image:hover .middle {
+    opacity: 0.9;
+  }
+
+  li:hover .dropdown-container {
+    display: block;
+    transition-delay: 2;
+  }
+
+  .dropdown a:hover {
+    color: var(--text-color-accent);
+  }
+
+  .gallery-column,
+  .gallery-column-center,
+  .gallery-column2 {
+    transition: opacity 0.3s ease;
+  }
+
+  .image-overlay,
+  .image-overlay2 {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .gallery-column:hover .image-overlay,
+  .gallery-column-center:hover .image-overlay,
+  .gallery-column2:hover .image-overlay2 {
+    opacity: 0.7;
+  }
+
+  .social-networks i:hover {
+    color: var(--main-color);
+  }
+
+  .footer-text:hover {
+    color: var(--main-color);
+  }
+
+  .submit-button:hover {
+    background-color: var(--primary-color);
+    color: var(--main-color);
+  }
+
+}
+
+/* For screens smaller than 767px Hero Image media queries*/
+
+@media (max-width: 767px) {
+  .hero-image {
+    height: auto;
+  }
+
+  .hero-image img {
+    max-height: 400px;
+  }
+
+  .image-overlay {
+    opacity: 0.3;
+  }
+
+  .image-overlay2 {
+    opacity: 0.3;
+  }
+
+  .text-overlay {
+    top: 30%;
+    font-size: 24px;
+  }
+
+  .text-box-hover {
+    display: none;
+  }
+}
+
+/* For screens smaller than 480px hero image media queries */
+
+@media (max-width: 479px) {
+  .hero-image img {
+    max-height: 200px;
+    width: 100%;
+  }
+/* Show overlay on index gallery images*/
+
+  .image-overlay {
+    opacity: 0.7;
+  }
+/* Exclude overlay from hero images*/
+  .hero-container .hero-image .image-overlay {
+    display: none;
+  }
+
+  .text-overlay {
+    top: 50%;
+    font-size: 16px;
+    opacity: 0;
+  }
+
+  .text-overlay2 {
+    top: 50%;
+    font-size: 16px;
+    opacity: 0;
+  }
+  
+  /* Show the overlay on tap on destination galleries */
+
+  .gallery-column2:hover .image-overlay2,
+  .gallery-column2:focus-within .image-overlay2 {
+  opacity: 0.7;
+  }
+  .gallery-column2:hover .text-overlay2,
+  .gallery-column2:focus-within .text-overlay2 {
+  opacity: 1;
+  }
+}
