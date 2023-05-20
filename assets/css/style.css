@@ -126,6 +126,7 @@ body footer {
 /* --Logo Banner-- */
 
 /* styling and positioning of the banner */
+/* styling and positioning of the banner */
 .logo-banner {
   background-color: var(--primary-color);
   padding-top: 40px;
@@ -143,7 +144,6 @@ body footer {
 }
 
 /* Styling and positioning for first word of logo */
-
 #logo {
   /* keeping this logo as an id so it can be used in a hyperlinks linking to the top of the logobanner */
   font-weight: bold;
