@@ -627,7 +627,7 @@ h5.contact-title {
 
 .logo2 {
   margin-bottom: 2px;
-  margin-right: 25px;
+  margin-right: 5%;
 }
 
 .navbar {
@@ -646,7 +646,7 @@ h5.contact-title {
 @media screen and (max-width: 480px) {
   /* Styles for screens up to 480px */
   .menu a {
-    font-size: 60%;
+    font-size: 50%;
   }
   .logo2 {
     margin-bottom: 4px;
