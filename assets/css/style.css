@@ -143,6 +143,7 @@ body footer {
 }
 
 /* Styling and positioning for first word of logo */
+
 #logo {
   /* keeping this logo as an id so it can be used in a hyperlinks linking to the top of the logobanner */
   font-weight: bold;
@@ -611,7 +612,7 @@ h5.contact-title {
 }
 
 /* Logo banner and menu media queries */
-
+@media screen and (max-width: 768px) {
 .logo-banner {
   display: flex;
   flex-wrap: wrap-reverse;
@@ -646,13 +647,13 @@ h5.contact-title {
 @media screen and (max-width: 480px) {
   /* Styles for screens up to 480px */
   .menu a {
-    font-size: 50%;
+    font-size: 60%;
   }
   .logo2 {
     margin-bottom: 4px;
   }
 }
-
+}
 @media screen and (max-width: 885px) {
   .dropdown-container {
     left: 85%;
