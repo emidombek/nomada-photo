@@ -653,8 +653,10 @@ h5.contact-title {
 }
 @media screen and (max-width: 885px) {
   .dropdown-container {
-    left: 85%;
-    transform: translateX(-85%);
+    left: 93%;
+    transform: translateX(-93%);
+    top: 116%;
+    transform: translateX(-116%);
   }
 }
 

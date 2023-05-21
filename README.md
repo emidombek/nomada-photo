@@ -17,28 +17,33 @@ To showcase the travel photography work of Nomada photography. This could includ
 - HTML and CSS Flexbox as well as CSS variable roots
 - Github Repo: <https://github.com/emidombek/nomada-photo>
 - Page structure:
+
   - Gallery Landing Page, Destination Pages (8) About and Contact in total there are 11 pages:
+
   1. Gallery Landing Page:
+
      - The first thing the user sees on a is a large fullscreen hero image that on hover allows the use to click on link that takes them down further to the Logo Banner and Navigation Menu. This is meant to engage and immerse the user in the image and the place the photograph was taken in (this same large hero image and hero link is employed for every webpage on the site):
-     ![Main Gallery Landing Page Screenshot](assets/images/landing_page_screenshot.png)
+       ![Main Gallery Landing Page Screenshot](assets/images/landing_page_screenshot.png)
      - After the user clicks the link the page jumps down to the Logo Banner where the logo of the Photographer is seen as well as a Navigation Menu (the page layout has been modified for mobile devices and other devices that respond to touch). The gallery of the main body is also partially visible this is meant to entice the user to scroll through. There are eight photos in total of different destinations in this gallery that lead to 8 destination pages when the photo is clicked on or tapped, on devices that can hover an icon will appear that can be clicked on non-hover devices the icon will be displayed immediately. On hover enabled devices/desktop the user can also access a dropdown menu with the destination page galleries listed by hovering over the 'Menu' link in the navigation bar:
-      ![Main Gallery Landing Page Screenshot with icon hover](assets/images/landing_page_hover_icon_link_screenshot.png)
-      ![Main Gallery Landing Page Screenshot with dropdown menu](assets/images/landing_page_hover_menu_screenshot.png)
+       ![Main Gallery Landing Page Screenshot with icon hover](assets/images/landing_page_hover_icon_link_screenshot.png)
+       ![Main Gallery Landing Page Screenshot with dropdown menu](assets/images/landing_page_hover_menu_screenshot.png)
      - At the bottom of every page is a footer with social media links and a 'Nomada Photography' link that takes the user back to the top of the Logo Banner where the Navigation Menu is. Underneath this is the copyright text:
-     ![Footer Banner](assets/images/landing_page_footer_screenshot.png)
+       ![Footer Banner](assets/images/landing_page_footer_screenshot.png)
 
   2. Destination Pages
-      - The Destination Pages allow the user to view an additional 4 images from the selected destination. There is a hover/tap to reveal that allows users to view information on where and when the photo was taken:
-      ![Footer Banner](assets/images/destination_page_gallery_screenshot.png)
-      - The Destination Pages differ only in text descriptions and images. The HTML/CSS is the same on each page besides the different image files and text.
+
+     - The Destination Pages allow the user to view an additional 4 images from the selected destination. There is a hover/tap to reveal that allows users to view information on where and when the photo was taken:
+       ![Footer Banner](assets/images/destination_page_gallery_screenshot.png)
+     - The Destination Pages differ only in text descriptions and images. The HTML/CSS is the same on each page besides the different image files and text.
 
   3. About Page
-      - The About Page contains a small gallery of selected images and a small about section:
-      ![Footer Banner](assets/images/about_page_screenshot.png)
+
+     - The About Page contains a small gallery of selected images and a small about section:
+       ![Footer Banner](assets/images/about_page_screenshot.png)
 
   4. Contact Page
-      - The Contact Page includes a dummy webform:
-      ![Footer Banner](assets/images/contact_page_screenshot.png)
+     - The Contact Page includes a dummy webform:
+       ![Footer Banner](assets/images/contact_page_screenshot.png)
 
 ## Design and Layout
 
@@ -149,12 +154,14 @@ About Page description of Code and Content:
   - Head: Same content as the Gallery Landing and Destination Pages.
 
     - Body: Header and Footer are the same as the Gallery Landing and Destination Pages.
+
       - Main
-         1. Contact Form Container - The form is contained within a forum element with the class "contact-form-container", which is styled to be centered, have a width of 50%, and a border of 20px with a color defined by the variable "--secondary-color". The form itself is within a div with the class "contact-form", which has a background color defined by the variable "--background-color", a maximum width of 40%, and padding of 2em. The form title, defined by an h5 element with the class "contact-title", is styled to have a font family of "--primary-font", be bold and have a font size of 34px.
 
-         2. Contact Form Image - An image is also included in the form, within a div with the class "contact-form-image". The image is centered and has a maximum width of 50%.
+        1. Contact Form Container - The form is contained within a forum element with the class "contact-form-container", which is styled to be centered, have a width of 50%, and a border of 20px with a color defined by the variable "--secondary-color". The form itself is within a div with the class "contact-form", which has a background color defined by the variable "--background-color", a maximum width of 40%, and padding of 2em. The form title, defined by an h5 element with the class "contact-title", is styled to have a font family of "--primary-font", be bold and have a font size of 34px.
 
-         3. Contact Forum - This form is a dummy forum setup with GET and an action that will redirect the user back to contact.html essentially reloading the page. The Name, Email and Message text input fields are all required to be completed before the form can be submitted. - Text inputs within the form, defined by elements with the class "text-input-contact", have a font family of "--primary-font", regular font weight, font size of 16px, and a color defined by the variable "--text-color-secondary". The input fields have a width of 100%, height of 25px, and a margin of 5px 0 20px 0. They also have a border of 3px with a color defined by the variable "--text-color-secondary" and a border radius of 3px. - The message input field, defined by an element with the class "message", has the same styling as the text input fields, but with a height of 150px. - When the input fields are in focus, they have an outline removed and a border color of "--accent-color". - The submit button has the class "submit-button" and has a width of 100%, box-sizing of border-box, margin-top of 2%, border radius of 2px, and padding of 1em. Its font size is set to 100%, and it has a background color defined by the variable "--accent-color" and text color defined by the variable "--main-color". The button is displayed as a block element. The submit button also has a hover effect that changes it's color.
+        2. Contact Form Image - An image is also included in the form, within a div with the class "contact-form-image". The image is centered and has a maximum width of 50%.
+
+        3. Contact Forum - This form is a dummy forum setup with GET and an action that will redirect the user back to contact.html essentially reloading the page. The Name, Email and Message text input fields are all required to be completed before the form can be submitted. - Text inputs within the form, defined by elements with the class "text-input-contact", have a font family of "--primary-font", regular font weight, font size of 16px, and a color defined by the variable "--text-color-secondary". The input fields have a width of 100%, height of 25px, and a margin of 5px 0 20px 0. They also have a border of 3px with a color defined by the variable "--text-color-secondary" and a border radius of 3px. - The message input field, defined by an element with the class "message", has the same styling as the text input fields, but with a height of 150px. - When the input fields are in focus, they have an outline removed and a border color of "--accent-color". - The submit button has the class "submit-button" and has a width of 100%, box-sizing of border-box, margin-top of 2%, border radius of 2px, and padding of 1em. Its font size is set to 100%, and it has a background color defined by the variable "--accent-color" and text color defined by the variable "--main-color". The button is displayed as a block element. The submit button also has a hover effect that changes it's color.
 
     Media Queries:
 
@@ -195,20 +202,20 @@ About Page description of Code and Content:
 - Hero Image Settings for smaller screens
 
   1. For screens smaller than 767 pixels:
-      - The height of the hero image adjusts automatically.
-      - The maximum height of the hero image is set to 400 pixels.
-      - An overlay on the hero image has an opacity of 0.3.
-      - Two separate overlays have an opacity of 0.3.
-      - The text overlay is positioned at 30% from the top and has a font size of 24 pixels.
-      - The text box hover effect is hidden.
+     - The height of the hero image adjusts automatically.
+     - The maximum height of the hero image is set to 400 pixels.
+     - An overlay on the hero image has an opacity of 0.3.
+     - Two separate overlays have an opacity of 0.3.
+     - The text overlay is positioned at 30% from the top and has a font size of 24 pixels.
+     - The text box hover effect is hidden.
   2. For screens smaller than 480 pixels:
-      - The overlay effect is applied to index gallery images by setting the opacity of .image-overlay to 0.7.
-      - The overlay effect is excluded from hero images within .hero-container .hero-image by hiding the .image-overlay element.
-      - Text overlays (.text-overlay and .text-overlay2) are positioned at 50% from the top, have a font size of 16px, and are initially transparent.
-      - When hovering or focusing on images within .gallery-column2, the overlay (image-overlay2) becomes visible with an opacity of 0.7, and the corresponding text overlay (text-overlay2) becomes fully opaque.
+     - The overlay effect is applied to index gallery images by setting the opacity of .image-overlay to 0.7.
+     - The overlay effect is excluded from hero images within .hero-container .hero-image by hiding the .image-overlay element.
+     - Text overlays (.text-overlay and .text-overlay2) are positioned at 50% from the top, have a font size of 16px, and are initially transparent.
+     - When hovering or focusing on images within .gallery-column2, the overlay (image-overlay2) becomes visible with an opacity of 0.7, and the corresponding text overlay (text-overlay2) becomes fully opaque.
 
 - Query that exlcudes devices that cannot hover '@media (hover: hover)' from certain hover effects.
-  
+
   1. The following hover effects are included in this exclusion The opacity of .hero-image .image-overlay and .hero-image .middle is set to 0 with a transition effect. When .hero-image is hovered over, the opacity of these elements becomes 0.9.
 
   2. When li elements are hovered over, the .dropdown-container is displayed with a delay of 2 seconds.The color of links within .dropdown when hovered over is changed to var(--text-color-accent).
@@ -225,7 +232,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 1. In the GitHub repository, on the Code page navigate to the Environments section on the righthand side of the page.
 2. Click on github pages, this will take you to deployments history where you willl be able to click on 'view deployment'.
-The live link can be found here - [Link to Site Here](https://github.com/emidombek/nomada-photo)
+   The live link can be found here - [Link to Site Here](https://github.com/emidombek/nomada-photo)
 
 ## Testing
 
@@ -234,6 +241,7 @@ HTML and CSS errors found and fixed all pages pass the W3C HTML Validator and th
 The site was tested on the following devices:
 
 - Android:
+
   - Samsung Galaxy S20
   - Xiaomi Mi 11i
   - Huawei P20 PRO
@@ -247,6 +255,7 @@ The site was tested on the following devices:
   - Xiaomi 12
 
 - iPhones:
+
   - iPhone 5
   - iPhone SE 2016
   - iPhone X
