@@ -1,5 +1,7 @@
 # Nomada Photography Readme
 
+![Devices Preview](assets/images/nomadaphoto_devices_preview.png)
+
 ## Purpose and goals of the website
 
 To showcase the travel photography work of Nomada photography. This could include photographs from different parts of the world, each highlighting the culture, landscape, and people of that area.
@@ -224,5 +226,46 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 1. In the GitHub repository, on the Code page navigate to the Environments section on the righthand side of the page.
 2. Click on github pages, this will take you to deployments history where you willl be able to click on 'view deployment'.
 The live link can be found here - [Link to Site Here](https://github.com/emidombek/nomada-photo)
+
+## Testing
+
+HTML and CSS errors found and fixed all pages pass the W3C HTML Validator and the W3C CSS Validator Jigsaw.
+
+The site was tested on the following devices:
+
+- Android:
+  - Samsung Galaxy S20
+  - Xiaomi Mi 11i
+  - Huawei P20 PRO
+  - Huawei P30 PRO
+  - Google Pixel5
+  - Oneplus Nord 2
+  - Galaxy Z Flip3
+  - OPPO Find X3 PRO
+  - Galaxy A12
+  - Google Pixel 6 PRO
+  - Xiaomi 12
+
+- iPhones:
+  - iPhone 5
+  - iPhone SE 2016
+  - iPhone X
+  - iPhone XR
+  - iPhone 11
+  - iPhone 11 PRO
+  - iPhone 11 PRO MAX
+  - iPhone 12 Mini
+  - iPhone 12
+  - iPhone 12 MAX
+  - iPad Mini
+  - iPad Air 4
+  - iPad PRO 11
+  - Galaxy Tab S7
+  - Microsoft Surface Duo
+
+- Laptops/PC screens:
+  - MacBook Air
+  - MacBook Pro
+  - Dell 24in Monitor
 
 ## Known Issues and Bugs

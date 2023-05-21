@@ -25,7 +25,6 @@
 /* Default Body Styling*/
 
 body {
-  display: absolute;
   font-family: var(--font-family);
   background-color: var(--background-color);
   line-height: var(--line-height);
@@ -42,7 +41,6 @@ body header {
 }
 
 body main {
-  display: absolute;
   background-color: var(--main-color);
   font-family: var(--font-family);
   line-height: var(--line-height);
@@ -50,7 +48,6 @@ body main {
 
 body footer {
   background-color: var(--secondary-color);
-  display: absolute;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -371,7 +368,7 @@ h4 {
 /* About text box styling */
 .about-text {
   font-family: var(--font-family);
-  font-weight: regular;
+  font-weight: normal;
   font-size: 16px;
   color: var(--text-color-secondary-accent);
 }
@@ -465,7 +462,7 @@ h5.contact-title {
 /* Text input box styling, positioning settings */
 .text-input-contact {
   font-family: var(--primary-font);
-  font-weight: regular;
+  font-weight: normal;
   font-size: 16px;
   color: var(--text-color-secondary);
   width: 100%;
@@ -484,7 +481,7 @@ h5.contact-title {
   border-radius: 3px;
   background-color: var(--background-color);
   font-family: var(--primary-font);
-  font-weight: regular;
+  font-weight: normal;
   font-size: 16px;
   color: var(--text-color-secondary);
 }
@@ -524,7 +521,7 @@ h5.contact-title {
 
 /* Footer text container position and styling */
 .footer-text-container {
-  display: absolute;
+  display: flex;
   flex-direction: column;
   align-items: center;
   background-color: var(--secondary-color);
@@ -550,7 +547,7 @@ h5.contact-title {
   font-weight: normal;
   font-size: 16px;
   text-align: center;
-  display: absolute;
+  display: flex;
 }
 
 /* Social network icons list positioning and display */
@@ -749,7 +746,7 @@ h5.contact-title {
 
   li:hover .dropdown-container {
     display: block;
-    transition-delay: 2;
+    transition-delay: 2s;
   }
 
   .dropdown a:hover {
