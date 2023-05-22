@@ -11,7 +11,6 @@ To showcase the travel photography work of Nomada photography. This could includ
 - As a potential client, I want to view a portfolio of Nomada photography's work to see if their style aligns with my needs for an upcoming travel project.
 - As a photography enthusiast, I want to explore different galleries on the website to see how Nomada photography captures unique travel experiences and to learn more about their techniques and approach to travel photography.
 - As a frequent traveler, I want to browse the website to find inspiration for my own travel photography, and to discover new and interesting places to visit based on the images presented.
-
 ## Content and Structure
 
 - HTML and CSS Flexbox as well as CSS variable roots
@@ -77,6 +76,8 @@ High Fidelity Wireframes and a Prototype that have been created in Adobe XD can 
 Main Landing Page Wireframe:
 
 ![Main Gallery Landing Page Wireframe](assets/images/Photography%20Home.jpg)
+
+## Technology
 
 ## Code
 
@@ -230,9 +231,14 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 ## Testing
 
-All pages pass the W3C HTML Validator and the W3C CSS Validator/Jigsaw.
+Validation:
 
-The site was tested on the following devices:
+- Passed the W3C HTML validator with one warning regarding aria-labels for a element in the .middle class however I will be leaving the aria labels as I believe they are essential for the UX of the site.
+ -Passed the W3C CSS Validator/Jigsaw. 18 warnings received, 17 in regards to CSS variables not being checked. 1 in regards to the usage of the -ms-transform vendor extension.
+
+Responsiveness:
+
+1. The site was tested on the following devices:
 
 - Android:
 
@@ -284,7 +290,7 @@ The site was tested on the following devices:
   - Wireframes were made using the Quickmockup Plugin in Adobe XD.
 
 - Code and Implementation:
-  - VS code, Git, GitHub and Gitpages were used to code and deploy the website. I used the Code Academy Template to create my repo on GitHub.
+  - VSCode, Git, GitHub and Gitpages were used to code and deploy the website. I used the Code Academy Template to create my repo on GitHub.
 
 - Learning Resources:
   - W3 schools for CSS
