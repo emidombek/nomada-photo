@@ -24,9 +24,8 @@ To showcase the travel photography work of Nomada photography. This could includ
 
      - The first thing the user sees on a is a large fullscreen hero image that on hover allows the use to click on link that takes them down further to the Logo Banner and Navigation Menu. This is meant to engage and immerse the user in the image and the place the photograph was taken in (this same large hero image and hero link is employed for every webpage on the site):
        ![Main Gallery Landing Page Screenshot](assets/images/landing_page_screenshot.png)
-     - After the user clicks the link the page jumps down to the Logo Banner where the logo of the Photographer is seen as well as a Navigation Menu (the page layout has been modified for mobile devices and other devices that respond to touch). The gallery of the main body is also partially visible this is meant to entice the user to scroll through. There are eight photos in total of different destinations in this gallery that lead to 8 destination pages when the photo is clicked on or tapped, on devices that can hover an icon will appear that can be clicked on non-hover devices the icon will be displayed immediately. On hover enabled devices/desktop the user can also access a dropdown menu with the destination page galleries listed by hovering over the 'Menu' link in the navigation bar:
+     - After the user clicks the link the page jumps down to the Logo Banner where the logo of the Photographer is seen as well as a Navigation Menu (the page layout has been modified for mobile devices and other devices that respond to touch). The gallery of the main body is also partially visible this is meant to entice the user to scroll through. There are eight photos in total of different destinations in this gallery that lead to 8 destination pages when the photo is clicked on or tapped, on devices that can hover an icon will appear that can be clicked on non-hover devices the icon will be displayed immediately:
        ![Main Gallery Landing Page Screenshot with icon hover](assets/images/landing_page_hover_icon_link_screenshot.png)
-       ![Main Gallery Landing Page Screenshot with dropdown menu](assets/images/landing_page_hover_menu_screenshot.png)
      - At the bottom of every page is a footer with social media links and a 'Nomada Photography' link that takes the user back to the top of the Logo Banner where the Navigation Menu is. Underneath this is the copyright text:
        ![Footer Banner](assets/images/landing_page_footer_screenshot.png)
 
@@ -109,10 +108,9 @@ Gallery Landing and Destination Pages description of Code and Content:
      - The logo banner section has a background color, padding, and is arranged as a flex container with the logo and another element aligned to the left and right sides respectively.
      - The logo itself is styled with a bold font and a specific size, color, and padding. There is also another element styled with a different font size, color, and alignment.
      - The menu section is also a flex container and has its font size and letter spacing set. Each menu item is styled without bullets and with some margin between them.
-     - The menu items are links with their own styling, including a hover effect and the option to set one as active. There is also a dropdown menu, which is hidden by default but is shown when a user interacts with it.
+     - The menu items are links with their own styling, including a hover effect and the option to set one as active.
      - The #logo element has been left as an id instead of class so it can be reference in links in the .hero-image-container section as well and the Footer .footer-text-container.
      - The menu section is also a flex container and has its font size and letter spacing set. Each menu item is styled without bullets and with some margin between them. The menu items are links with their own styling, including a hover effect and the option to set one as active.
-     - There is also a dropdown menu, which is hidden by default but is shown when a user interacts with it via hover effect. This dropdown has been excluded from mobile devices.
 
   - Main
 
@@ -169,8 +167,6 @@ About Page description of Code and Content:
 
       1. For screens with a maximum width of 768 pixels, the logo banner and menu elements are adjusted. The logo banner is displayed as a flex container with wrapped items and given some padding. The logo itself has no padding, and an additional logo element has a small bottom margin. The menu is displayed as a flex container with centered content and left padding. Each menu item has some margin, and the menu links are set to occupy equal space.
 
-      2. For screens with a maximum width of 885 pixels, there are additional adjustments. A dropdown container is positioned to the left at 85% of the width, and the text overlay has a margin bottom of 15%. The text box on hover has a margin top of 25%.
-
   - Gallery Containers for the Main Gallery Landing Page:
 
     1. For screens up to a maximum width of 1200 pixels: The .gallery-container element is styled to have a grid layout with 2 columns and 8 rows.
@@ -218,13 +214,11 @@ About Page description of Code and Content:
 
   1. The following hover effects are included in this exclusion The opacity of .hero-image .image-overlay and .hero-image .middle is set to 0 with a transition effect. When .hero-image is hovered over, the opacity of these elements becomes 0.9.
 
-  2. When li elements are hovered over, the .dropdown-container is displayed with a delay of 2 seconds.The color of links within .dropdown when hovered over is changed to var(--text-color-accent).
+  2. Elements with classes .gallery-column, .gallery-column-center, and .gallery-column2 have a transition effect on opacity. When these elements are hovered over, the opacity of .image-overlay and .image-overlay2 becomes 0.7
 
-  3. Elements with classes .gallery-column, .gallery-column-center, and .gallery-column2 have a transition effect on opacity. When these elements are hovered over, the opacity of .image-overlay and .image-overlay2 becomes 0.7
+  3. When icons within .social-networks are hovered over, their color is changed to var(--main-color).
 
-  4. When icons within .social-networks are hovered over, their color is changed to var(--main-color).
-
-  5. When text within .footer-text is hovered over, its color is changed to var(--main-color).When .submit-button is hovered over, its background color becomes var(--primary-color) and its text color becomes var(--main-color).
+  4. When text within .footer-text is hovered over, its color is changed to var(--main-color).When .submit-button is hovered over, its background color becomes var(--primary-color) and its text color becomes var(--main-color).
 
 ## Deployment
 
@@ -279,9 +273,8 @@ The site was tested on the following devices:
 
 ## Known Issues and Bugs
 
-- Dropdown Menu disappears too quickly before links on the menu can be clicked.
-- Dropdown Menu hover does not display correctly on some tablet screen sizes.
 - The hover underline element in the main Navigation Menu is not centered on some smaller screens.
+- The additional hover dropdown menu was removed as it had too many issues with responsiveness and was not essential to the UX of the site.
 
 ## Resources
 
