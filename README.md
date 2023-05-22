@@ -236,7 +236,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 ## Testing
 
-HTML and CSS errors found and fixed all pages pass the W3C HTML Validator and the W3C CSS Validator Jigsaw.
+All pages pass the W3C HTML Validator and the W3C CSS Validator/Jigsaw.
 
 The site was tested on the following devices:
 
@@ -278,3 +278,21 @@ The site was tested on the following devices:
   - Dell 24in Monitor
 
 ## Known Issues and Bugs
+
+- Dropdown Menu disappears too quickly before links on the menu can be clicked.
+- Dropdown Menu hover does not display correctly on some tablet screen sizes.
+- The hover underline element in the main Navigation Menu is not centered on some smaller screens.
+
+## Resources
+
+- Content:
+  - All photos used on this website were taken by me, Emilia Dombek.
+  - Wireframes were made using the Quickmockup Plugin in Adobe XD.
+
+- Code and Implementation:
+  - VS code, Git, GitHub and Gitpages were used to code and deploy the website. I used the Code Academy Template to create my repo on GitHub.
+
+- Learning Resources:
+  - W3 schools for CSS
+  - CSS flexbox knowlegde and concepts were mostly learned from: Kevin Powell's Youtube Channel <https://www.youtube.com/@KevinPowell>
+  - Stack Overflow posts to help with understanding bugs and media queries.

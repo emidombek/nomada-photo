@@ -212,32 +212,6 @@ body footer {
   text-align: center;
 }
 
-/* dropdown container styling, display settings and positioning */
-.dropdown-container {
-  display: none;
-  position: absolute;
-  top: calc(116% + 5px);
-  left: 78%;
-  width: 200px;
-  padding: 10px;
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  transition-delay: 0.3s;
-  z-index: 999; /* ensures dropdown displays overtop everything else */
-}
-/* dropdown position and display settings */
-.dropdown {
-  display: flex;
-  flex-direction: column;
-}
-
-/* styling and position of the dropdown menu links */
-.dropdown a {
-  color: var(--text-color-secondary);
-  font-weight: normal;
-  padding: 5px 0;
-}
-
 /* --Gallery Grid for Index and Destination Pages-- */
 
 /* Grid styles */
@@ -652,15 +626,6 @@ h5.contact-title {
 }
 }
 @media screen and (max-width: 885px) {
-  .dropdown-container {
-    left: 93%;
-    transform: translateX(-93%);
-    top: 116%;
-    transform: translateX(-116%);
-  }
-}
-
-@media screen and (max-width: 885px) {
   .text-overlay {
     margin-bottom: 15%;
   }
@@ -744,15 +709,6 @@ h5.contact-title {
   .hero-image:hover .image-overlay,
   .hero-image:hover .middle {
     opacity: 0.9;
-  }
-
-  li:hover .dropdown-container {
-    display: block;
-    transition-delay: 2s;
-  }
-
-  .dropdown a:hover {
-    color: var(--text-color-accent);
   }
 
   .gallery-column,
