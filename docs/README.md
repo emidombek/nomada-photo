@@ -11,6 +11,7 @@ To showcase the travel photography work of Nomada photography. This could includ
 - As a potential client, I want to view a portfolio of Nomada photography's work to see if their style aligns with my needs for an upcoming travel project.
 - As a photography enthusiast, I want to explore different galleries on the website to see how Nomada photography captures unique travel experiences and to learn more about their techniques and approach to travel photography.
 - As a frequent traveler, I want to browse the website to find inspiration for my own travel photography, and to discover new and interesting places to visit based on the images presented.
+
 ## Content and Structure
 
 - HTML and CSS Flexbox as well as CSS variable roots
