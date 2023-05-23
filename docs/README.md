@@ -1,6 +1,6 @@
 # Nomada Photography Readme
 
-![Devices Preview](assets/images/nomadaphoto_devices_preview.png)
+![Devices Preview](docs/nomadaphoto_devices_preview.png)
 
 ## Purpose and goals of the website
 
