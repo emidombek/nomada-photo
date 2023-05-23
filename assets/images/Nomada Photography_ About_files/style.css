@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&family=Source+Serif+Pro&display=swap');
-
 /* Remove default settings taken from the Love Running Project */
 * {
   margin: 0;
   padding: 0;
   border: none;
 }
-
 /* Design System */
 :root {
   --font-family: Raleway, sans-serif, Source Serif Pro, sans-serif;
@@ -79,7 +77,7 @@ body footer {
 }
 
 /* Image overlay that darkens the image for effects */
-.image-overlay {
+.image-overlay { 
   position: absolute;
   top: 0;
   left: 0;
@@ -112,7 +110,6 @@ body footer {
   text-align: center;
 
 }
-
 /* box styling and positioning for hover effect */
 .text-box-hover {
   background-color: var(--accent-color);
@@ -275,7 +272,6 @@ h4 {
 .gallery-column-center img {
   object-position: center;
 }
-
 /* styling and positioning of overlay for the gallery grids that darkens the image */
 .image-overlay,
 .image-overlay2 {
@@ -330,13 +326,11 @@ h4 {
 .about-body-container h3 {
   display: none;
 }
-
 /* About text box sizing */
 .about-textbox {
   width: 50%;
   padding: 5%;
 }
-
 /* Heading styling */
 .about-heading {
   font-family: var(--primary-font);
@@ -363,10 +357,8 @@ h4 {
 
 /* Setting up image container to display two small images on top*/
 .about-small-images {
-  grid-row: 1 / 2;
-  /* setting grid rows */
-  grid-column: 1 / -1;
-  /* subtracting a column to allow for two images on the top */
+  grid-row: 1 / 2;  /* setting grid rows */
+  grid-column: 1 / -1; /* subtracting a column to allow for two images on the top */
   display: flex;
   gap: 10px;
   justify-content: space-between;
@@ -378,19 +370,14 @@ h4 {
   max-width: var(--small-image-width);
   max-height: 200px;
 }
-
-/* Setting container to display one larger image on the bottom */
+ /* Setting container to display one larger image on the bottom */
 .bottom-image {
-  grid-row: 2 / 3;
-  /* setting grid rows */
-  grid-column: 1 / -1;
-  /* subtracting a column to allow for one larger image on the bottom */
-  width: calc(2 * var(--small-image-width));
-  /* caculates witdh based on smaller images x2 */
+  grid-row: 2 / 3; /* setting grid rows */
+  grid-column: 1 / -1; /* subtracting a column to allow for one larger image on the bottom */
+  width: calc(2 * var(--small-image-width)); /* caculates witdh based on smaller images x2 */
   max-height: 200px;
   overflow: hidden;
 }
-
 /* Sizing and setting fit of bottom image */
 .bottom-image img {
   width: 100%;
@@ -459,8 +446,7 @@ h5.contact-title {
   border-radius: 3px;
   background-color: var(--background-color);
 }
-
-/* Message box styling and position settings */
+/* Message box styling and position settings */ 
 .message {
   width: 100%;
   height: 150px;
@@ -564,20 +550,14 @@ h5.contact-title {
 
 /* --Media Queries-- */
 
+/* Gallery media queries */
+
 @media screen and (max-width: 1200px) {
   .gallery-container {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(8, 1fr);
     grid-row-gap: 30px;
     padding: 5%;
-  }
-}
-
-@media screen and (max-width: 1078px) {
-
-  .about-heading,
-  .contact-title {
-    font-size: calc(70% + 1vmin);
   }
 }
 
@@ -591,6 +571,59 @@ h5.contact-title {
     padding: 5%;
     flex: 1;
   }
+}
+
+@media screen and (max-width: 480px) {
+  .text-overlay2 {
+    font-size: 16px;
+    top: 50%;
+  }
+}
+
+/* Logo banner and menu media queries */
+@media screen and (max-width: 768px) {
+.logo-banner {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: flex-end; 
+  align-items: center;
+  padding:10px;
+}
+
+#logo {
+  padding: 0;
+
+}
+
+.logo2 {
+  margin-bottom: 2px;
+  margin-right: 5%;
+}
+
+.navbar {
+  display: flex;
+}
+
+.menu li {
+  padding: 5px;
+  text-align: center;
+}
+
+.menu a {
+  text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+  /* Styles for screens up to 480px */
+  .menu a {
+    font-size: 60%;
+  }
+  .logo2 {
+    margin-bottom: 4px;
+  }
+}
+}
+@media screen and (max-width: 885px) {
   .text-overlay {
     margin-bottom: 15%;
   }
@@ -598,13 +631,35 @@ h5.contact-title {
   .text-box-hover {
     margin-top: 25%;
   }
+}
+
+ /* Contact form media queries */
+
+@media only screen and (max-width: 768px) {
+
+  .contact-form-container {
+    max-width: 100%;
+  }
+
+  .contact-form {
+    max-width: 100%;
+  }
+
+  .contact-form-image {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 885px) {
+
+  /* About page media queries */
 
   .about-body-container {
     flex-direction: column;
     text-align: center;
   }
 
-  .about-textbox {
+  .about-textbox{
     width: auto;
     margin: auto;
     padding: auto;
@@ -615,7 +670,8 @@ h5.contact-title {
     margin: auto;
     padding-top: 2%;
   }
-x
+
+
   .about-heading {
     font-size: 36px;
   }
@@ -637,104 +693,17 @@ x
     width: 83%;
     height: auto;
   }
-
+  
   .bottom-image img {
     max-width: 100%;
     max-height: 100%;
   }
 }
 
-
-@media screen and (max-width: 768px) {
-  .logo-banner {
-    display: flex;
-    flex-wrap: wrap-reverse;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 10px;
-  }
-
-  #logo {
-    padding: 0;
-
-  }
-
-  .logo2 {
-    margin-bottom: 2px;
-    margin-right: 5%;
-  }
-
-  .navbar {
-    display: flex;
-  }
-
-  .menu li {
-    padding: 5px;
-    text-align: center;
-  }
-
-  .menu a {
-    text-align: center;
-  }
-
-  .contact-form-container {
-    max-width: 100%;
-  }
-
-  .contact-form {
-    max-width: 100%;
-  }
-
-  .contact-form-image {
-    display: none;
-  }
-
-  .hero-image {
-    height: auto;
-  }
-
-  .hero-image img {
-    max-height: 400px;
-  }
-
-  .image-overlay {
-    opacity: 0.3;
-  }
-
-  .image-overlay2 {
-    opacity: 0.3;
-  }
-
-  .text-overlay {
-    top: 30%;
-    font-size: 24px;
-  }
-
-  .text-box-hover {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 480px) {
-
-  /* Styles for screens up to 480px */
-  .menu a {
-    font-size: 60%;
-  }
-
-  .logo2 {
-    margin-bottom: 4px;
-  }
-  .hero-image img {
-    max-height: 200px;
-    width: 100%;
-  }
-}
-
 /* Only targets devices that can hover */
 
 /* code for this was taken from Kevin Powell's youtube video https://youtu.be/uuluAyw9AI0 */
-@media (hover: hover) {
+@media (hover: hover) {  
 
   .hero-image .image-overlay,
   .hero-image .middle {
@@ -780,15 +749,48 @@ x
 
 }
 
-/*Tap to reveal for touch devices*/
-@media (hover: none) and (pointer: coarse) {
-  /* Show overlay on index gallery images*/
+/* For screens smaller than 767px Hero Image media queries*/
+
+@media (max-width: 767px) {
+  .hero-image {
+    height: auto;
+  }
+
+  .hero-image img {
+    max-height: 400px;
+  }
+
+  .image-overlay {
+    opacity: 0.3;
+  }
+
+  .image-overlay2 {
+    opacity: 0.3;
+  }
+
+  .text-overlay {
+    top: 30%;
+    font-size: 24px;
+  }
+
+  .text-box-hover {
+    display: none;
+  }
+}
+
+/* For screens smaller than 480px hero image media queries */
+
+@media (max-width: 479px) {
+  .hero-image img {
+    max-height: 200px;
+    width: 100%;
+  }
+/* Show overlay on index gallery images*/
 
   .image-overlay {
     opacity: 0.7;
   }
-
-  /* Exclude overlay from hero images*/
+/* Exclude overlay from hero images*/
   .hero-container .hero-image .image-overlay {
     display: none;
   }
@@ -804,23 +806,21 @@ x
     font-size: 16px;
     opacity: 0;
   }
-
+  
   /* Show the overlay on tap on destination galleries */
 
   .gallery-column2:hover .image-overlay2,
   .gallery-column2:focus-within .image-overlay2 {
-    opacity: 0.7;
+  opacity: 0.7;
   }
-
   .gallery-column2:hover .text-overlay2,
   .gallery-column2:focus-within .text-overlay2 {
-    opacity: 1;
+  opacity: 1;
   }
 }
 
-@media screen and (max-width: 480px) {
-  .text-overlay2 {
-    font-size: 16px;
-    top: 50%;
+@media screen and (max-width: 1078px) {
+   .about-heading, .contact-title { 
+    font-size: calc(70% + 1vmin);
   }
 }
