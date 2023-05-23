@@ -591,6 +591,7 @@ h5.contact-title {
     padding: 5%;
     flex: 1;
   }
+
   .text-overlay {
     margin-bottom: 15%;
   }
@@ -615,7 +616,7 @@ h5.contact-title {
     margin: auto;
     padding-top: 2%;
   }
-x
+
   .about-heading {
     font-size: 36px;
   }
@@ -641,6 +642,18 @@ x
   .bottom-image img {
     max-width: 100%;
     max-height: 100%;
+  }
+
+  .contact-form-container {
+    max-width: 100%;
+  }
+
+  .contact-form {
+    max-width: 100%;
+  }
+
+  .contact-form-image {
+    display: none;
   }
 }
 
@@ -725,6 +738,17 @@ x
   .logo2 {
     margin-bottom: 4px;
   }
+
+  .hero-image img {
+    max-height: 200px;
+    width: 100%;
+  }
+
+  .text-overlay2 {
+    font-size: 16px;
+    top: 50%;
+  }
+
   .hero-image img {
     max-height: 200px;
     width: 100%;
@@ -780,15 +804,16 @@ x
 
 }
 
-/*Tap to reveal for touch devices*/
-@media (hover: none) and (pointer: coarse) {
-  /* Show overlay on index gallery images*/
+/* Non touch device settings*/
+
+@media (max-width: 768px) {
+
+/* Show overlay on index gallery images*/
 
   .image-overlay {
     opacity: 0.7;
   }
-
-  /* Exclude overlay from hero images*/
+ /* Exclude overlay from hero images*/
   .hero-container .hero-image .image-overlay {
     display: none;
   }
@@ -804,23 +829,15 @@ x
     font-size: 16px;
     opacity: 0;
   }
-
+  
   /* Show the overlay on tap on destination galleries */
 
   .gallery-column2:hover .image-overlay2,
   .gallery-column2:focus-within .image-overlay2 {
-    opacity: 0.7;
+  opacity: 0.7;
   }
-
   .gallery-column2:hover .text-overlay2,
   .gallery-column2:focus-within .text-overlay2 {
-    opacity: 1;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .text-overlay2 {
-    font-size: 16px;
-    top: 50%;
+  opacity: 1;
   }
 }
