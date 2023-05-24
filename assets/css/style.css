@@ -806,7 +806,7 @@ h5.contact-title {
 
 }
 
-/* Non touch device settings*/
+/* Non touch tap-reveal and overlay settings needs to be in this order to display correctly*/
 
 @media (max-width: 768px) {
 
