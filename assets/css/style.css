@@ -438,8 +438,7 @@ h5.thank-you-heading {
   font-family: var(--primary-font);
   font-weight: Bold;
   font-size: 28px;
-  color: var(--text-color-primary);
-  flex: 1;
+  color: var(--text-color-primary)
 }
 
 /* Contact form image container position and display settings */
@@ -477,13 +476,13 @@ h5.thank-you-heading {
 .text-input-contact {
   font-family: var(--primary-font);
   font-weight: normal;
-  font-size: 16px;
+  font-size: 1rem;
   color: var(--text-color-secondary);
   width: 100%;
-  height: 25px;
-  margin: 5px 0 20px 0;
-  border: 3px solid var(--text-color-secondary);
-  border-radius: 3px;
+  height: 2rem;
+  margin: 0.5rem 0 1rem 0;
+  border: 0.2rem solid var(--text-color-secondary);
+  border-radius: 0.3rem;
   background-color: var(--background-color);
 }
 
@@ -607,7 +606,7 @@ h5.thank-you-heading {
   .about-heading,
   h5.contact-title,
   h5.thank-you-heading {
-    font-size: calc(70% + 3vmin);
+    font-size: calc(70% + 2vmin);
   }
 }
 
@@ -674,197 +673,208 @@ h5.thank-you-heading {
     max-height: 100%;
   }
 
-  .contact-form-image,
-  .thank-you-image {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .logo-banner {
-    display: flex;
-    flex-wrap: wrap-reverse;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 10px;
-  }
-
-  #logo {
-    padding: 0;
-
-  }
-
-  .logo2 {
-    margin-bottom: 2px;
-    margin-right: 5%;
-  }
-
-  .navbar {
-    display: flex;
-  }
-
-  .menu li {
-    padding: 5px;
-    text-align: center;
-  }
-
-  .menu a {
-    text-align: center;
-  }
-
-  .hero-image {
-    height: auto;
-  }
-
-  .hero-image img {
-    max-height: 400px;
-  }
-
-  .image-overlay {
-    opacity: 0.3;
-  }
-
-  .image-overlay2 {
-    opacity: 0.3;
-  }
-
-  .text-overlay {
-    top: 30%;
-    font-size: 24px;
-  }
-
-  .text-box-hover {
-    display: none;
-  }
-
-  .contact-form-container,
-  .thank-you-container {
-    width: 70%;
-  }
-
-  .message {
-    height: 6rem;
-    font-size: 0.9rem;
+  .contact-form {
+    max-width: 80%;
+    padding: 1.5em;
   }
 
   .contact-form-image,
   .thank-you-image {
     display: none;
   }
-}
 
-@media screen and (max-width: 480px) {
-
-  /* Styles for screens up to 480px */
-  .menu a {
-    font-size: 60%;
+  @media screen and (max-width: 768px) {
+    .thank-you-text-container {
+      padding: 2%;
+      max-width: 80%;
+    }
   }
 
-  .logo2 {
-    margin-bottom: 4px;
+  @media screen and (max-width: 768px) {
+    .logo-banner {
+      display: flex;
+      flex-wrap: wrap-reverse;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 10px;
+    }
+
+    #logo {
+      padding: 0;
+
+    }
+
+    .logo2 {
+      margin-bottom: 2px;
+      margin-right: 5%;
+    }
+
+    .navbar {
+      display: flex;
+    }
+
+    .menu li {
+      padding: 5px;
+      text-align: center;
+    }
+
+    .menu a {
+      text-align: center;
+    }
+
+    .hero-image {
+      height: auto;
+    }
+
+    .hero-image img {
+      max-height: 400px;
+    }
+
+    .image-overlay {
+      opacity: 0.3;
+    }
+
+    .image-overlay2 {
+      opacity: 0.3;
+    }
+
+    .text-overlay {
+      top: 30%;
+      font-size: 24px;
+    }
+
+    .text-box-hover {
+      display: none;
+    }
+
+    .contact-form-container,
+    .thank-you-container {
+      width: 70%;
+    }
+
+    .message {
+      height: 6rem;
+      font-size: 0.9rem;
+    }
+
+    .contact-form-image,
+    .thank-you-image {
+      display: none;
+    }
   }
 
-  .hero-image img {
-    max-height: 200px;
-    width: 100%;
+  @media screen and (max-width: 480px) {
+
+    /* Styles for screens up to 480px */
+    .menu a {
+      font-size: 60%;
+    }
+
+    .logo2 {
+      margin-bottom: 4px;
+    }
+
+    .hero-image img {
+      max-height: 200px;
+      width: 100%;
+    }
+
+    .text-overlay2 {
+      font-size: 16px;
+      top: 50%;
+    }
+
+    .hero-image img {
+      max-height: 200px;
+      width: 100%;
+    }
   }
 
-  .text-overlay2 {
-    font-size: 16px;
-    top: 50%;
+  /* Only targets devices that can hover */
+
+  /* code for this was taken from Kevin Powell's youtube video https://youtu.be/uuluAyw9AI0 */
+  @media (hover: hover) {
+
+    .hero-image .image-overlay,
+    .hero-image .middle {
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .hero-image:hover .image-overlay,
+    .hero-image:hover .middle {
+      opacity: 0.9;
+    }
+
+    .gallery-column,
+    .gallery-column-center,
+    .gallery-column2 {
+      transition: opacity 0.3s ease;
+    }
+
+    .image-overlay,
+    .image-overlay2 {
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .gallery-column:hover .image-overlay,
+    .gallery-column-center:hover .image-overlay,
+    .gallery-column2:hover .image-overlay2 {
+      opacity: 0.7;
+    }
+
+    .social-networks i:hover {
+      color: var(--main-color);
+    }
+
+    .footer-text:hover {
+      color: var(--main-color);
+    }
+
+    .submit-button:hover {
+      background-color: var(--primary-color);
+      color: var(--main-color);
+    }
+
   }
 
-  .hero-image img {
-    max-height: 200px;
-    width: 100%;
+  /* Non touch tap-reveal and overlay settings needs to be in this order to display correctly*/
+
+  @media (max-width: 768px) {
+
+    /* Show overlay on index gallery images*/
+
+    .image-overlay {
+      opacity: 0.7;
+    }
+
+    /* Exclude overlay from hero images*/
+    .hero-container .hero-image .image-overlay {
+      display: none;
+    }
+
+    .text-overlay {
+      top: 50%;
+      font-size: 16px;
+      opacity: 0;
+    }
+
+    .text-overlay2 {
+      top: 50%;
+      font-size: 16px;
+      opacity: 0;
+    }
+
+    /* Show the overlay on tap on destination galleries */
+
+    .gallery-column2:hover .image-overlay2,
+    .gallery-column2:focus-within .image-overlay2 {
+      opacity: 0.7;
+    }
+
+    .gallery-column2:hover .text-overlay2,
+    .gallery-column2:focus-within .text-overlay2 {
+      opacity: 1;
+    }
   }
-}
-
-/* Only targets devices that can hover */
-
-/* code for this was taken from Kevin Powell's youtube video https://youtu.be/uuluAyw9AI0 */
-@media (hover: hover) {
-
-  .hero-image .image-overlay,
-  .hero-image .middle {
-    opacity: 0;
-    transition: opacity 0.3s ease;
-  }
-
-  .hero-image:hover .image-overlay,
-  .hero-image:hover .middle {
-    opacity: 0.9;
-  }
-
-  .gallery-column,
-  .gallery-column-center,
-  .gallery-column2 {
-    transition: opacity 0.3s ease;
-  }
-
-  .image-overlay,
-  .image-overlay2 {
-    opacity: 0;
-    transition: opacity 0.3s ease;
-  }
-
-  .gallery-column:hover .image-overlay,
-  .gallery-column-center:hover .image-overlay,
-  .gallery-column2:hover .image-overlay2 {
-    opacity: 0.7;
-  }
-
-  .social-networks i:hover {
-    color: var(--main-color);
-  }
-
-  .footer-text:hover {
-    color: var(--main-color);
-  }
-
-  .submit-button:hover {
-    background-color: var(--primary-color);
-    color: var(--main-color);
-  }
-
-}
-
-/* Non touch tap-reveal and overlay settings needs to be in this order to display correctly*/
-
-@media (max-width: 768px) {
-
-  /* Show overlay on index gallery images*/
-
-  .image-overlay {
-    opacity: 0.7;
-  }
-
-  /* Exclude overlay from hero images*/
-  .hero-container .hero-image .image-overlay {
-    display: none;
-  }
-
-  .text-overlay {
-    top: 50%;
-    font-size: 16px;
-    opacity: 0;
-  }
-
-  .text-overlay2 {
-    top: 50%;
-    font-size: 16px;
-    opacity: 0;
-  }
-
-  /* Show the overlay on tap on destination galleries */
-
-  .gallery-column2:hover .image-overlay2,
-  .gallery-column2:focus-within .image-overlay2 {
-    opacity: 0.7;
-  }
-
-  .gallery-column2:hover .text-overlay2,
-  .gallery-column2:focus-within .text-overlay2 {
-    opacity: 1;
-  }
-}
