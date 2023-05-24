@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&family=Source+Serif+Pro&display=swap');
 
-/* Remove default settings taken from the Love Running Project */
-* {
+/* Remove default settings credit to my mentor Juliia*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  border: none;
 }
 
 /* Design System */
