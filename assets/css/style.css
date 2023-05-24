@@ -439,6 +439,7 @@ h5.thank-you-heading {
   font-weight: Bold;
   font-size: 28px;
   color: var(--text-color-primary);
+  flex: 1;
 }
 
 /* Contact form image container position and display settings */
@@ -456,6 +457,7 @@ h5.thank-you-heading {
   width: 100%;
   height: auto;
   padding: 3%;
+  flex: 1;
 }
 
 /* Contact & Thank you page image display settings */
@@ -488,17 +490,18 @@ h5.thank-you-heading {
 /* Message box styling and position settings */
 .message {
   width: 100%;
-  height: 150px;
-  margin: 5px 0 20px 0;
-  border: 3px solid var(--main-color);
-  border-radius: 3px;
+  height: 9rem;
+  margin: 0.5rem 0 1.5rem 0;
+  border: 0.2rem solid var(--main-color);
+  border-radius: 0.2rem;
   background-color: var(--background-color);
   font-family: var(--primary-font);
   font-weight: normal;
-  font-size: 16px;
+  font-size: 1rem;
   color: var(--text-color-secondary);
   resize: none;
 }
+
 
 /* Border color for the two text input box classes */
 .text-input-contact,
@@ -520,8 +523,9 @@ h5.thank-you-heading {
 
 /* Submit button styling and position */
 .submit-button {
-  width: calc(100% + 6px);
+  width: calc(100% + 0.2vmin);
   box-sizing: border-box;
+  border-color: #CF755A;
   margin-top: 2%;
   border-radius: 2px;
   padding: 1em 1em;
@@ -601,8 +605,9 @@ h5.thank-you-heading {
 @media screen and (max-width: 1078px) {
 
   .about-heading,
-  .contact-title {
-    font-size: calc(70% + 1vmin);
+  h5.contact-title,
+  h5.thank-you-heading {
+    font-size: calc(70% + 3vmin);
   }
 }
 
@@ -669,19 +674,11 @@ h5.thank-you-heading {
     max-height: 100%;
   }
 
-  .contact-form-container {
-    max-width: 100%;
-  }
-
-  .contact-form {
-    max-width: 100%;
-  }
-
-  .contact-form-image {
+  .contact-form-image,
+  .thank-you-image {
     display: none;
   }
 }
-
 
 @media screen and (max-width: 768px) {
   .logo-banner {
@@ -715,18 +712,6 @@ h5.thank-you-heading {
     text-align: center;
   }
 
-  .contact-form-container {
-    max-width: 100%;
-  }
-
-  .contact-form {
-    max-width: 100%;
-  }
-
-  .contact-form-image {
-    display: none;
-  }
-
   .hero-image {
     height: auto;
   }
@@ -749,6 +734,21 @@ h5.thank-you-heading {
   }
 
   .text-box-hover {
+    display: none;
+  }
+
+  .contact-form-container,
+  .thank-you-container {
+    width: 70%;
+  }
+
+  .message {
+    height: 6rem;
+    font-size: 0.9rem;
+  }
+
+  .contact-form-image,
+  .thank-you-image {
     display: none;
   }
 }
