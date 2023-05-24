@@ -401,10 +401,11 @@ h4 {
   padding-top: 10px;
 }
 
-/* --Contact Us Form-- */
+/* --Contact Us Form & Thank You Page-- */
 
-/* Contact form container positioning and display settings */
-.contact-form-container {
+/* Contact form & Thank you page container positioning and display settings */
+.contact-form-container,
+.thank-you-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -433,6 +434,13 @@ h5.contact-title {
   color: var(--text-color-primary);
 }
 
+h5.thank-you-heading {
+  font-family: var(--primary-font);
+  font-weight: Bold;
+  font-size: 28px;
+  color: var(--text-color-primary);
+}
+
 /* Contact form image container position and display settings */
 .contact-form-image {
   flex: 1;
@@ -440,12 +448,27 @@ h5.contact-title {
   justify-content: center;
   max-width: 50%;
   padding: 5%;
+
 }
 
-/* Contact image display settings */
-.contact-form-image img {
+/* Thank you page image position and display settings */
+.thank-you-image {
+  width: 100%;
+  height: auto;
+  padding: 3%;
+}
+
+/* Contact & Thank you page image display settings */
+.contact-form-image img,
+.thank-you-image img {
   max-width: 100%;
   height: auto;
+}
+
+/*Thank you page text container display settings*/
+.thank-you-text-container {
+  padding: 3%;
+  max-width: 40%;
 }
 
 /* Text input box styling, positioning settings */
