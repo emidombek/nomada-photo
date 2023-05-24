@@ -1,6 +1,8 @@
 # Nomada Photography Readme
 
-![Devices Preview](docs/nomadaphoto_devices_preview.png)
+![Devices Preview](/docs/images/nomada_photo_preview_screen.png)
+
+Website link: <https://emidombek.github.io/nomada-photo/>
 
 ## Purpose and goals of the website
 
@@ -23,26 +25,26 @@ To showcase the travel photography work of Nomada photography. This could includ
   1. Gallery Landing Page:
 
      - The first thing the user sees on a is a large fullscreen hero image that on hover allows the use to click on link that takes them down further to the Logo Banner and Navigation Menu. This is meant to engage and immerse the user in the image and the place the photograph was taken in (this same large hero image and hero link is employed for every webpage on the site):
-       ![Main Gallery Landing Page Screenshot](assets/images/landing_page_screenshot.png)
+       ![Main Gallery Landing Page Screenshot](/docs/images/landing_page_screenshot.png)
      - After the user clicks the link the page jumps down to the Logo Banner where the logo of the Photographer is seen as well as a Navigation Menu (the page layout has been modified for mobile devices and other devices that respond to touch). The gallery of the main body is also partially visible this is meant to entice the user to scroll through. There are eight photos in total of different destinations in this gallery that lead to 8 destination pages when the photo is clicked on or tapped, on devices that can hover an icon will appear that can be clicked on non-hover devices the icon will be displayed immediately:
-       ![Main Gallery Landing Page Screenshot with icon hover](assets/images/landing_page_hover_icon_link_screenshot.png)
+       ![Main Gallery Landing Page Screenshot with icon hover](/docs/images/landing_page_hover_icon_link_screenshot.png)
      - At the bottom of every page is a footer with social media links and a 'Nomada Photography' link that takes the user back to the top of the Logo Banner where the Navigation Menu is. Underneath this is the copyright text:
-       ![Footer Banner](assets/images/landing_page_footer_screenshot.png)
+       ![Footer Banner](/docs/images/landing_page_footer_screenshot.png)
 
   2. Destination Pages
 
      - The Destination Pages allow the user to view an additional 4 images from the selected destination. There is a hover/tap to reveal that allows users to view information on where and when the photo was taken:
-       ![Footer Banner](assets/images/destination_page_gallery_screenshot.png)
+       ![Footer Banner](/docs/images/destination_page_gallery_screenshot.png)
      - The Destination Pages differ only in text descriptions and images. The HTML/CSS is the same on each page besides the different image files and text.
 
   3. About Page
 
      - The About Page contains a small gallery of selected images and a small about section:
-       ![Footer Banner](assets/images/about_page_screenshot.png)
+       ![Footer Banner](/docs/images/about_page_screenshot.png)
 
   4. Contact Page
      - The Contact Page includes a dummy webform:
-       ![Footer Banner](assets/images/contact_page_screenshot.png)
+       ![Footer Banner](/docs/images/contact_page_screenshot.png)
 
 ## Design and Layout
 
@@ -51,6 +53,7 @@ The design for the website was created in Adobe XD with the quick mockup plugin.
 - Overall styling: Removing default margins/padding/borders, adding basic backround color,text styles and display properties to the Body through selecting Body/Header/Main/Footer.
 - Custom styling on some elements, several hover effects have been used in the Header, Main and Footer section of the Body many of these have been removed or modified for smaller screens via media queries.
 - The Landing Page and Destination pages only differ in gallery containers and hover effects used with those gallery containers.
+- No back button are included in the design intentionally the user can return to the top of the page by clicking on the 'Nomada Photography' heading at the bottom of the page.
 
 - Primary Design System is as follows:
 
@@ -76,7 +79,7 @@ High Fidelity Wireframes and a Prototype that have been created in Adobe XD can 
 
 Main Landing Page Wireframe:
 
-![Main Gallery Landing Page Wireframe](assets/images/Photography%20Home.jpg)
+![Main Gallery Landing Page Wireframe](/docs/images/photography_%20home.jpg)
 
 ## Technology
 
@@ -171,56 +174,19 @@ About Page description of Code and Content:
 
   - Gallery Containers for the Main Gallery Landing Page:
 
-    1. For screens up to a maximum width of 1200 pixels: The .gallery-container element is styled to have a grid layout with 2 columns and 8 rows.
+       1. @media screen and (max-width: 1200px): This query targets screens with a maximum width of 1200 pixels. It adjusts the layout and styling of the .gallery-container class, including grid-template-columns, grid-template-rows, grid-row-gap, and padding.
 
-    2. Up to a maximum width of 885 pixels:Both the .gallery-container and .gallery-container2 elements have a grid layout with 1 column and 1 row. A 30-pixel gap is added between the rows. Padding of 5% is applied to the elements. The .gallery-column and .gallery-column-center elements use flexbox to occupy equal space.
+       2. @media screen and (max-width: 1078px): This query targets screens with a maximum width of 1078 pixels. It adjusts the font size of the .about-heading and .contact-title classes.
 
-    3. Up to a maximum width of 480 pixels: The .text-overlay2 element has a font size of 16 pixels. The element is vertically centered at 50% from the top.
+       3. @media screen and (max-width: 885px): This query targets screens with a maximum width of 885 pixels. It makes various adjustments to different elements, including the .gallery-container and .gallery-container2 classes, .text-overlay, .text-box-hover, .about-body-container, .about-textbox, .about-image-grid, .about-heading, .about-small-images, .bottom-image, .contact-form-container, .contact-form, and .contact-form-image.
 
-  - Contact Form:
+       4. @media screen and (max-width: 768px): This query targets screens with a maximum width of 768 pixels. It makes additional adjustments to elements such as .logo-banner, #logo, .logo2, .navbar, .menu li, .menu a, .contact-form-container, .contact-form, .contact-form-image, .hero-image, .image-overlay, .image-overlay2, .text-overlay, and .text-box-hover.
 
-    1. For screens up to a maximum width of 768 pixels: The .contact-form-container element is styled to have a width of 80% of its parent container. The .contact-form element has a maximum width of 60%. The .contact-form-image element is set to not be displayed (hidden).
+       5. @media screen and (max-width: 480px): This query targets screens with a maximum width of 480 pixels. It further adjusts the styling for smaller screens, including font size, image height, and text overlay.
 
-  - About Page:
+       6. @media (hover: hover): This query targets devices that support hover interactions. It applies styles for hover effects on various elements, including .hero-image, .image-overlay, .middle, .gallery-column, .gallery-column-center, .gallery-column2, .image-overlay2, .social-networks i, .footer-text, and .submit-button.
 
-    1. .about-body-container sets the container to have a column flex-direction and center-aligns its contents.
-
-    2. .about-textbox and .about-image-grid have their width set to auto and a margin of 5%.
-
-    3. .about-heading sets the font size to 36 pixels.
-
-    4. .about-small-images allows flex items to wrap, with centered justification.
-
-    5. .about-small-images img sets the maximum width of small images to 40%.
-
-    6. .bottom-image is a flex container that centers its contents and has a margin of 1% on the top and bottom, auto margin horizontally, a width of 83%, and a height set to auto.
-
-    7. bottom-image img sets the maximum width and height of the image to 100%.
-
-- Hero Image Settings for smaller screens
-
-  1. For screens smaller than 767 pixels:
-     - The height of the hero image adjusts automatically.
-     - The maximum height of the hero image is set to 400 pixels.
-     - An overlay on the hero image has an opacity of 0.3.
-     - Two separate overlays have an opacity of 0.3.
-     - The text overlay is positioned at 30% from the top and has a font size of 24 pixels.
-     - The text box hover effect is hidden.
-  2. For screens smaller than 480 pixels:
-     - The overlay effect is applied to index gallery images by setting the opacity of .image-overlay to 0.7.
-     - The overlay effect is excluded from hero images within .hero-container .hero-image by hiding the .image-overlay element.
-     - Text overlays (.text-overlay and .text-overlay2) are positioned at 50% from the top, have a font size of 16px, and are initially transparent.
-     - When hovering or focusing on images within .gallery-column2, the overlay (image-overlay2) becomes visible with an opacity of 0.7, and the corresponding text overlay (text-overlay2) becomes fully opaque.
-
-- Query that exlcudes devices that cannot hover '@media (hover: hover)' from certain hover effects.
-
-  1. The following hover effects are included in this exclusion The opacity of .hero-image .image-overlay and .hero-image .middle is set to 0 with a transition effect. When .hero-image is hovered over, the opacity of these elements becomes 0.9.
-
-  2. Elements with classes .gallery-column, .gallery-column-center, and .gallery-column2 have a transition effect on opacity. When these elements are hovered over, the opacity of .image-overlay and .image-overlay2 becomes 0.7
-
-  3. When icons within .social-networks are hovered over, their color is changed to var(--main-color).
-
-  4. When text within .footer-text is hovered over, its color is changed to var(--main-color).When .submit-button is hovered over, its background color becomes var(--primary-color) and its text color becomes var(--main-color).
+       7. @media (max-width: 768px): This query targets screens with a maximum width of 768 pixels. It shows overlays on index gallery images, excludes overlay from hero images, and displays overlays on tap for destination galleries. This query is last to ensure that it displays corrently on non-hover (mobile or tablet) devices.
 
 ## Deployment
 
