@@ -20,7 +20,7 @@ To showcase the travel photography work of Nomada photography. This could includ
 - Github Repo: <https://github.com/emidombek/nomada-photo>
 - Page structure:
 
-  - Gallery Landing Page, Destination Pages (8) About and Contact in total there are 11 pages:
+  - Gallery Landing Page, Destination Pages (8) About,Contact and Thank You in total there are 12 pages:
 
   1. Gallery Landing Page:
 
