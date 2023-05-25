@@ -36,7 +36,7 @@ As a potential client, I want to contact the photographer via the website's cont
   2. Destination Pages
 
      - The Destination Pages allow the user to view an additional 4 images from the selected destination. There is a hover/tap to reveal that allows users to view information on where and when the photo was taken:
-       ![Footer Banner](/docs/images/destination_page_gallery_screenshot.png)
+       ![Footer Banner](..//docs/images/)
      - The Destination Pages differ only in text descriptions and images. The HTML/CSS is the same on each page besides the different image files and text.
 
   3. About Page
@@ -156,12 +156,14 @@ Gallery Landing and Destination Pages description of Code and Content:
        - Social network icons (social-networks) are displayed as a horizontal list in the center. Each icon has some margin around it.
        - The social network icon elements (social-networks i) have a larger font size, centered alignment, and a specific color. They also transition smoothly when their color changes via hover effect.
 
-About Page description of Code and Content:
+About Page description of Code and Content (about.html):
 
 - Head: Same content as the Gallery Landing and Destination Pages.
 
-  - Body: Header and Footer are the same as the Gallery Landing and Destination Pages.
-    - Main: The section is divided into two parts: a text area and an image area.
+  - Body: Header (different hero image) and Footer are the same as the Gallery Landing and Destination Pages.
+
+  - Main: The section is divided into two parts: a text area and an image area.
+
       1. About Body Container
          - The entire section is contained within a section container element with class name "about-body-container", with a maximum width of 1200 pixels, centered horizontally on the page with margins set to 0, and aligned vertically with the center of the page using flexbox properties.
       2. About Textbox
@@ -170,11 +172,11 @@ About Page description of Code and Content:
          - The image area is divided into two rows: a row of smaller images with class name "about-small-images" and a single larger image with class name "bottom-image" beneath them.
          - The smaller images are arranged in a row with a gap of 10 pixels between them and are each no wider than a certain width, with each image contained within an img tag with class name "about-small-images img". The larger image is twice the width of the smaller images and has a maximum height of 200 pixels, contained within an img tag with class name bottom-image img.
 
-  Contact Page description of Code and Content:
+  Contact Page description of Code and Content (contact.html):
 
   - Head: Same content as the Gallery Landing and Destination Pages.
 
-    - Body: Header and Footer are the same as the Gallery Landing and Destination Pages.
+    - Body: Header (different hero image) and Footer are the same as the Gallery Landing and Destination Pages.
 
       - Main
 
@@ -183,6 +185,20 @@ About Page description of Code and Content:
         2. Contact Form Image - An image is also included in the form, within a div with the class "contact-form-image". The image is centered and has a maximum width of 50%.
 
         3. Contact Forum - This form is a dummy forum setup with GET and an action that will redirect the user back to contact.html essentially reloading the page. The Name, Email and Message text input fields are all required to be completed before the form can be submitted. - Text inputs within the form, defined by elements with the class "text-input-contact", have a font family of "--primary-font", regular font weight, font size of 16px, and a color defined by the variable "--text-color-secondary". The input fields have a width of 100%, height of 25px, and a margin of 5px 0 20px 0. They also have a border of 3px with a color defined by the variable "--text-color-secondary" and a border radius of 3px. - The message input field, defined by an element with the class "message", has the same styling as the text input fields, but with a height of 150px. - When the input fields are in focus, they have an outline removed and a border color of "--accent-color". - The submit button has the class "submit-button" and has a width of 100%, box-sizing of border-box, margin-top of 2%, border radius of 2px, and padding of 1em. Its font size is set to 100%, and it has a background color defined by the variable "--accent-color" and text color defined by the variable "--main-color". The button is displayed as a block element. The submit button also has a hover effect that changes it's color.
+
+  Thank You Page description of code and content (thank_you.html):
+
+  - Head: Same content as the Gallery Landing and Destination Pages.
+
+    - Body: Header (different hero image) and Footer are the same as the Gallery Landing and Destination Pages.
+  
+      - Main:
+
+        1. Heading: The section begins with an h4 element displaying a hash symbol (#). This can be replaced with a relevant heading or icon to represent the purpose of the "Thank you page."
+
+        2. Image: Following the heading, there is a div element with a class of "thank-you-image" containing an img element. The image displayed is specified by the "src" attribute of the img tag. It is recommended to replace the placeholder image URL ("assets/images/howth_view.jpeg") with a relevant image related to the website or the action that led to the "Thank you page."
+
+Text and Message: Below the image, there is another div element with a class of "thank-you-text-container." This container holds the content to convey appreciation and provide additional information to the users. It consists of an h5 element with a class of "thank-you-heading" displaying the text "Thank you!" This heading can be customized to fit the website's branding and messaging. Below the heading, there is a p element with a class of "thank-you-text" containing a message thanking the user for their action and assuring them that someone will be in touch shortly. Additionally, it suggests following the website on social media. You can customize the message and include relevant details to enhance the user's experience.
 
     - Media Queries:
       These media queries are used to apply different styles and layout adjustments to the elements on a webpage based on the size of the screen or device being used to view the page. Here is a breakdown of each media query:
@@ -280,9 +296,10 @@ Responsiveness:
   - Microsoft Surface Duo
 
 - Laptops/PC screens:
-  - MacBook Air
-  - MacBook Pro
+  - MacBook Air 13in
+  - MacBook Pro 13in
   - Dell 24in Monitor
+  - HP 24in Monitor
 
 ## Known Issues and Bugs
 
