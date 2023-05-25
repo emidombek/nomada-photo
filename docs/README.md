@@ -49,7 +49,7 @@ As a potential client, I want to contact the photographer via the website's cont
        ![Footer Banner](/docs/images/contact_page_screenshot.png)
 
   5. Thank You Page
-  - The user is redirected to this page when submitting a message via the Contact Form.
+     - The user is redirected to this page when submitting a message via the Contact Form.
 
 ## Design and Layout
 
@@ -58,7 +58,8 @@ The design for the website was created in Adobe XD with the quick mockup plugin.
 - Overall styling: Removing default margins/padding/borders, adding basic backround color,text styles and display properties to the Body through selecting Body/Header/Main/Footer.
 - Custom styling on some elements, several hover effects have been used in the Header, Main and Footer section of the Body many of these have been removed or modified for smaller screens via media queries.
 - The Landing Page and Destination pages only differ in gallery containers and hover effects used with those gallery containers.
-- No back button are included in the design intentionally the user can return to the top of the page by clicking on the 'Nomada Photography' heading at the bottom of the page.
+- No back button are included in the design intentionally the user can return to the top of the page by clicking on the 'Nomada Photography' heading at the bottom of the page and then use the navigation menu.
+- Image files were also not further compressed intentionally as this is a Photography Portfolio and maintaining the integrity of the colors and quality of the image takes priority over slightly longer loading times.
 
 - Primary Design System is as follows:
 
@@ -87,6 +88,18 @@ Main Landing Page Wireframe:
 ![Main Gallery Landing Page Wireframe](/docs/images/photography_%20home.jpg)
 
 ## Technology
+
+Technology used in this project is as follows:
+
+- CSS
+- HTML
+- Code Institute Repo Template
+- VScode
+- Adobe XD
+- Figma
+- Git
+- GitHub
+- Gitpages
 
 ## Code
 
@@ -171,27 +184,49 @@ About Page description of Code and Content:
 
         3. Contact Forum - This form is a dummy forum setup with GET and an action that will redirect the user back to contact.html essentially reloading the page. The Name, Email and Message text input fields are all required to be completed before the form can be submitted. - Text inputs within the form, defined by elements with the class "text-input-contact", have a font family of "--primary-font", regular font weight, font size of 16px, and a color defined by the variable "--text-color-secondary". The input fields have a width of 100%, height of 25px, and a margin of 5px 0 20px 0. They also have a border of 3px with a color defined by the variable "--text-color-secondary" and a border radius of 3px. - The message input field, defined by an element with the class "message", has the same styling as the text input fields, but with a height of 150px. - When the input fields are in focus, they have an outline removed and a border color of "--accent-color". - The submit button has the class "submit-button" and has a width of 100%, box-sizing of border-box, margin-top of 2%, border radius of 2px, and padding of 1em. Its font size is set to 100%, and it has a background color defined by the variable "--accent-color" and text color defined by the variable "--main-color". The button is displayed as a block element. The submit button also has a hover effect that changes it's color.
 
-    Media Queries:
+    - Media Queries:
+      These media queries are used to apply different styles and layout adjustments to the elements on a webpage based on the size of the screen or device being used to view the page. Here is a breakdown of each media query:
 
-    - Logo Banner and Menu Media queries:
+    1. For screens 1200px:
 
-      1. For screens with a maximum width of 768 pixels, the logo banner and menu elements are adjusted. The logo banner is displayed as a flex container with wrapped items and given some padding. The logo itself has no padding, and an additional logo element has a small bottom margin. The menu is displayed as a flex container with centered content and left padding. Each menu item has some margin, and the menu links are set to occupy equal space.
+       - Targets the main index page image grid.
+        Adjusts the grid template columns, rows, row gap, and padding of the .gallery-container element.
 
-  - Gallery Containers for the Main Gallery Landing Page:
+    2. For screens 1078px:
 
-       1. @media screen and (max-width: 1200px): This query targets screens with a maximum width of 1200 pixels. It adjusts the layout and styling of the .gallery-container class, including grid-template-columns, grid-template-rows, grid-row-gap, and padding.
+       - Targets heading elements with classes .about-heading, .contact-title, and .thank-you-heading.
+       Adjusts the font size and text alignment of the headings.
 
-       2. @media screen and (max-width: 1078px): This query targets screens with a maximum width of 1078 pixels. It adjusts the font size of the .about-heading and .contact-title classes.
+    3. For screens 885px:
 
-       3. @media screen and (max-width: 885px): This query targets screens with a maximum width of 885 pixels. It makes various adjustments to different elements, including the .gallery-container and .gallery-container2 classes, .text-overlay, .text-box-hover, .about-body-container, .about-textbox, .about-image-grid, .about-heading, .about-small-images, .bottom-image, .contact-form-container, .contact-form, and .contact-form-image.
+        - Targets the image grids on the main index page.
+        Adjusts the grid template columns, rows, row gap, padding, and flex properties of .gallery-container and .gallery-container2 elements.
+        Modifies various styles for text overlays, text boxes, and images on the about page.
+        Changes the font size of .about-heading to 36px.
+        Adjusts the layout of images and elements on the about page and contact page.
 
-       4. @media screen and (max-width: 768px): This query targets screens with a maximum width of 768 pixels. It makes additional adjustments to elements such as .logo-banner, #logo, .logo2, .navbar, .menu li, .menu a, .contact-form-container, .contact-form, .contact-form-image, .hero-image, .image-overlay, .image-overlay2, .text-overlay, and .text-box-hover.
+    4. For screens 768px:
 
-       5. @media screen and (max-width: 480px): This query targets screens with a maximum width of 480 pixels. It further adjusts the styling for smaller screens, including font size, image height, and text overlay.
+        - Targets the thank you page container.
+        Adjusts the padding and max-width of .thank-you-text-container.
+        Modifies various styles for header elements, logo, navigation menu, hero image, image overlays, text overlays, contact form, and thank you page elements.
 
-       6. @media (hover: hover): This query targets devices that support hover interactions. It applies styles for hover effects on various elements, including .hero-image, .image-overlay, .middle, .gallery-column, .gallery-column-center, .gallery-column2, .image-overlay2, .social-networks i, .footer-text, and .submit-button.
+    5. For screens 480px:
 
-       7. @media (max-width: 768px): This query targets screens with a maximum width of 768 pixels. It shows overlays on index gallery images, excludes overlay from hero images, and displays overlays on tap for destination galleries. This query is last to ensure that it displays corrently on non-hover (mobile or tablet) devices.
+        - Modifies various styles for header elements, logo, hero image, text overlays, and image overlays.
+        Adjusts font size, max-height, and width of certain elements.
+
+    6. Query targets devices that can hover:
+
+        - Applies hover effects and transitions to certain elements when hovering.
+          Adjusts that adjust opacity and color on hover for image overlays, social network icons, footer text, and submit button.
+
+    7. Non-touch tap-reveal and overlay settings:
+
+        - Applies overlay and tap-reveal effects to certain elements on touch devices.
+          Adjusts opacity and styles for image overlays and text overlays on tap or focus.
+          Excludes overlay from hero images.
+          Modifies styles for gallery columns and text overlays on tap or focus.
 
 ## Deployment
 
