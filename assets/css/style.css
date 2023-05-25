@@ -439,6 +439,7 @@ h5.thank-you-heading {
   font-weight: Bold;
   font-size: 28px;
   padding: 2%;
+  text-align: center;
   color: var(--text-color-primary)
 }
 
@@ -471,6 +472,11 @@ h5.thank-you-heading {
 .thank-you-text-container {
   padding: 3%;
   max-width: 40%;
+}
+
+.thank-you-text {
+  text-align: center;
+  padding-bottom: 3%;
 }
 
 /* Text input box styling, positioning settings */
