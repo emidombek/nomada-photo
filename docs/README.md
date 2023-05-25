@@ -2,7 +2,7 @@
 
 ![Devices Preview](/docs/images/nomada_photo_preview_screen.png)
 
-Website link: <https://emidombek.github.io/nomada-photo/>
+[Link to Live Site Here](https://github.com/emidombek/nomada-photo)
 
 ## Purpose and goals of the website
 
@@ -27,32 +27,46 @@ As a potential client, I want to contact the photographer via the website's cont
   1. Gallery Landing Page:
 
      - The first thing the user sees on a is a large fullscreen hero image that on hover allows the use to click on link that takes them down further to the Logo Banner and Navigation Menu. This is meant to engage and immerse the user in the image and the place the photograph was taken in (this same large hero image and hero link is employed for every webpage on the site):
-       ![Main Gallery Landing Page Screenshot](/docs/images/landing_page_screenshot.png)
-     - After the user clicks the link the page jumps down to the Logo Banner where the logo of the Photographer is seen as well as a Navigation Menu (the page layout has been modified for mobile devices and other devices that respond to touch). The gallery of the main body is also partially visible this is meant to entice the user to scroll through. There are eight photos in total of different destinations in this gallery that lead to 8 destination pages when the photo is clicked on or tapped, on devices that can hover an icon will appear that can be clicked on non-hover devices the icon will be displayed immediately:
-       ![Main Gallery Landing Page Screenshot with icon hover](/docs/images/landing_page_hover_icon_link_screenshot.png)
-     - At the bottom of every page is a footer with social media links and a 'Nomada Photography' link that takes the user back to the top of the Logo Banner where the Navigation Menu is. Underneath this is the copyright text:
-       ![Footer Banner](/docs/images/landing_page_footer_screenshot.png)
+
+       ![Main Gallery Landing Page Screenshot](/docs/images/home_full_screen.png)
+
+       ![Main Gallery Demo](/docs/images/home_demo_AdobeExpress.gif)
+
+     - After the user clicks the link the page jumps down to the Logo Banner where the logo of the Photographer is seen as well as a Navigation Menu (the page layout has been modified for mobile devices and other devices that respond to touch). The gallery of the main body is also partially visible this is meant to entice the user to scroll through. There are eight photos in total of different destinations in this gallery that lead to 8 destination pages when the photo is clicked on or tapped, on devices that can hover an icon will appear that can be clicked on non-hover devices the icon will be displayed immediately.
+
+     - At the bottom of every page is a footer with social media links and a 'Nomada Photography' link that takes the user back to the top of the Logo Banner where the Navigation Menu is. Underneath this is the copyright text.
 
   2. Destination Pages
 
      - The Destination Pages allow the user to view an additional 4 images from the selected destination. There is a hover/tap to reveal that allows users to view information on where and when the photo was taken:
-       ![Destination Page](/docs/images/destination_page_gallery_screenshot.png)
+
+       ![Destination Page](/docs/images/destination_page_full.png)
+
+       ![Destination Page Demo](/docs/images/destinationpage_demo_AdobeExpress.gif)
+
      - The Destination Pages differ only in text descriptions and images. The HTML/CSS is the same on each page besides the different image files and text.
 
   3. About Page
 
      - The About Page contains a small gallery of selected images and a small about section:
-       ![About Page](/docs/images/about_page_screenshot.png)
+
+       ![About Page](/docs/images/about_full_screen.png)
+
+       ![About Page](/docs/images/about_demo_AdobeExpress.gif)
 
   4. Contact Page
 
      - The Contact Page includes a dummy webform:
-       ![Contact Page](/docs/images/contact_page_screenshot.png)
+
+       ![Contact Page](/docs/images/contact_fullscreen.png)
 
   5. Thank You Page
 
      - The user is redirected to this page when submitting a message via the Contact Form.
-     ![Thank You Page](/docs/images/thank_you_page_main.png)
+
+     ![Thank You Page](/docs/images/thank_you_full_screen.png)
+
+     ![Contact & Thank You Page Demo](/docs/images/contact_demo_AdobeExpress.gif)
 
 ## Design and Layout
 
@@ -63,6 +77,7 @@ The design for the website was created in Adobe XD with the quick mockup plugin.
 - The Landing Page and Destination pages only differ in gallery containers and hover effects used with those gallery containers.
 - No back button are included in the design intentionally the user can return to the top of the page by clicking on the 'Nomada Photography' heading at the bottom of the page and then use the navigation menu.
 - Image files were also not further compressed intentionally as this is a Photography Portfolio and maintaining the integrity of the colors and quality of the image takes priority over slightly longer loading times.
+- For devices that are not able to hover I have either fixed the image overlays to show or created a click to show effect.
 
 - Primary Design System is as follows:
 
@@ -203,7 +218,8 @@ About Page description of Code and Content (about.html):
 
         3. Text and Message: Below the image, there is another div element with a class of "thank-you-text-container." This container holds the content to convey appreciation and provide additional information to the users. It consists of an h5 element with a class of "thank-you-heading" displaying the text "Thank you!" This heading can be customized to fit the website's branding and messaging. Below the heading, there is a p element with a class of "thank-you-text" containing a message thanking the user for their action and assuring them that someone will be in touch shortly. Additionally, it suggests following the website on social media. You can customize the message and include relevant details to enhance the user's experience.
 
-      - Media Queries:
+    - Media Queries:
+
       These media queries are used to apply different styles and layout adjustments to the elements on a webpage based on the size of the screen or device being used to view the page. Here is a breakdown of each media query:
 
     1. For screens 1200px:
@@ -253,7 +269,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 1. In the GitHub repository, on the Code page navigate to the Environments section on the righthand side of the page.
 2. Click on github pages, this will take you to deployments history where you willl be able to click on 'view deployment'.
-   The live link can be found here - [Link to Site Here](https://github.com/emidombek/nomada-photo)
+   The live link can be found here - [Link to Live Site Here](https://github.com/emidombek/nomada-photo)
 
 ## Testing
 
@@ -307,16 +323,16 @@ Responsiveness:
 
 ## Known Issues and Bugs
 
-- The hover underline element in the main Navigation Menu is not centered on some smaller screens.
 - The additional hover dropdown menu was removed as it had too many issues with responsiveness and was not essential to the UX of the site.
-- There were several issues with my Commit Messages due to lack of training of how/format these messages within the course.I have now corrected these issues and am citing this here as I am aware of the importance of these messages.
+- There were several issues with my Commit Messages due to lack of training of how/format these messages within the course I have been doing large commits and will be working on reducing these commits to smaller changes. I have now corrected these issues and am citing this here as I am aware of the importance of these messages.
+- This website is a Photography Portfolio and is image heavy. Some images may be slow to load even after being compressed in Photoshop.
 
 ## Resources
 
 - Content:
 
   - All photos used on this website were taken by me, Emilia Dombek.
-  - Wireframes were made using the Quickmockup Plugin in Adobe XD.
+  - Wireframes were made using the Quickmockup Plugin in Adobe XD. Wireframes have also been imported into Figma for ease of viewing.
 
 - Code and Implementation:
 
