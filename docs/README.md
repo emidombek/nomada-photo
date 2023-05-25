@@ -6,13 +6,15 @@ Website link: <https://emidombek.github.io/nomada-photo/>
 
 ## Purpose and goals of the website
 
-To showcase the travel photography work of Nomada photography. This could include photographs from different parts of the world, each highlighting the culture, landscape, and people of that area.
+The purpose of the website is to exhibit the captivating travel photography portfolio of Nomada Photography. It aims to showcase a diverse range of photographs capturing landscapes and the people from various locations around the world. The website's primary goal is to engage users by immersing them in the stunning visuals and offering an overview of the photographer's body of work. Additionally, the website provides a convenient way for visitors to contact Nomada Photography through a web form, ensuring easy communication. Social media links are also provided for users to connect with the photographer on various platforms.
 
 ## User stories
 
 - As a potential client, I want to view a portfolio of Nomada photography's work to see if their style aligns with my needs for an upcoming travel project.
 - As a photography enthusiast, I want to explore different galleries on the website to see how Nomada photography captures unique travel experiences and to learn more about their techniques and approach to travel photography.
 - As a frequent traveler, I want to browse the website to find inspiration for my own travel photography, and to discover new and interesting places to visit based on the images presented.
+As a potential client, I want to contact the photographer via the website's contact form to inquire about availability, pricing, and discuss specific requirements for my upcoming travel project.
+- As an average user, I want to have a user-friendly and visually appealing browsing experience on the website. I expect intuitive navigation and clear organization of the galleries, allowing me to easily explore Nomada photography's work and navigate between different travel destinations.
 
 ## Content and Structure
 
@@ -45,6 +47,9 @@ To showcase the travel photography work of Nomada photography. This could includ
   4. Contact Page
      - The Contact Page includes a dummy webform:
        ![Footer Banner](/docs/images/contact_page_screenshot.png)
+
+  5. Thank You Page
+  - The user is redirected to this page when submitting a message via the Contact Form.
 
 ## Design and Layout
 
