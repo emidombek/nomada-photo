@@ -600,6 +600,10 @@ h5.thank-you-heading {
 
 /* --Media Queries-- */
 
+/* For screens 1200px */
+
+/* Display settings for main index page image grid */
+
 @media screen and (max-width: 1200px) {
   .gallery-container {
     grid-template-columns: repeat(2, 1fr);
@@ -609,6 +613,10 @@ h5.thank-you-heading {
   }
 }
 
+/* For screens 1078px */
+
+/* Query targeting heading size responsiveness */
+
 @media screen and (max-width: 1078px) {
 
   h5.about-heading,
@@ -616,10 +624,15 @@ h5.thank-you-heading {
   h5.thank-you-heading,
   h5.thank-you-heading {
     font-size: calc(70% + 2vmin);
+    /* 70% of orginal size + vmin units credit to my Mentor Juliia for this code */
     text-align: center;
   }
 
 }
+
+/* For screens 885px */
+
+/* Display settings for image grids on main index page */
 
 @media screen and (max-width: 885px) {
 
@@ -632,14 +645,19 @@ h5.thank-you-heading {
     flex: 1;
   }
 
+  /* Text overlays */
+
   .text-overlay {
     margin-bottom: 15%;
   }
+
+  /* Text box margin settings for smaller screens that can hover */
 
   .text-box-hover {
     margin-top: 25%;
   }
 
+  /* Settings for the About Page Continer Display and Text */
   .about-body-container {
     flex-direction: column;
     text-align: center;
@@ -684,6 +702,8 @@ h5.thank-you-heading {
     max-height: 100%;
   }
 
+  /* Contact Page Form & Image Display Settings */
+
   .contact-form {
     max-width: 80%;
     padding: 1.5em;
@@ -694,14 +714,18 @@ h5.thank-you-heading {
   }
 }
 
+/* For screens 768px */
+
+/*Thank you page container display settings */
+
 @media screen and (max-width: 768px) {
   .thank-you-text-container {
     padding: 2%;
     max-width: 80%;
   }
-}
 
-@media screen and (max-width: 768px) {
+  /* Settings for all pages using header elements */
+
   .logo-banner {
     display: flex;
     flex-wrap: wrap-reverse;
@@ -758,6 +782,8 @@ h5.thank-you-heading {
     display: none;
   }
 
+  /* Contact and Thank you Page disply settings */
+
   .contact-form-container,
   .thank-you-container {
     width: 70%;
@@ -774,9 +800,12 @@ h5.thank-you-heading {
   }
 }
 
+/* For screens 480px */
+
 @media screen and (max-width: 480px) {
 
-  /* Styles for screens up to 480px */
+  /* Targets all pages using header elements */
+
   .menu a {
     font-size: 60%;
   }
