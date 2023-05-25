@@ -36,7 +36,7 @@ As a potential client, I want to contact the photographer via the website's cont
   2. Destination Pages
 
      - The Destination Pages allow the user to view an additional 4 images from the selected destination. There is a hover/tap to reveal that allows users to view information on where and when the photo was taken:
-       ![Footer Banner](..//docs/images/)
+       ![Footer Banner](/docs/images/destination_page_gallery_screenshot.png)
      - The Destination Pages differ only in text descriptions and images. The HTML/CSS is the same on each page besides the different image files and text.
 
   3. About Page
@@ -45,10 +45,12 @@ As a potential client, I want to contact the photographer via the website's cont
        ![Footer Banner](/docs/images/about_page_screenshot.png)
 
   4. Contact Page
+
      - The Contact Page includes a dummy webform:
        ![Footer Banner](/docs/images/contact_page_screenshot.png)
 
   5. Thank You Page
+
      - The user is redirected to this page when submitting a message via the Contact Form.
 
 ## Design and Layout
@@ -63,19 +65,19 @@ The design for the website was created in Adobe XD with the quick mockup plugin.
 
 - Primary Design System is as follows:
 
-  --font-family: Raleway, sans-serif, Source Serif Pro, sans-serif;
-  --primary-font: Raleway, sans-serif;
-  --secondary-font: Source Serif Pro, sans-serif;
-  --main-color: white;
-  --background-color: white;
-  --primary-color: #D8D5BF;
-  --secondary-color: #AEC1BA;
-  --accent-color: #CF755A;
-  --text-color-primary: #000000;
-  --text-color-secondary: #464646;
-  --text-color-accent: #CF755A;
-  --text-color-secondary-accent: #737373;
-  --line-height: 1.5;
+  1. --font-family: Raleway, sans-serif, Source Serif Pro, sans-serif;
+  2. --primary-font: Raleway, sans-serif;
+  3. --secondary-font: Source Serif Pro, sans-serif;
+  4. --main-color: white;
+  5. --background-color: white;
+  6. --primary-color: #D8D5BF;
+  7. --secondary-color: #AEC1BA;
+  8. --accent-color: #CF755A;
+  9. --text-color-primary: #000000;
+  10. --text-color-secondary: #464646;
+  11. --text-color-accent: #CF755A;
+  12. --text-color-secondary-accent: #737373;
+  13. --line-height: 1.5;
 
 High Fidelity Wireframes and a Prototype that have been created in Adobe XD can be found here:
 
@@ -198,9 +200,9 @@ About Page description of Code and Content (about.html):
 
         2. Image: Following the heading, there is a div element with a class of "thank-you-image" containing an img element. The image displayed is specified by the "src" attribute of the img tag. It is recommended to replace the placeholder image URL ("assets/images/howth_view.jpeg") with a relevant image related to the website or the action that led to the "Thank you page."
 
-Text and Message: Below the image, there is another div element with a class of "thank-you-text-container." This container holds the content to convey appreciation and provide additional information to the users. It consists of an h5 element with a class of "thank-you-heading" displaying the text "Thank you!" This heading can be customized to fit the website's branding and messaging. Below the heading, there is a p element with a class of "thank-you-text" containing a message thanking the user for their action and assuring them that someone will be in touch shortly. Additionally, it suggests following the website on social media. You can customize the message and include relevant details to enhance the user's experience.
+        3. Text and Message: Below the image, there is another div element with a class of "thank-you-text-container." This container holds the content to convey appreciation and provide additional information to the users. It consists of an h5 element with a class of "thank-you-heading" displaying the text "Thank you!" This heading can be customized to fit the website's branding and messaging. Below the heading, there is a p element with a class of "thank-you-text" containing a message thanking the user for their action and assuring them that someone will be in touch shortly. Additionally, it suggests following the website on social media. You can customize the message and include relevant details to enhance the user's experience.
 
-    - Media Queries:
+      - Media Queries:
       These media queries are used to apply different styles and layout adjustments to the elements on a webpage based on the size of the screen or device being used to view the page. Here is a breakdown of each media query:
 
     1. For screens 1200px:
@@ -257,7 +259,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 Validation:
 
 - Passed the W3C HTML validator with one warning regarding aria-labels for a element in the .middle class however I will be leaving the aria labels as I believe they are essential for the UX of the site.
- -Passed the W3C CSS Validator/Jigsaw. 18 warnings received, 17 in regards to CSS variables not being checked. 1 in regards to the usage of the -ms-transform vendor extension.
+- Passed the W3C CSS Validator/Jigsaw. 18 warnings received, 17 in regards to CSS variables not being checked. 1 in regards to the usage of the -ms-transform vendor extension.
 
 Responsiveness:
 
@@ -296,6 +298,7 @@ Responsiveness:
   - Microsoft Surface Duo
 
 - Laptops/PC screens:
+
   - MacBook Air 13in
   - MacBook Pro 13in
   - Dell 24in Monitor
@@ -320,3 +323,4 @@ Responsiveness:
   - W3 schools for CSS
   - CSS flexbox knowlegde and concepts were mostly learned from: Kevin Powell's Youtube Channel <https://www.youtube.com/@KevinPowell>
   - Stack Overflow posts to help with understanding bugs and media queries.
+  - My mentor Juliia gave me several examples of code.
