@@ -36,22 +36,23 @@ As a potential client, I want to contact the photographer via the website's cont
   2. Destination Pages
 
      - The Destination Pages allow the user to view an additional 4 images from the selected destination. There is a hover/tap to reveal that allows users to view information on where and when the photo was taken:
-       ![Footer Banner](/docs/images/destination_page_gallery_screenshot.png)
+       ![Destination Page](/docs/images/destination_page_gallery_screenshot.png)
      - The Destination Pages differ only in text descriptions and images. The HTML/CSS is the same on each page besides the different image files and text.
 
   3. About Page
 
      - The About Page contains a small gallery of selected images and a small about section:
-       ![Footer Banner](/docs/images/about_page_screenshot.png)
+       ![About Page](/docs/images/about_page_screenshot.png)
 
   4. Contact Page
 
      - The Contact Page includes a dummy webform:
-       ![Footer Banner](/docs/images/contact_page_screenshot.png)
+       ![Contact Page](/docs/images/contact_page_screenshot.png)
 
   5. Thank You Page
 
      - The user is redirected to this page when submitting a message via the Contact Form.
+     ![Thank You Page](/docs/images/thank_you_page_main.png)
 
 ## Design and Layout
 
@@ -313,13 +314,16 @@ Responsiveness:
 ## Resources
 
 - Content:
+
   - All photos used on this website were taken by me, Emilia Dombek.
   - Wireframes were made using the Quickmockup Plugin in Adobe XD.
 
 - Code and Implementation:
+
   - VSCode, Git, GitHub and Gitpages were used to code and deploy the website. I used the Code Academy Template to create my repo on GitHub.
 
 - Learning Resources:
+
   - W3 schools for CSS
   - CSS flexbox knowlegde and concepts were mostly learned from: Kevin Powell's Youtube Channel <https://www.youtube.com/@KevinPowell>
   - Stack Overflow posts to help with understanding bugs and media queries.
