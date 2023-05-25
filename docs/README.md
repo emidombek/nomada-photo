@@ -26,15 +26,21 @@ As a potential client, I want to contact the photographer via the website's cont
 
   1. Gallery Landing Page:
 
-     - The first thing the user sees on a is a large fullscreen hero image that on hover allows the use to click on link that takes them down further to the Logo Banner and Navigation Menu. This is meant to engage and immerse the user in the image and the place the photograph was taken in (this same large hero image and hero link is employed for every webpage on the site):
-
-       ![Main Gallery Landing Page Screenshot](/docs/images/home_full_screen.png)
-
-       ![Main Gallery Demo](/docs/images/home_demo_AdobeExpress.gif)
+     - The first thing the user sees on a is a large fullscreen hero image that on hover allows the use to click on link that takes them down further to the Logo Banner and Navigation Menu. This is meant to engage and immerse the user in the image and the place the photograph was taken in (this same large hero image and hero link is employed for every webpage on the site).
 
      - After the user clicks the link the page jumps down to the Logo Banner where the logo of the Photographer is seen as well as a Navigation Menu (the page layout has been modified for mobile devices and other devices that respond to touch). The gallery of the main body is also partially visible this is meant to entice the user to scroll through. There are eight photos in total of different destinations in this gallery that lead to 8 destination pages when the photo is clicked on or tapped, on devices that can hover an icon will appear that can be clicked on non-hover devices the icon will be displayed immediately.
 
      - At the bottom of every page is a footer with social media links and a 'Nomada Photography' link that takes the user back to the top of the Logo Banner where the Navigation Menu is. Underneath this is the copyright text.
+     
+   <details>
+   <summary>Click here to view screenshot of the Main Gallery Landing Page</summary>
+     ![Main Gallery Landing Page Screenshot](/docs/images/home_full_screen.png)
+   </details>
+
+   <details>
+    <summary>Click here to view demo of the Main Gallery Landing Page</summary>
+       ![Main Gallery Demo](/docs/images/home_demo_AdobeExpress.gif)
+   </details>
 
   2. Destination Pages
 
