@@ -603,11 +603,13 @@ h5.thank-you-heading {
 
 @media screen and (max-width: 1078px) {
 
-  .about-heading,
+  h5.about-heading,
   h5.contact-title,
   h5.thank-you-heading {
     font-size: calc(70% + 2vmin);
+    text-align: center;
   }
+
 }
 
 @media screen and (max-width: 885px) {
@@ -762,119 +764,120 @@ h5.thank-you-heading {
       display: none;
     }
   }
+}
 
-  @media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
 
-    /* Styles for screens up to 480px */
-    .menu a {
-      font-size: 60%;
-    }
-
-    .logo2 {
-      margin-bottom: 4px;
-    }
-
-    .hero-image img {
-      max-height: 200px;
-      width: 100%;
-    }
-
-    .text-overlay2 {
-      font-size: 16px;
-      top: 50%;
-    }
-
-    .hero-image img {
-      max-height: 200px;
-      width: 100%;
-    }
+  /* Styles for screens up to 480px */
+  .menu a {
+    font-size: 60%;
   }
 
-  /* Only targets devices that can hover */
-
-  /* code for this was taken from Kevin Powell's youtube video https://youtu.be/uuluAyw9AI0 */
-  @media (hover: hover) {
-
-    .hero-image .image-overlay,
-    .hero-image .middle {
-      opacity: 0;
-      transition: opacity 0.3s ease;
-    }
-
-    .hero-image:hover .image-overlay,
-    .hero-image:hover .middle {
-      opacity: 0.9;
-    }
-
-    .gallery-column,
-    .gallery-column-center,
-    .gallery-column2 {
-      transition: opacity 0.3s ease;
-    }
-
-    .image-overlay,
-    .image-overlay2 {
-      opacity: 0;
-      transition: opacity 0.3s ease;
-    }
-
-    .gallery-column:hover .image-overlay,
-    .gallery-column-center:hover .image-overlay,
-    .gallery-column2:hover .image-overlay2 {
-      opacity: 0.7;
-    }
-
-    .social-networks i:hover {
-      color: var(--main-color);
-    }
-
-    .footer-text:hover {
-      color: var(--main-color);
-    }
-
-    .submit-button:hover {
-      background-color: var(--primary-color);
-      color: var(--main-color);
-    }
-
+  .logo2 {
+    margin-bottom: 4px;
   }
 
-  /* Non touch tap-reveal and overlay settings needs to be in this order to display correctly*/
-
-  @media (max-width: 768px) {
-
-    /* Show overlay on index gallery images*/
-
-    .image-overlay {
-      opacity: 0.7;
-    }
-
-    /* Exclude overlay from hero images*/
-    .hero-container .hero-image .image-overlay {
-      display: none;
-    }
-
-    .text-overlay {
-      top: 50%;
-      font-size: 16px;
-      opacity: 0;
-    }
-
-    .text-overlay2 {
-      top: 50%;
-      font-size: 16px;
-      opacity: 0;
-    }
-
-    /* Show the overlay on tap on destination galleries */
-
-    .gallery-column2:hover .image-overlay2,
-    .gallery-column2:focus-within .image-overlay2 {
-      opacity: 0.7;
-    }
-
-    .gallery-column2:hover .text-overlay2,
-    .gallery-column2:focus-within .text-overlay2 {
-      opacity: 1;
-    }
+  .hero-image img {
+    max-height: 200px;
+    width: 100%;
   }
+
+  .text-overlay2 {
+    font-size: 16px;
+    top: 50%;
+  }
+
+  .hero-image img {
+    max-height: 200px;
+    width: 100%;
+  }
+}
+
+/* Only targets devices that can hover */
+
+/* code for this was taken from Kevin Powell's youtube video https://youtu.be/uuluAyw9AI0 */
+@media (hover: hover) {
+
+  .hero-image .image-overlay,
+  .hero-image .middle {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .hero-image:hover .image-overlay,
+  .hero-image:hover .middle {
+    opacity: 0.9;
+  }
+
+  .gallery-column,
+  .gallery-column-center,
+  .gallery-column2 {
+    transition: opacity 0.3s ease;
+  }
+
+  .image-overlay,
+  .image-overlay2 {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .gallery-column:hover .image-overlay,
+  .gallery-column-center:hover .image-overlay,
+  .gallery-column2:hover .image-overlay2 {
+    opacity: 0.7;
+  }
+
+  .social-networks i:hover {
+    color: var(--main-color);
+  }
+
+  .footer-text:hover {
+    color: var(--main-color);
+  }
+
+  .submit-button:hover {
+    background-color: var(--primary-color);
+    color: var(--main-color);
+  }
+
+}
+
+/* Non touch tap-reveal and overlay settings needs to be in this order to display correctly*/
+
+@media (max-width: 768px) {
+
+  /* Show overlay on index gallery images*/
+
+  .image-overlay {
+    opacity: 0.7;
+  }
+
+  /* Exclude overlay from hero images*/
+  .hero-container .hero-image .image-overlay {
+    display: none;
+  }
+
+  .text-overlay {
+    top: 50%;
+    font-size: 16px;
+    opacity: 0;
+  }
+
+  .text-overlay2 {
+    top: 50%;
+    font-size: 16px;
+    opacity: 0;
+  }
+
+  /* Show the overlay on tap on destination galleries */
+
+  .gallery-column2:hover .image-overlay2,
+  .gallery-column2:focus-within .image-overlay2 {
+    opacity: 0.7;
+  }
+
+  .gallery-column2:hover .text-overlay2,
+  .gallery-column2:focus-within .text-overlay2 {
+    opacity: 1;
+  }
+}
