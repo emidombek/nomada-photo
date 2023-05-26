@@ -259,15 +259,14 @@ h4 {
 .gallery-column2 {
   position: relative;
   overflow: hidden;
-  width: 100%;
+  width: 460px;
   height: 100%;
 }
 
 /* display settings for the grid images */
 .gallery-column img,
-.gallery-column-center img,
 .gallery-column2 img {
-  width: 100%;
+  width: 460px;
   height: 100%;
   object-fit: cover;
   object-position: top;
@@ -275,6 +274,8 @@ h4 {
 
 /* class that allows for image being positioned from the center */
 .gallery-column-center img {
+  width: 100%;
+  height: 100%;
   object-position: center;
 }
 
