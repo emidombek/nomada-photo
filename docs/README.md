@@ -64,23 +64,24 @@ As a potential client, I want to contact the photographer via the website's cont
 
      </details>
 
-    - The Destination Pages differ only in text descriptions and images. The HTML/CSS is the same on each page besides the different image files and text.
+  - The Destination Pages differ only in text descriptions and images. The HTML/CSS is the same on each page besides the different image files and text.
 
   3. About Page
 
      - The About Page contains a small gallery of selected images and a small about section:
 
-   <details>
-    <summary>Click here to view demo gif of About Page</summary>
+    <details>
+      <summary>Click here to view demo gif of About Page</summary>
 
        ![About Page Demo](/docs/images/about_demo_AdobeExpress.gif)
        </details>
 
-       <details>
+    <details>
+
        <summary>Click to view full screenshot of About Page</summary>
   
        ![About Page Screenshot](/docs/images/about_full_screen.png)
-   </details>
+      </details>
 
   4. Contact Page
 
