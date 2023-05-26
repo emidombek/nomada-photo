@@ -32,27 +32,37 @@ As a potential client, I want to contact the photographer via the website's cont
 
   - At the bottom of every page is a footer with social media links and a 'Nomada Photography' link that takes the user back to the top of the Logo Banner where the Navigation Menu is. Underneath this is the copyright text.
 
-    <details>
-   <summary>Click here to view screenshot of the Main Gallery Landing Page</summary>
+     <details>
+       <summary>Click here to view screenshot of the Main Gallery Landing Page</summary>
   
-     ![Main Gallery Landing Page Screenshot](/docs/images/home_full_screen.png)
+       ![Main Gallery Landing Page Screenshot](/docs/images/home_full_screen.png)
   
-   </details>
+       </details>
 
-   <details>
-    <summary>Click here to view demo of the Main Gallery Landing Page</summary>
+     <details>
+       <summary>Click here to view demo of the Main Gallery Landing Page</summary>
   
        ![Main Gallery Demo](/docs/images/home_demo_AdobeExpress.gif)
   
-   </details>
+       </details>
   
   2. Destination Pages
 
   - The Destination Pages allow the user to view an additional 4 images from the selected destination. There is a hover/tap to reveal that allows users to view information on where and when the photo was taken:
 
+     <details>
+      <summary>Click here to view screenshot of the Destination Gallery Page</summary>
+
        ![Destination Page](/docs/images/destination_page_full.png)
 
-       ![Destination Page Demo](/docs/images/destinationpage_demo_AdobeExpress.gif)
+       </details>
+
+    <details>
+     <summary>Click here to view demo gif of the Destination Gallery Page</summary>
+
+      ![Destination Page Demo](/docs/images/destinationpage_demo_AdobeExpress.gif)
+
+     </details>
 
     - The Destination Pages differ only in text descriptions and images. The HTML/CSS is the same on each page besides the different image files and text.
 
@@ -60,8 +70,8 @@ As a potential client, I want to contact the photographer via the website's cont
 
      - The About Page contains a small gallery of selected images and a small about section:
 
-       <details>
-       <summary>Click here to view demo gif of About Page</summary>
+   <details>
+    <summary>Click here to view demo gif of About Page</summary>
 
        ![About Page Demo](/docs/images/about_demo_AdobeExpress.gif)
        </details>
@@ -70,7 +80,7 @@ As a potential client, I want to contact the photographer via the website's cont
        <summary>Click to view full screenshot of About Page</summary>
   
        ![About Page Screenshot](/docs/images/about_full_screen.png)
-       </details>
+   </details>
 
   4. Contact Page
 
@@ -486,5 +496,5 @@ Responsiveness:
   - Stack Overflow posts to help with understanding bugs and media queries.
   - My Code Institute mentor gave me several examples of code.
 
-## Acknowledgement
+## Acknowledgements
 
