@@ -141,7 +141,7 @@ Main Landing Page wireframe:
 Screenshot of all the wireframes in Figma:
 
    <details>
-   <summary>Click to view the Main Gallery Landing Page Wireframe</summary>
+   <summary>Click to view screenshot of Figma Wireframes</summary>
   
       
    ![Screenshot of Wireframes in Figma](/docs/images/figma_wireframe_screen.png)
@@ -225,27 +225,50 @@ Gallery Landing and Destination Pages description of Code and Content:
      - The gallery-column i and gallery-column-center i classes define an icon for the gallery columns, which is set to the main color.
      - Finally, the text-overlay2 class is used to create a text overlay on top of the images, positioned at the center of the container.
 
-    - Screenshot of the HTML markup used for the Main Landing Page Gallery and the overlays:
+     - Screenshot of the HTML markup used for the Main Landing Page Gallery and the overlays:
 
-     ![Screenshot of HTML markup used for Main Landing Page Gallery](/docs/images/logo_banner_html.png)
+     ![Screenshot of HTML markup used for Main Landing Page Gallery](/docs/images/main_gallery_screenshot.png)
 
-     - Screenshot of the CSS used for the Gallery:
+     - Screenshot of the HTML markup used for the Destination Gallery Pages and the overlays:
 
-     ![Screenshot of part of the CSS used for Main Landing Page Gallery](/docs/images/logo_banner_css.png)
+     ![Screenshot of HTML markup used for Destination Page Gallery](/docs/images/destination_gallery_html.png)
 
-     - Note: CSS styling for the overlays and  can be found in the same section of the CSS file.
+     - Screenshot of the CSS used for the Gallery Grids:
+
+     ![Screenshot of part of the CSS used for Main Landing Page Gallery](/docs/images/main_destination_gallery_css.png)
+
+     - Screenshot of CSS setting used for Destination Gallery Grid Rows:
+
+     ![Screenshot of part of the CSS used for Destination Page Gallery](/docs/images/destination_gallery_row_setting.png)
+
+     - Note: CSS styling for the various gallery overlays and image settings can be found in the same section of the CSS file.
 
      </details>
 
   - Footer
 
   1. Footer Banner
+     <details>
+      <summary>Click to view Footer Banner Settings, Code Screenshots & Code Description</summary>
+
      - The Footer Banner is a larger banner that contains social media icons that link to different social media sites. There is also a heading that links to the #logo at the top of the page which takes the user back to the menu when selected.
      - The footer container (footer-text-container) is positioned absolutely and arranged as a vertical column. It has a background color and text color specified.
      - The main footer text (footer-text) has a background color, bold font, and centered alignment. It transitions smoothly when its color changes via hover effect.
      - The copyright text (copyright-text) has a specific color, font, and alignment.
      - Social network icons (social-networks) are displayed as a horizontal list in the center. Each icon has some margin around it.
-     - The social network icon elements (social-networks i) have a larger font size, centered alignment, and a specific color. They also transition smoothly when their color changes via hover effect.
+     - The social network icon elements (social-networks i) have a larger font size, centered alignment, and a specific color. They also transition smoothly when their color changes via hover effect. The social network list code was taken from the Love Running Project.
+
+     - Screenshot of the HTML markup used for the Footer Banner and the overlays:
+
+     ![Screenshot of HTML markup used for Footer Banner](/docs/images/footer_banner_html.png)
+
+     - Screenshot of the CSS used for the Footer Banner:
+
+     ![Screenshot of part of the CSS used for Footer Banner](/docs/images/footer_banner_css.png)
+
+     - Note: CSS styling for the social media icons and list items can be found in the same section of the CSS file.
+
+     </details>
 
 About Page description of Code and Content (about.html):
 
@@ -253,29 +276,60 @@ About Page description of Code and Content (about.html):
 
   - Body: Header (different hero image) and Footer are the same as the Gallery Landing and Destination Pages.
 
-  - Main: The section is divided into two parts: a text area and an image area.
+  - Main: This section is divided into two parts: a text area and an image area.
 
-    1. About Body Container
-         - The entire section is contained within a section container element with class name "about-body-container", with a maximum width of 1200 pixels, centered horizontally on the page with margins set to 0, and aligned vertically with the center of the page using flexbox properties.
-    2. About Textbox
-         - The text area is divided into a h3 heading with class name "about-heading" and a div body of text with class name "about-textbox". The heading is styled with a large, bold font and a primary text color. The body of text is styled with a smaller font and a secondary text color.
-    3. About Image Grid
-         - The image area is divided into two rows: a row of smaller images with class name "about-small-images" and a single larger image with class name "bottom-image" beneath them.
-         - The smaller images are arranged in a row with a gap of 10 pixels between them and are each no wider than a certain width, with each image contained within an img tag with class name "about-small-images img". The larger image is twice the width of the smaller images and has a maximum height of 200 pixels, contained within an img tag with class name bottom-image img.
+     <details>
+      <summary>Click to view About Page Settings, Code Screenshots & Code Description</summary>
 
-  Contact Page description of Code and Content (contact.html):
+     - The entire section is contained within a section container element with class name "about-body-container", with a maximum width of 1200 pixels, centered horizontally on the page with margins set to 0, and aligned vertically with the center of the page using flexbox properties.
+     - The text area is divided into a h3 heading with class name "about-heading" and a div body of text with class name "about-textbox". The heading is styled with a large, bold font and a primary text color. The body of text is styled with a smaller font and a secondary text color.
+     - The image area is divided into two rows: a row of smaller images with class name "about-small-images" and a single larger image with class name "bottom-image" beneath them.
+     - The smaller images are arranged in a row with a gap of 10 pixels between them and are each no wider than a certain width, with each image contained within an img tag with class name "about-small-images img". The larger image is twice the width of the smaller images and has a maximum height of 200 pixels, contained within an img tag with class name bottom-image img.
+
+     - Screenshot of the HTML markup used for the About Page Main Element:
+
+     ![Screenshot of HTML markup used for the About Page](/docs/images/about_page_main_html.png)
+
+     - Screenshot of the CSS used for the About Page Container:
+
+     ![Screenshot of part of the CSS used for the About Page Container](/docs/images/about_page_css.png)
+
+     - Screenshot of the CSS used for the About Page Gallery:
+
+     ![Screenshot of part of the CSS used for the About Page Gallery](/docs/images/about_page_gallery_css.png)
+
+      </details>
+
+  Contact Page description of Code and Content:
 
   - Head: Same content as the Gallery Landing and Destination Pages.
 
-    - Body: Header (different hero image) and Footer are the same as the Gallery Landing and Destination Pages.
+   - Body: Header (different hero image) and Footer are the same as the Gallery Landing and Destination Pages.
 
-      - Main
+    - Main: The section contains a form and an image.
+    
+     <details>
+      <summary>Click to view Contact Page Settings, Code Screenshots & Code Description</summary>
 
-        1. Contact Form Container - The form is contained within a forum element with the class "contact-form-container", which is styled to be centered, have a width of 50%, and a border of 20px with a color defined by the variable "--secondary-color". The form itself is within a div with the class "contact-form", which has a background color defined by the variable "--background-color", a maximum width of 40%, and padding of 2em. The form title, defined by an h5 element with the class "contact-title", is styled to have a font family of "--primary-font", be bold and have a font size of 34px.
+      - Contact Form Container - The form is contained within a forum element with the class "contact-form-container", which is styled to be centered, have a width of 50%, and a border of 20px with a color defined by the variable "--secondary-color". The form itself is within a div with the class "contact-form", which has a background color defined by the variable "--background-color", a maximum width of 40%, and padding of 2em. The form title, defined by an h5 element with the class "contact-title", is styled to have a font family of "--primary-font", be bold and have a font size of 34px.
 
-        2. Contact Form Image - An image is also included in the form, within a div with the class "contact-form-image". The image is centered and has a maximum width of 50%.
+      - Contact Form Image - An image is also included in the form, within a div with the class "contact-form-image". The image is centered and has a maximum width of 50%.
 
-        3. Contact Forum - This form is a dummy forum setup with GET and an action that will redirect the user back to contact.html essentially reloading the page. The Name, Email and Message text input fields are all required to be completed before the form can be submitted. - Text inputs within the form, defined by elements with the class "text-input-contact", have a font family of "--primary-font", regular font weight, font size of 16px, and a color defined by the variable "--text-color-secondary". The input fields have a width of 100%, height of 25px, and a margin of 5px 0 20px 0. They also have a border of 3px with a color defined by the variable "--text-color-secondary" and a border radius of 3px. - The message input field, defined by an element with the class "message", has the same styling as the text input fields, but with a height of 150px. - When the input fields are in focus, they have an outline removed and a border color of "--accent-color". - The submit button has the class "submit-button" and has a width of 100%, box-sizing of border-box, margin-top of 2%, border radius of 2px, and padding of 1em. Its font size is set to 100%, and it has a background color defined by the variable "--accent-color" and text color defined by the variable "--main-color". The button is displayed as a block element. The submit button also has a hover effect that changes it's color.
+      - Contact Forum - This form is a dummy forum setup with GET and an action that will redirect the user back to contact.html essentially reloading the page. The Name, Email and Message text input fields are all required to be completed before the form can be submitted. - Text inputs within the form, defined by elements with the class "text-input-contact", have a font family of "--primary-font", regular font weight, font size of 16px, and a color defined by the variable "--text-color-secondary". The input fields have a width of 100%, height of 25px, and a margin of 5px 0 20px 0. They also have a border of 3px with a color defined by the variable "--text-color-secondary" and a border radius of 3px. - The message input field, defined by an element with the class "message", has the same styling as the text input fields, but with a height of 150px. - When the input fields are in focus, they have an outline removed and a border color of "--accent-color". - The submit button has the class "submit-button" and has a width of 100%, box-sizing of border-box, margin-top of 2%, border radius of 2px, and padding of 1em. Its font size is set to 100%, and it has a background color defined by the variable "--accent-color" and text color defined by the variable "--main-color". The button is displayed as a block element. The submit button also has a hover effect that changes it's color.
+
+      - Screenshot of the HTML markup used for the Contact Page Main Element:
+
+     ![Screenshot of HTML markup used for the Contact Page](/docs/images/about_page_main_html.png)
+
+     - Screenshot of the CSS used for the About Page Container:
+
+     ![Screenshot of part of the CSS used for the About Page Container](/docs/images/about_page_css.png)
+
+     - Screenshot of the CSS used for the About Page Gallery:
+
+     ![Screenshot of part of the CSS used for the About Page Gallery](/docs/images/about_page_gallery_css.png)
+
+      </details>
 
   Thank You Page description of code and content (thank_you.html):
 
@@ -419,4 +473,7 @@ Responsiveness:
   - W3 schools for CSS
   - CSS flexbox knowlegde and concepts were mostly learned from: Kevin Powell's Youtube Channel <https://www.youtube.com/@KevinPowell>
   - Stack Overflow posts to help with understanding bugs and media queries.
-  - My mentor Juliia gave me several examples of code.
+  - My Code Institute mentor gave me several examples of code.
+
+## Acknowledgement
+
