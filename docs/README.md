@@ -51,60 +51,66 @@ As a potential client, I want to contact the photographer via the website's cont
   - The Destination Pages allow the user to view an additional 4 images from the selected destination. There is a hover/tap to reveal that allows users to view information on where and when the photo was taken:
 
      <details>
-      <summary>Click here to view screenshot of the Destination Gallery Page</summary>
+       <summary>Click here to view screenshot of the Destination Gallery Page</summary>
 
        ![Destination Page](/docs/images/destination_page_full.png)
 
        </details>
 
-    <details>
-     <summary>Click here to view demo gif of the Destination Gallery Page</summary>
+     <details>
+       <summary>Click here to view demo gif of the Destination Gallery Page</summary>
 
-      ![Destination Page Demo](/docs/images/destinationpage_demo_AdobeExpress.gif)
+       ![Destination Page Demo](/docs/images/destinationpage_demo_AdobeExpress.gif)
 
-     </details>
+       </details>
 
   - The Destination Pages differ only in text descriptions and images. The HTML/CSS is the same on each page besides the different image files and text.
 
   3. About Page
 
-     - The About Page contains a small gallery of selected images and a small about section:
+  - The About Page contains a small gallery of selected images and a small about section:
 
-    <details>
-      <summary>Click here to view demo gif of About Page</summary>
+     <details>
+       <summary>Click here to view demo gif of About Page</summary>
 
        ![About Page Demo](/docs/images/about_demo_AdobeExpress.gif)
+
        </details>
 
-    <details>
-
+     <details>
        <summary>Click to view full screenshot of About Page</summary>
   
        ![About Page Screenshot](/docs/images/about_full_screen.png)
-      </details>
+
+       </details>
 
   4. Contact Page
+      
+  - The Contact Page includes a dummy webform:
 
-     - The Contact Page includes a dummy webform:
+     <details>
+       <summary>Click to view full screenshot of Contact Page</summary>
 
        ![Contact Page](/docs/images/contact_fullscreen.png)
 
+       </details>
+       
   5. Thank You Page
 
-     - The user is redirected to this page when submitting a message via the Contact Form.
+  - The user is redirected to this page when submitting a message via the Contact Form.
 
-       <details>
+     <details>
        <summary>Click to view a demo gif of the Contact Page & Thank You Page</summary>
   
-      
        ![Contact & Thank You Page Demo](/docs/images/contact_demo_AdobeExpress.gif)
+
        </details>
 
-       <details>
+     <details>
        <summary>Click to view a full screenshot of the Thank You Page</summary>
   
-      
        ![Thank You Page](/docs/images/thank_you_full_screen.png)
+
        </details>
 
 ## Design and Layout
@@ -174,26 +180,26 @@ Technology used in this project is as follows:
 
 ## Code
 
-**All pages:**
+ **All pages:**
 
-- HTML boilerplate for all pages to start then used custom HTML, styled using CSS flexbox. All pages have the same Head, Header and Footer.
+ - HTML boilerplate for all pages to start then used custom HTML, styled using CSS flexbox. All pages have the same Head, Header and Footer.
 
-**Gallery Landing and Destination Pages description of Code and Content:**
+ **Gallery Landing and Destination Pages description of Code and Content:**
 
-(Landing page: index.html) (Destination pages: chelmno.html, connemara.html, tatra.html, torun.html, richmond.html, bydgoszcz.html, slieveleague.html, gdansk.html)
+ (Landing page: index.html) (Destination pages: chelmno.html, connemara.html, tatra.html, torun.html, richmond.html, bydgoszcz.html, slieveleague.html, gdansk.html)
 
-- Head
+ - Head
 
   1. Contains Metadata for website.
   2. Contains website title.
 
-- Body
+ - Body
 
   - Header
 
   1. Hero Image
      <details>
-     <summary>Click to view Hero Image Details & Code Description</summary>
+     <summary>Click to view Hero Image Details, Code Screenshots & Code Description</summary>
 
      - Unusally large hero image which allows the user to experience the photo in fullscreen with hover elements then give context and allow the user to jump further down to the menu section. This has been modified for smaller screens to ensure good UX.
      - The .hero-image class centers and sizes the image container, while the .hero-image img class sets the properties of the image itself.
@@ -205,7 +211,7 @@ Technology used in this project is as follows:
 
      ![Screenshot of HTML markup used for Hero Image](/docs/images/rename_hero_image_html.png)
 
-     - Screenshot of the CSS markup used for the Hero Image:
+     - Screenshot of the CSS used for the Hero Image:
 
      ![Screenshot of part of the CSS used for Hero Image](/docs/images/hero_image_css.png)
 
@@ -214,6 +220,9 @@ Technology used in this project is as follows:
      </details>
 
   2. Logo Banner
+     <details>
+     <summary>Click to view Logo Banner Details, Code Screenshots & Code Description</summary>
+
      - Large banner below the Hero Image which contains the navigation menu and logo text.
      - The logo banner section has a background color, padding, and is arranged as a flex container with the logo and another element aligned to the left and right sides respectively.
      - The logo itself is styled with a bold font and a specific size, color, and padding. There is also another element styled with a different font size, color, and alignment.
@@ -221,6 +230,18 @@ Technology used in this project is as follows:
      - The menu items are links with their own styling, including a hover effect and the option to set one as active.
      - The #logo element has been left as an id instead of class so it can be reference in links in the .hero-image-container section as well and the Footer .footer-text-container.
      - The menu section is also a flex container and has its font size and letter spacing set. Each menu item is styled without bullets and with some margin between them. The menu items are links with their own styling, including a hover effect and the option to set one as active.
+
+     - Screenshot of the CSS markup used for the Logo Banner and Navbar Menu:
+     
+     ![Screenshot of HTML markup used for Logo Banner and Navbar Menu](..//docs/images/logo_banner_html.png)
+
+     - Screenshot of the CSS used for the Hero Image:
+
+     ![Screenshot of part of the CSS used for Logo Banner](/docs/images/logo_banner_css.png)
+
+     - Note: CSS styling for the Navbar Menu can be found in the same section of the CSS file.
+
+     </details>
 
   - Main
 
@@ -281,9 +302,9 @@ Technology used in this project is as follows:
 
      </details>
 
-**About Page description of Code and Content (about.html):**
+ **About Page description of Code and Content:**
 
-- Head: Same content as the Gallery Landing and Destination Pages.
+ - Head: Same content as the Gallery Landing and Destination Pages.
 
   - Body: Header (different hero image) and Footer are the same as the Gallery Landing and Destination Pages.
 
@@ -311,9 +332,9 @@ Technology used in this project is as follows:
 
      </details>
 
-**Contact Page description of Code and Content:**
+ **Contact Page description of Code and Content:**
 
-- Head: Same content as the Gallery Landing and Destination Pages.
+ - Head: Same content as the Gallery Landing and Destination Pages.
 
   - Body: Header (different hero image) and Footer are the same as the Gallery Landing and Destination Pages.
 
@@ -338,16 +359,16 @@ Technology used in this project is as follows:
 
      </details>
 
-**Thank You Page description of code and content (thank_you.html):**
+ **Thank You Page description of code and content:**
 
-- Head: Same content as the Gallery Landing and Destination Pages.
+ - Head: Same content as the Gallery Landing and Destination Pages.
 
   - Body: Header (different hero image) and Footer are the same as the Gallery Landing and Destination Pages.
   
   - Main: This section contains a heading, 
     
      <details>
-     <summary>Click to view Thank You Page Settings, Code Screenshots & Code Description</summary>
+      <summary>Click to view Thank You Page Settings, Code Screenshots & Code Description</summary>
 
      - Heading: The section begins with an h4 element displaying a hash symbol (#). This can be replaced with a relevant heading or icon to represent the purpose of the "Thank you page."
 
@@ -367,19 +388,22 @@ Technology used in this project is as follows:
 
  **Media Queries:**
 
-      These media queries are used to apply different styles and layout adjustments to the elements on a webpage based on the size of the screen or device being used to view the page. Here is a breakdown of each media query:
+  - These media queries are used to apply different styles and layout adjustments to the elements on a webpage based on the size of the screen or device being used to view the page. Here is a breakdown of each media query:
 
-    1. For screens 1200px:
+     <details>
+      <summary>Click to view Media Queries Summary & Code Description</summary>
+
+       1. For screens 1200px:
 
        - Targets the main index page image grid.
         Adjusts the grid template columns, rows, row gap, and padding of the .gallery-container element.
 
-    2. For screens 1078px:
+       2. For screens 1078px:
 
        - Targets heading elements with classes .about-heading, .contact-title, and .thank-you-heading.
        Adjusts the font size and text alignment of the headings.
 
-    3. For screens 885px:
+       3. For screens 885px:
 
         - Targets the image grids on the main index page.
         Adjusts the grid template columns, rows, row gap, padding, and flex properties of .gallery-container and .gallery-container2 elements.
@@ -387,49 +411,73 @@ Technology used in this project is as follows:
         Changes the font size of .about-heading to 36px.
         Adjusts the layout of images and elements on the about page and contact page.
 
-    4. For screens 768px:
+       4. For screens 768px:
 
         - Targets the thank you page container.
         Adjusts the padding and max-width of .thank-you-text-container.
         Modifies various styles for header elements, logo, navigation menu, hero image, image overlays, text overlays, contact form, and thank you page elements.
 
-    5. For screens 480px:
+       5. For screens 480px:
 
         - Modifies various styles for header elements, logo, hero image, text overlays, and image overlays.
         Adjusts font size, max-height, and width of certain elements.
 
-    6. Query targets devices that can hover:
+       6. Query targets devices that can hover:
 
         - Applies hover effects and transitions to certain elements when hovering.
           Adjusts that adjust opacity and color on hover for image overlays, social network icons, footer text, and submit button.
 
-    7. Non-touch tap-reveal and overlay settings:
+       7. Non-touch tap-reveal and overlay settings:
 
         - Applies overlay and tap-reveal effects to certain elements on touch devices.
           Adjusts opacity and styles for image overlays and text overlays on tap or focus.
           Excludes overlay from hero images.
           Modifies styles for gallery columns and text overlays on tap or focus.
 
+       </details>
+
 ## Deployment
 
-The site was deployed to GitHub pages. The steps to deploy are as follows:
+  The site was deployed to GitHub pages. The steps to deploy are as follows:
 
-1. In the GitHub repository, on the Code page navigate to the Environments section on the righthand side of the page.
-2. Click on github pages, this will take you to deployments history where you willl be able to click on 'view deployment'.
+  1. In the GitHub repository, on the Code page navigate to the Environments section on the righthand side of the page.
+  2. Click on github pages, this will take you to deployments history where you willl be able to click on 'view deployment'.
    The live link can be found here - [Link to Live Site Here](https://github.com/emidombek/nomada-photo)
+
+  **Local Deployment**
+
+  1. To deploy the website locally and test it on your machine, you can follow these steps:
+
+  2. Ensure you have Visual Studio Code installed on your computer. 
+
+  3. Clone the nomada-photo repository to your local machine.
+
+  4. Once the extension is installed, navigate to the root folder of the cloned repository in Visual Studio Code.
+
+  5. Locate the main HTML file that represents your website's entry index.html
+
+  6. Install the Live Server extension.
+
+  7. Right-click on the HTML file in the Explorer sidebar and select "Open with Live Server" from the context menu.
+
+  8. The Live Server extension will launch a local development server and automatically open your website in your default web browser.
+
+  9. You can now interact with and test your website locally. Any changes you make to your HTML, CSS, or JavaScript files will be automatically refreshed in the browser.
+
+  10. To stop the local server, simply close the browser tab displaying your website or click on the "Stop" button in the Live Server output panel.
 
 ## Testing
 
-Validation:
+ Validation:
 
-- Passed the W3C HTML validator with one warning regarding aria-labels for a element in the .middle class however I will be leaving the aria labels as I believe they are essential for the UX of the site.
-- Passed the W3C CSS Validator/Jigsaw. 18 warnings received, 17 in regards to CSS variables not being checked. 1 in regards to the usage of the -ms-transform vendor extension.
+ - Passed the W3C HTML validator with one warning regarding aria-labels for a element in the .middle class however I will be leaving the aria labels as I believe they are essential for the UX of the site.
+ - Passed the W3C CSS Validator/Jigsaw. 18 warnings received, 17 in regards to CSS variables not being checked. 1 in regards to the usage of the -ms-transform vendor extension.
 
-Responsiveness:
+ Responsiveness:
 
-1. The site was tested on the following devices:
+ 1. The site was tested on the following devices:
 
-- Android:
+ - Android:
 
   - Samsung Galaxy S20
   - Xiaomi Mi 11i
@@ -443,7 +491,7 @@ Responsiveness:
   - Google Pixel 6 PRO
   - Xiaomi 12
 
-- iPhones:
+ - iPhones:
 
   - iPhone 5
   - iPhone SE 2016
@@ -461,7 +509,7 @@ Responsiveness:
   - Galaxy Tab S7
   - Microsoft Surface Duo
 
-- Laptops/PC screens:
+ - Laptops/PC screens:
 
   - MacBook Air 13in
   - MacBook Pro 13in
