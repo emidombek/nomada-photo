@@ -214,13 +214,28 @@ Gallery Landing and Destination Pages description of Code and Content:
   - Main
 
   1. Gallery
-     - The gallery container uses grid display to organize its images in columns and rows, with specific column width, row height, column gap, and row gap. This container is used to display the 8 images with corresponding links that lead the user to the destination pages.
-     - The gallery-container2 has a different row height setting that repeats twice and ensures an equal amount of space in the container is occupied by the rows. This container is used to display the 4 images on the destination pages.
+     <details>
+     <summary>Click to view Gallery Settings for the Main Landing Page and Destination Pages, Code Screenshots & Code Description</summary>
+
+     - The gallery container for the Main Landing Page uses grid display to organize its images in columns and rows, with specific column width, row height, column gap, and row gap. This container is used to display the 8 images with corresponding links that lead the user to the destination pages.
+     - The gallery-container2 for the Destination Gallery Pages has a different row height setting that repeats twice and ensures an equal amount of space in the container is occupied by the rows. This container is used to display the 4 images on the destination pages.
      - The h4 element is set to display none, which means it won't be visible in the gallery.
      - The images in the gallery columns are set to object-fit: cover, which means they will scale and crop to fill the available space while maintaining their aspect ratio, and object-position: top is used to align the images at the top of the container.
      - The image-overlay and image-overlay2 classes are used to create an overlay on the images, with a semi-transparent black background and centered text.
      - The gallery-column i and gallery-column-center i classes define an icon for the gallery columns, which is set to the main color.
      - Finally, the text-overlay2 class is used to create a text overlay on top of the images, positioned at the center of the container.
+
+    - Screenshot of the HTML markup used for the Main Landing Page Gallery and the overlays:
+
+     ![Screenshot of HTML markup used for Main Landing Page Gallery](/docs/images/logo_banner_html.png)
+
+     - Screenshot of the CSS used for the Gallery:
+
+     ![Screenshot of part of the CSS used for Main Landing Page Gallery](/docs/images/logo_banner_css.png)
+
+     - Note: CSS styling for the overlays and  can be found in the same section of the CSS file.
+
+     </details>
 
   - Footer
 
