@@ -60,9 +60,17 @@ As a potential client, I want to contact the photographer via the website's cont
 
      - The About Page contains a small gallery of selected images and a small about section:
 
-       ![About Page](/docs/images/about_full_screen.png)
+       <details>
+       <summary>Click here to view demo gif of About Page</summary>
 
-       ![About Page](/docs/images/about_demo_AdobeExpress.gif)
+       ![About Page Demo](/docs/images/about_demo_AdobeExpress.gif)
+       </details>
+
+       <details>
+       <summary>Click to view full screenshot of About Page</summary>
+  
+       ![About Page Screenshot](/docs/images/about_full_screen.png)
+       </details>
 
   4. Contact Page
 
@@ -74,13 +82,23 @@ As a potential client, I want to contact the photographer via the website's cont
 
      - The user is redirected to this page when submitting a message via the Contact Form.
 
-     ![Thank You Page](/docs/images/thank_you_full_screen.png)
+       <details>
+       <summary>Click to view a demo gif of the Contact Page & Thank You Page</summary>
+  
+      
+       ![Contact & Thank You Page Demo](/docs/images/contact_demo_AdobeExpress.gif)
+       </details>
 
-     ![Contact & Thank You Page Demo](/docs/images/contact_demo_AdobeExpress.gif)
+       <details>
+       <summary>Click to view a full screenshot of the Thank You Page</summary>
+  
+      
+       ![Thank You Page](/docs/images/thank_you_full_screen.png)
+       </details>
 
 ## Design and Layout
 
-The design for the website was created in Adobe XD with the quick mockup plugin. The design has evolved somewhat as I have been implementing and testing it.
+The design for the website was created in Adobe XD with the quick mockup plugin, wireframes were imported into Figma for ease of viewing and sharing. The design has evolved somewhat as I have been implementing and testing it for responsiveness. The original idea was to create and lightbox type gallery with just the 8 photos but this idea soon evolved into a per page mini gallery for each destination with an additional 4 photos as I was implementing the website. This allowed for sharing of more work and a travel-destination like experience for the user. 
 
 - Overall styling: Removing default margins/padding/borders, adding basic backround color,text styles and display properties to the Body through selecting Body/Header/Main/Footer.
 - Custom styling on some elements, several hover effects have been used in the Header, Main and Footer section of the Body many of these have been removed or modified for smaller screens via media queries.
@@ -107,27 +125,41 @@ The design for the website was created in Adobe XD with the quick mockup plugin.
 
 High Fidelity Wireframes and a Prototype that have been created in Adobe XD can be found here:
 
-- Design Review Prototype in Adobe XD: <https://xd.adobe.com/view/4d002e9a-15fe-4078-863d-420e3ac33da3-1853/>
+- [Design Review Prototype in Adobe XD](https://xd.adobe.com/view/4d002e9a-15fe-4078-863d-420e3ac33da3-1853/)
 
-- Wireframes imported into Figma: <https://www.figma.com/file/Vz4TudFv2r2o7fMv8JYdDF/Nomada-Photography?type=design&node-id=0%3A1&t=55xebaSEyXd1LKoy-1>
+- [Wireframes imported into Figma from Adobe XD](<https://www.figma.com/file/Vz4TudFv2r2o7fMv8JYdDF/Nomada-Photography?type=design&node-id=0%3A1&t=55xebaSEyXd1LKoy-1>)
 
-Main Landing Page Wireframe:
+Main Landing Page wireframe:
 
-![Main Gallery Landing Page Wireframe](/docs/images/photography_%20home.jpg)
+   <details>
+   <summary>Click to view the Main Gallery Landing Page Wireframe</summary>
+  
+      
+   ![Main Gallery Landing Page Wireframe](/docs/images/photography_%20home.jpg)
+   </details>
+
+Screenshot of all the wireframes in Figma:
+
+   <details>
+   <summary>Click to view the Main Gallery Landing Page Wireframe</summary>
+  
+      
+   ![Screenshot of Wireframes in Figma](/docs/images/figma_wireframe_screen.png)
+   </details>
 
 ## Technology
 
 Technology used in this project is as follows:
 
-- CSS
-- HTML
-- Code Institute Repo Template
-- VScode
-- Adobe XD
-- Figma
-- Git
-- GitHub
-- Gitpages
+  - CSS
+  - HTML
+  - Code Institute Repo Template
+  - VScode
+  - Adobe XD
+  - Figma
+  - Git
+  - GitHub
+  - Gitpages
 
 ## Code
 
@@ -149,11 +181,27 @@ Gallery Landing and Destination Pages description of Code and Content:
   - Header
 
   1. Hero Image
+     <details>
+     <summary>Click to view Hero Image Details & Code Description</summary>
+
      - Unusally large hero image which allows the user to experience the photo in fullscreen with hover elements then give context and allow the user to jump further down to the menu section. This has been modified for smaller screens to ensure good UX.
      - The .hero-image class centers and sizes the image container, while the .hero-image img class sets the properties of the image itself.
      - The .image-overlay class creates a darkened overlay effect that can be used with both hero images.
      - The .text-overlay class styles text contained within the image overlay, and the .middle class adds a link that allows users to jump to the menu section of the page.
      - The .text-box-hover class creates a box-like appearance when the user hovers over it.
+
+     - Screenshot of the HTML markup used for the Hero Image and the overlays:
+
+     ![Screenshot of HTML markup used for Hero Image](/docs/images/rename_hero_image_html.png)
+
+     - Screenshot of the CSS markup used for the Hero Image:
+
+     ![Screenshot of part of the CSS used for Hero Image](/docs/images/hero_image_css.png)
+
+     - Note: CSS styling for the overlays can be found in the same section of the CSS file.
+
+     </details>
+
   2. Logo Banner
      - Large banner below the Hero Image which contains the navigation menu and logo text.
      - The logo banner section has a background color, padding, and is arranged as a flex container with the logo and another element aligned to the left and right sides respectively.
@@ -176,13 +224,13 @@ Gallery Landing and Destination Pages description of Code and Content:
 
   - Footer
 
-    1. Footer Banner
-       - The Footer Banner is a larger banner that contains social media icons that link to different social media sites. There is also a heading that links to the #logo at the top of the page which takes the user back to the menu when selected.
-       - The footer container (footer-text-container) is positioned absolutely and arranged as a vertical column. It has a background color and text color specified.
-       - The main footer text (footer-text) has a background color, bold font, and centered alignment. It transitions smoothly when its color changes via hover effect.
-       - The copyright text (copyright-text) has a specific color, font, and alignment.
-       - Social network icons (social-networks) are displayed as a horizontal list in the center. Each icon has some margin around it.
-       - The social network icon elements (social-networks i) have a larger font size, centered alignment, and a specific color. They also transition smoothly when their color changes via hover effect.
+  1. Footer Banner
+     - The Footer Banner is a larger banner that contains social media icons that link to different social media sites. There is also a heading that links to the #logo at the top of the page which takes the user back to the menu when selected.
+     - The footer container (footer-text-container) is positioned absolutely and arranged as a vertical column. It has a background color and text color specified.
+     - The main footer text (footer-text) has a background color, bold font, and centered alignment. It transitions smoothly when its color changes via hover effect.
+     - The copyright text (copyright-text) has a specific color, font, and alignment.
+     - Social network icons (social-networks) are displayed as a horizontal list in the center. Each icon has some margin around it.
+     - The social network icon elements (social-networks i) have a larger font size, centered alignment, and a specific color. They also transition smoothly when their color changes via hover effect.
 
 About Page description of Code and Content (about.html):
 
@@ -192,11 +240,11 @@ About Page description of Code and Content (about.html):
 
   - Main: The section is divided into two parts: a text area and an image area.
 
-      1. About Body Container
+    1. About Body Container
          - The entire section is contained within a section container element with class name "about-body-container", with a maximum width of 1200 pixels, centered horizontally on the page with margins set to 0, and aligned vertically with the center of the page using flexbox properties.
-      2. About Textbox
+    2. About Textbox
          - The text area is divided into a h3 heading with class name "about-heading" and a div body of text with class name "about-textbox". The heading is styled with a large, bold font and a primary text color. The body of text is styled with a smaller font and a secondary text color.
-      3. About Image Grid
+    3. About Image Grid
          - The image area is divided into two rows: a row of smaller images with class name "about-small-images" and a single larger image with class name "bottom-image" beneath them.
          - The smaller images are arranged in a row with a gap of 10 pixels between them and are each no wider than a certain width, with each image contained within an img tag with class name "about-small-images img". The larger image is twice the width of the smaller images and has a maximum height of 200 pixels, contained within an img tag with class name bottom-image img.
 
