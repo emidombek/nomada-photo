@@ -163,11 +163,11 @@ Technology used in this project is as follows:
 
 ## Code
 
-All pages:
+**All pages:**
 
 - HTML boilerplate for all pages to start then used custom HTML, styled using CSS flexbox. All pages have the same Head, Header and Footer.
 
-Gallery Landing and Destination Pages description of Code and Content:
+**Gallery Landing and Destination Pages description of Code and Content:**
 
 (Landing page: index.html) (Destination pages: chelmno.html, connemara.html, tatra.html, torun.html, richmond.html, bydgoszcz.html, slieveleague.html, gdansk.html)
 
@@ -270,13 +270,13 @@ Gallery Landing and Destination Pages description of Code and Content:
 
      </details>
 
-About Page description of Code and Content (about.html):
+**About Page description of Code and Content (about.html):**
 
 - Head: Same content as the Gallery Landing and Destination Pages.
 
   - Body: Header (different hero image) and Footer are the same as the Gallery Landing and Destination Pages.
 
-  - Main: This section is divided into two parts: a text area and an image area.
+  - Main: This section contains a heading, a mini image gallery and a text area.
 
      <details>
       <summary>Click to view About Page Settings, Code Screenshots & Code Description</summary>
@@ -298,15 +298,15 @@ About Page description of Code and Content (about.html):
 
      ![Screenshot of part of the CSS used for the About Page Gallery](/docs/images/about_page_gallery_css.png)
 
-      </details>
+     </details>
 
-  Contact Page description of Code and Content:
+**Contact Page description of Code and Content:**
 
-  - Head: Same content as the Gallery Landing and Destination Pages.
+- Head: Same content as the Gallery Landing and Destination Pages.
 
-   - Body: Header (different hero image) and Footer are the same as the Gallery Landing and Destination Pages.
+  - Body: Header (different hero image) and Footer are the same as the Gallery Landing and Destination Pages.
 
-    - Main: The section contains a form and an image.
+  - Main: The section contains a heading,form and an image.
     
      <details>
       <summary>Click to view Contact Page Settings, Code Screenshots & Code Description</summary>
@@ -319,33 +319,42 @@ About Page description of Code and Content (about.html):
 
       - Screenshot of the HTML markup used for the Contact Page Main Element:
 
-     ![Screenshot of HTML markup used for the Contact Page](/docs/images/about_page_main_html.png)
+      ![Screenshot of HTML markup used for the Contact Page](/docs/images/contact_page_html.png)
 
-     - Screenshot of the CSS used for the About Page Container:
+      - Screenshot of the CSS used for the About Page Container:
 
-     ![Screenshot of part of the CSS used for the About Page Container](/docs/images/about_page_css.png)
+      ![Screenshot of part of the CSS used for the Contact & Thank You Page](/docs/images/contact_page_css.png)
 
-     - Screenshot of the CSS used for the About Page Gallery:
+     </details>
 
-     ![Screenshot of part of the CSS used for the About Page Gallery](/docs/images/about_page_gallery_css.png)
+**Thank You Page description of code and content (thank_you.html):**
 
-      </details>
+- Head: Same content as the Gallery Landing and Destination Pages.
 
-  Thank You Page description of code and content (thank_you.html):
-
-  - Head: Same content as the Gallery Landing and Destination Pages.
-
-    - Body: Header (different hero image) and Footer are the same as the Gallery Landing and Destination Pages.
+  - Body: Header (different hero image) and Footer are the same as the Gallery Landing and Destination Pages.
   
-      - Main:
+  - Main: This section contains a heading, 
+    
+     <details>
+     <summary>Click to view Thank You Page Settings, Code Screenshots & Code Description</summary>
 
-        1. Heading: The section begins with an h4 element displaying a hash symbol (#). This can be replaced with a relevant heading or icon to represent the purpose of the "Thank you page."
+     - Heading: The section begins with an h4 element displaying a hash symbol (#). This can be replaced with a relevant heading or icon to represent the purpose of the "Thank you page."
 
-        2. Image: Following the heading, there is a div element with a class of "thank-you-image" containing an img element. The image displayed is specified by the "src" attribute of the img tag. It is recommended to replace the placeholder image URL ("assets/images/howth_view.jpeg") with a relevant image related to the website or the action that led to the "Thank you page."
+     - Image: Following the heading, there is a div element with a class of "thank-you-image" containing an img element.
 
-        3. Text and Message: Below the image, there is another div element with a class of "thank-you-text-container." This container holds the content to convey appreciation and provide additional information to the users. It consists of an h5 element with a class of "thank-you-heading" displaying the text "Thank you!" This heading can be customized to fit the website's branding and messaging. Below the heading, there is a p element with a class of "thank-you-text" containing a message thanking the user for their action and assuring them that someone will be in touch shortly. Additionally, it suggests following the website on social media. You can customize the message and include relevant details to enhance the user's experience.
+     - Text and Message: Below the image, there is another div element with a class of "thank-you-text-container." It consists of an h5 element with a class of "thank-you-heading" displaying the text "Thank you!" Below the heading, there is a p element with a class of "thank-you-text" containing a message thanking the user.
 
-    - Media Queries:
+     - Screenshot of the HTML markup used for the Thank You Page Main Element:
+
+     ![Screenshot of HTML markup used for the Contact Page](/docs/images/contact_page_html.png)
+
+     - Screenshot of the CSS used for the Thank You page:
+
+     ![Screenshot of part of the CSS used for the Contact & Thank You Page](/docs/images/contact_page_css.png)
+
+     </details>
+
+ **Media Queries:**
 
       These media queries are used to apply different styles and layout adjustments to the elements on a webpage based on the size of the screen or device being used to view the page. Here is a breakdown of each media query:
 
