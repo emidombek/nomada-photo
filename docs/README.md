@@ -475,6 +475,8 @@ Responsiveness:
 
 
   - VSCode, Git, GitHub and Gitpages were used to code and deploy the website. I used the Code Academy Template to create my repo on GitHub.
+  - To test and view the website locally I used a VSCode extension called 'Live Server' by Ritwick Dey.
+  - I used the 'Mobile Simulator' extension on Chrome to test on different devices for responsiveness.
 
 - Learning Resources:
 
