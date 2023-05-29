@@ -509,7 +509,7 @@ Technology used in this project is as follows:
       ![Screenshot of the Contact Page on Samsung Galaxy S20](/docs/images/samsung_s20_contact.png)
       ![Screenshot of the Thank You Page on Samsung Galaxy S20](/docs/images/Samsung_s20_thankyou.png)
 
-      Screenshots taken on the iPhone 12 Pro but tested on all devices listed above.
+      Screenshots taken on the Samsung Galaxy S20 but tested on all devices listed above.
 
      </details>
 
@@ -547,6 +547,15 @@ Technology used in this project is as follows:
   - iPad PRO 11
   - Galaxy Tab S7
   - Microsoft Surface Duo
+
+      ![Screenshot of the Main Gallery Page on iPad Mini](/docs/images/iphone12_home.png)
+      ![Screenshot of a Destination Page on iPad Mini](/docs/images/iphone12_destination.png)
+      ![Screenshot of the About Page on iPad Mini](/docs/images/iphone12_about.png)
+      ![Screenshot of the Contact Page on iPad Mini](/docs/images/iphone12_contact.png)
+      ![Screenshot of the Thank You Page on iPad Mini](/docs/images/iphone12_thankyou.png)
+
+      Screenshots taken on the iPad Mini but tested on all devices listed above.
+
  </details>
 
  - Laptops/PC screens:
