@@ -4,6 +4,20 @@
 
 [Link to Live Site Here](https://github.com/emidombek/nomada-photo)
 
+- [Nomada Photography Readme](#nomada-photography-readme)
+  - [Purpose and goals of the website](#purpose-and-goals-of-the-website)
+  - [User stories](#user-stories)
+  - [Content and Structure](#content-and-structure)
+  - [Design and Layout](#design-and-layout)
+  - [Technology](#technology)
+  - [Code](#code)
+  - [Deployment](#deployment)
+  - [Testing](#testing)
+  - [Known Issues and Bugs](#known-issues-and-bugs)
+  - [Resources](#resources)
+  - [Acknowledgements](#acknowledgements)
+
+
 ## Purpose and goals of the website
 
 The purpose of the website is to exhibit the captivating travel photography portfolio of Nomada Photography. It aims to showcase a diverse range of photographs capturing landscapes and the people from various locations around the world. The website's primary goal is to engage users by immersing them in the stunning visuals and offering an overview of the photographer's body of work. Additionally, the website provides a convenient way for visitors to contact Nomada Photography through a web form, ensuring easy communication. Social media links are also provided for users to connect with the photographer on various platforms.
