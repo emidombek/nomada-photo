@@ -538,6 +538,12 @@ Technology used in this project is as follows:
 
  </details>
 
+ *Lighthouse Testing Results*
+
+ 
+
+
+
 ## Known Issues and Bugs
 
 - The additional hover dropdown menu was removed as it had too many issues with responsiveness and was not essential to the UX of the site.
