@@ -507,7 +507,7 @@ Technology used in this project is as follows:
       ![Screenshot of a Destination Page on Samsung Galaxy S20](/docs/images/samsung_galaxy_s20_destination.png)
       ![Screenshot of the About Page on Samsung Galaxy S20](/docs/images/samsung_s20_about.png)
       ![Screenshot of the Contact Page on Samsung Galaxy S20](/docs/images/samsung_s20_contact.png)
-      ![Screenshot of the Thank You Page on Samsung Galaxy S20](/docs/images/Samsung_s20_thankyou.png)
+      ![Screenshot of the Thank You Page on Samsung Galaxy S20](/docs/images/samsung_s20_thankyou.png)
 
       Screenshots taken on the Samsung Galaxy S20 but tested on all devices listed above.
 
@@ -539,36 +539,48 @@ Technology used in this project is as follows:
       </details>
 
  - Tablets:
- <details>
-     <summary>Click here to view a list of Tablets & Screenshots</summary>
+     <details>
+      <summary>Click here to view a list of Tablets & Screenshots</summary>
+   
+     - iPad Mini
+     - iPad Air 4
+     - iPad PRO 11
+     - Galaxy Tab S7
+     - Microsoft Surface Duo
 
-  - iPad Mini
-  - iPad Air 4
-  - iPad PRO 11
-  - Galaxy Tab S7
-  - Microsoft Surface Duo
-
-      ![Screenshot of the Main Gallery Page on iPad Mini](/docs/images/iphone12_home.png)
-      ![Screenshot of a Destination Page on iPad Mini](/docs/images/iphone12_destination.png)
-      ![Screenshot of the About Page on iPad Mini](/docs/images/iphone12_about.png)
-      ![Screenshot of the Contact Page on iPad Mini](/docs/images/iphone12_contact.png)
-      ![Screenshot of the Thank You Page on iPad Mini](/docs/images/iphone12_thankyou.png)
+      ![Screenshot of the Main Gallery Page on iPad Mini](/docs/images/ipad_mini_home.png)
+      ![Screenshot of a Destination Page on iPad Mini](/docs/images/ipad_mini_destination.png)
+      ![Screenshot of the About Page on iPad Mini](/docs/images/ipad_mini_about.png)
+      ![Screenshot of the Contact Page on iPad Mini](/docs/images/ipad_mini_contact.png)
+      ![Screenshot of the Thank You Page on iPad Mini](/docs/images/ipad_mini_thank_you.png)
 
       Screenshots taken on the iPad Mini but tested on all devices listed above.
 
- </details>
+     </details>
 
  - Laptops/PC screens:
 
- <details>
-     <summary>Click here to view a list of Laptop & PC Monitors & Demo Screenshots </summary>
+     <details>
+      <summary>Click here to view a list of Laptop & PC Monitors & Demo Screenshots </summary>
 
-  - MacBook Air 13in
-  - MacBook Pro 13in
-  - Dell 24in Monitor
-  - HP 24in Monitor
+     - MacBook Air 13in
+     - MacBook Pro 13in
+     - Dell 24in Monitor
+     - HP 24in Monitor
 
- </details>
+      ![Screenshot of the Main Gallery Page on a MacBook Air](/docs/images/macbook_air_home.png)
+      ![Screenshot of the Main Gallery Page on a MacBook Air](/docs/images/macbook_air_home2.png)
+      ![Screenshot of a Destination Page on a MacBook Air](/docs/images/macbook_air_destination1.png)
+      ![Screenshot of a Destination Page on a MacBook Air](/docs/images/macbook_air_destination.png)
+      ![Screenshot of the About Page on a MacBook Air](/docs/images/macbook_air_about.png)
+      ![Screenshot of the About Page on a MacBook Air](/docs/images/macbook_air_about2.png)
+      ![Screenshot of the Contact Page on a Macbook Air](/docs/images/macbook_air_contact.png)
+      ![Screenshot of the Contact Page on a Macbook Air](/docs/images/macbook_air_contact2.png)
+      ![Screenshot of the Thank You Page on a Macbook Air](/docs/images/macbook_air_thankyou.png)
+      ![Screenshot of the Thank You Page on a Macbook Air](/docs/images/macbook_air_thankyou2.png)
+
+      Screenshots taken on the iPad Mini but tested on all devices listed above
+     </details>
 
  *Lighthouse Testing Results*
 
@@ -586,7 +598,7 @@ Technology used in this project is as follows:
   - All photos used on this website were taken by me, Emilia Dombek.
   - Wireframes were made using the Quickmockup Plugin in Adobe XD. Wireframes have also been imported into Figma for ease of viewing.
 
-- Code and Implementation:
+- IDE and Implementation:
 
   - VSCode, Git, GitHub and Gitpages were used to code and deploy the website. I used the Code Academy Template to create my repo on GitHub.
   - To test and view the website locally I used a VSCode extension called 'Live Server' by Ritwick Dey.
@@ -596,7 +608,7 @@ Technology used in this project is as follows:
 
   - W3 schools for CSS
   - CSS flexbox knowlegde and concepts were mostly learned from: Kevin Powell's Youtube Channel <https://www.youtube.com/@KevinPowell>
-  - Numerous Stack Overflow posts to help with understanding bugs and media queries.
+  - Numerous Stack Overflow posts to help with understanding CSS concepts and media queries.
   - My Code Institute mentor gave me several examples of code and suggestions.
 
 ## Acknowledgements
@@ -606,3 +618,14 @@ Technology used in this project is as follows:
  - I would like to acknowlegde my daughter and husband for their support and understanding during this time of intense learning.
  - My mentor Juliia for her guidance and suggestions she went above and beyond in making sure I could make my vision for this website come to life.
 
+ *Design, IDE & Code*
+
+ - Some snippets of code (social media menu in the footer) have been taken from the Love Running project [here](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/blob/main/06-site-footer/02-footer-styling/index.html)
+
+ - I used a heavily modified template and elements from the Adobe XD plugin quick mockup for the wireframes and design of the website which can be found [here](https://modular.adobe.com/quick-mockup)
+
+ - Some code for one of the hover effects for the .middle class was taken from W3 Schools which can be found [here](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_opacity)
+
+ - Most of my knowlegde around CSS flexbox and other concepts was taken from Kevin Powell's Youtube Channel. I also used one snippet of his code to implement a media query that only shows some hover effects on devices that can hover, the video with this snippet can be found [here](https://www.youtube.com/watch?v=uuluAyw9AI0)
+
+ - Snippets of code suggested to me by my mentor Juliia have been highlighted in the code comments. 
