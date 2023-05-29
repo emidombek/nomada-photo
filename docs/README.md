@@ -397,7 +397,7 @@ Technology used in this project is as follows:
 
        - Targets the main index page image grid.
         Adjusts the grid template columns, rows, row gap, and padding of the .gallery-container element.
-
+        
        2. For screens 1078px:
 
        - Targets heading elements with classes .about-heading, .contact-title, and .thank-you-heading.
@@ -405,7 +405,7 @@ Technology used in this project is as follows:
 
        3. For screens 885px:
 
-        - Targets the image grids on the main index page.
+       - Targets the image grids on the main index page.
         Adjusts the grid template columns, rows, row gap, padding, and flex properties of .gallery-container and .gallery-container2 elements.
         Modifies various styles for text overlays, text boxes, and images on the about page.
         Changes the font size of .about-heading to 36px.
@@ -413,23 +413,23 @@ Technology used in this project is as follows:
 
        4. For screens 768px:
 
-        - Targets the thank you page container.
+       - Targets the thank you page container.
         Adjusts the padding and max-width of .thank-you-text-container.
         Modifies various styles for header elements, logo, navigation menu, hero image, image overlays, text overlays, contact form, and thank you page elements.
 
        5. For screens 480px:
 
-        - Modifies various styles for header elements, logo, hero image, text overlays, and image overlays.
+       - Modifies various styles for header elements, logo, hero image, text overlays, and image overlays.
         Adjusts font size, max-height, and width of certain elements.
 
        6. Query targets devices that can hover:
 
-        - Applies hover effects and transitions to certain elements when hovering.
+       - Applies hover effects and transitions to certain elements when hovering.
           Adjusts that adjust opacity and color on hover for image overlays, social network icons, footer text, and submit button.
 
        7. Non-touch tap-reveal and overlay settings:
 
-        - Applies overlay and tap-reveal effects to certain elements on touch devices.
+       - Applies overlay and tap-reveal effects to certain elements on touch devices.
           Adjusts opacity and styles for image overlays and text overlays on tap or focus.
           Excludes overlay from hero images.
           Modifies styles for gallery columns and text overlays on tap or focus.
@@ -445,6 +445,8 @@ Technology used in this project is as follows:
    The live link can be found here - [Link to Live Site Here](https://github.com/emidombek/nomada-photo)
 
   **Local Deployment**
+
+  *Prerequisites: Github account, Visual Studio Code, Live Server Extension for VScode.*
 
   1. To deploy the website locally and test it on your machine, you can follow these steps:
 
@@ -470,15 +472,24 @@ Technology used in this project is as follows:
 
  Validation:
 
- - Passed the W3C HTML validator with one warning regarding aria-labels for a element in the .middle class however I will be leaving the aria labels as I believe they are essential for the UX of the site.
- - Passed the W3C CSS Validator/Jigsaw. 18 warnings received, 17 in regards to CSS variables not being checked. 1 in regards to the usage of the -ms-transform vendor extension.
+ - All pages passed the W3C HTML validator with no warnings or errors.
+ - Passed the W3C CSS Validator/Jigsaw with no errors. 20 warnings received, 18 in regards to CSS variables not being checked. 1 in regards to the usage of the -ms-transform vendor extension and 1 in regards to the border of the submit button on the contact page being the same as the background color (this was intentional).
+ 
+   <details>
+    <summary>Click here to view warnings received for CSS in the W3C Validator</summary>
+
+      ![Screenshot of the warnings received for the CSS](/docs/images/css_warnings.png)
+
+     </details>
 
  Responsiveness:
 
  1. The site was tested on the following devices:
 
  - Android:
-
+ <details>
+     <summary>Click here to view a list of Android Devices</summary>
+  
   - Samsung Galaxy S20
   - Xiaomi Mi 11i
   - Huawei P20 PRO
@@ -491,7 +502,11 @@ Technology used in this project is as follows:
   - Google Pixel 6 PRO
   - Xiaomi 12
 
+ </details>
+
  - iPhones:
+ <details>
+     <summary>Click here to view a list of iPhone Devices</summary>
 
   - iPhone 5
   - iPhone SE 2016
@@ -509,18 +524,25 @@ Technology used in this project is as follows:
   - Galaxy Tab S7
   - Microsoft Surface Duo
 
+ </details>
+
  - Laptops/PC screens:
+
+<details>
+     <summary>Click here to view a list of Laptop & PC Monitors</summary>
 
   - MacBook Air 13in
   - MacBook Pro 13in
   - Dell 24in Monitor
   - HP 24in Monitor
 
+ </details>
+
 ## Known Issues and Bugs
 
 - The additional hover dropdown menu was removed as it had too many issues with responsiveness and was not essential to the UX of the site.
 - There were several issues with my Commit Messages due to lack of training of how/format these messages within the course I have been doing large commits and will be working on reducing these commits to smaller changes. I have now corrected these issues and am citing this here as I am aware of the importance of these messages.
-- This website is a Photography Portfolio and is image heavy. Some images may be slow to load even after being compressed in Photoshop.
+- This website is a Photography Portfolio and is image heavy. Some images may be slow to load even after being compressed in ImageOptim (image compression program for Mac).
 
 ## Resources
 
