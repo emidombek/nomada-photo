@@ -71,16 +71,16 @@ As a potential client, I want to contact the photographer via the website's cont
   - The About Page contains a small gallery of selected images and a small about section:
 
      <details>
-       <summary>Click here to view demo gif of About Page</summary>
-
-       ![About Page Demo](/docs/images/about_demo_AdobeExpress.gif)
-
-       </details>
-
-     <details>
        <summary>Click to view full screenshot of About Page</summary>
   
        ![About Page Screenshot](/docs/images/about_full_screen.png)
+
+       </details>
+
+    <details>
+       <summary>Click here to view demo gif of About Page</summary>
+
+       ![About Page Demo](/docs/images/about_demo_AdobeExpress.gif)
 
        </details>
 
@@ -91,7 +91,7 @@ As a potential client, I want to contact the photographer via the website's cont
      <details>
        <summary>Click to view full screenshot of Contact Page</summary>
 
-       ![Contact Page](/docs/images/contact_fullscreen.png)
+       ![Contact Page Screenshot](/docs/images/contact_fullscreen.png)
 
        </details>
        
@@ -475,10 +475,10 @@ Technology used in this project is as follows:
  - All pages passed the W3C HTML validator with no warnings or errors.
  - Passed the W3C CSS Validator/Jigsaw with no errors. 20 warnings received, 18 in regards to CSS variables not being checked. 1 in regards to the usage of the -ms-transform vendor extension and 1 in regards to the border of the submit button on the contact page being the same as the background color (this was intentional).
  
-   <details>
-    <summary>Click here to view warnings received for CSS in the W3C Validator</summary>
+    <details>
+       <summary>Click here to view warnings received for CSS in the W3C Validator</summary>
 
-      ![Screenshot of the warnings received for the CSS](/docs/images/css_warnings.png)
+       ![Screenshot of the warnings received for the CSS](/docs/images/css_warnings.png)
 
      </details>
 
@@ -487,49 +487,72 @@ Technology used in this project is as follows:
  1. The site was tested on the following devices:
 
  - Android:
- <details>
-     <summary>Click here to view a list of Android Devices</summary>
-  
-  - Samsung Galaxy S20
-  - Xiaomi Mi 11i
-  - Huawei P20 PRO
-  - Huawei P30 PRO
-  - Google Pixel5
-  - Oneplus Nord 2
-  - Galaxy Z Flip3
-  - OPPO Find X3 PRO
-  - Galaxy A12
-  - Google Pixel 6 PRO
-  - Xiaomi 12
 
- </details>
+     <details>
+      <summary>Click here to view a list of Android Phones & Screenshots</summary>
+
+      - Samsung Galaxy S20
+      - Xiaomi Mi 11i
+      - Huawei P20 PRO
+      - Huawei P30 PRO
+      - Google Pixel5
+      - Oneplus Nord 2
+      - Galaxy Z Flip3
+      - OPPO Find X3 PRO
+      - Galaxy A12
+      - Google Pixel 6 PRO
+      - Xiaomi 12
+
+      ![Screenshot of the Main Gallery Page on Samsung Galaxy S20](/docs/images/samsung_s20_home.png)
+      ![Screenshot of a Destination Page on Samsung Galaxy S20](/docs/images/samsung_galaxy_s20_destination.png)
+      ![Screenshot of the About Page on Samsung Galaxy S20](/docs/images/samsung_s20_about.png)
+      ![Screenshot of the Contact Page on Samsung Galaxy S20](/docs/images/samsung_s20_contact.png)
+      ![Screenshot of the Thank You Page on Samsung Galaxy S20](/docs/images/Samsung_s20_thankyou.png)
+
+      Screenshots taken on the iPhone 12 Pro but tested on all devices listed above.
+
+     </details>
 
  - iPhones:
- <details>
-     <summary>Click here to view a list of iPhone Devices</summary>
+     <details>
+      <summary>Click here to view a list of iPhones & Screenshots</summary>
 
-  - iPhone 5
-  - iPhone SE 2016
-  - iPhone X
-  - iPhone XR
-  - iPhone 11
-  - iPhone 11 PRO
-  - iPhone 11 PRO MAX
-  - iPhone 12 Mini
-  - iPhone 12
-  - iPhone 12 MAX
+      - iPhone 5
+      - iPhone SE 2016
+      - iPhone X
+      - iPhone XR
+      - iPhone 11
+      - iPhone 11 PRO
+      - iPhone 11 PRO MAX
+      - iPhone 12 Mini
+      - iPhone 12
+      - iPhone 12 MAX
+  
+      ![Screenshot of the Main Gallery Page on iPhone 12 Pro](/docs/images/iphone12_home.png)
+      ![Screenshot of a Destination Page on iPhone 12 Pro](/docs/images/iphone12_destination.png)
+      ![Screenshot of the About Page on iPhone 12 Pro](/docs/images/iphone12_about.png)
+      ![Screenshot of the Contact Page on iPhone 12 Pro](/docs/images/iphone12_contact.png)
+      ![Screenshot of the Thank You Page on iPhone 12 Pro](/docs/images/iphone12_thankyou.png)
+
+      Screenshots taken on the iPhone 12 Pro but tested on all devices listed above.
+
+      </details>
+
+ - Tablets:
+ <details>
+     <summary>Click here to view a list of Tablets & Screenshots</summary>
+
   - iPad Mini
   - iPad Air 4
   - iPad PRO 11
   - Galaxy Tab S7
   - Microsoft Surface Duo
-
  </details>
 
  - Laptops/PC screens:
 
-<details>
-     <summary>Click here to view a list of Laptop & PC Monitors</summary>
+ <details>
+     <summary>Click here to view a list of Laptop & PC Monitors & Demo Screenshots </summary>
 
   - MacBook Air 13in
   - MacBook Pro 13in
@@ -540,7 +563,7 @@ Technology used in this project is as follows:
 
  *Lighthouse Testing Results*
 
- [Click to view Lighthouse Testing Results Here](/docs/emidombek.github.io-20230529T112930.html)
+ [Click to view Lighthouse Testing Results Here](https://emidombek.github.io/nomada-photo/lighthouse_report/nomada_photo_lighthouse_report.html)
 ## Known Issues and Bugs
 
 - The additional hover dropdown menu was removed as it had too many issues with responsiveness and was not essential to the UX of the site.
@@ -556,18 +579,21 @@ Technology used in this project is as follows:
 
 - Code and Implementation:
 
-
   - VSCode, Git, GitHub and Gitpages were used to code and deploy the website. I used the Code Academy Template to create my repo on GitHub.
   - To test and view the website locally I used a VSCode extension called 'Live Server' by Ritwick Dey.
   - I used the 'Mobile Simulator' extension on Chrome to test on different devices for responsiveness.
 
 - Learning Resources:
 
-
   - W3 schools for CSS
   - CSS flexbox knowlegde and concepts were mostly learned from: Kevin Powell's Youtube Channel <https://www.youtube.com/@KevinPowell>
-  - Stack Overflow posts to help with understanding bugs and media queries.
-  - My Code Institute mentor gave me several examples of code.
+  - Numerous Stack Overflow posts to help with understanding bugs and media queries.
+  - My Code Institute mentor gave me several examples of code and suggestions.
 
 ## Acknowledgements
+
+ *Special Thanks*
+
+ - I would like to acknowlegde my daughter and husband for their support and understanding during this time of intense learning.
+ - My mentor Juliia for her guidance and suggestions she went above and beyond in making sure I could make my vision for this website come to life.
 
