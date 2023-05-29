@@ -540,10 +540,7 @@ Technology used in this project is as follows:
 
  *Lighthouse Testing Results*
 
- 
-
-
-
+ [Click to view Lighthouse Testing Results Here](/docs/emidombek.github.io-20230529T112930.html)
 ## Known Issues and Bugs
 
 - The additional hover dropdown menu was removed as it had too many issues with responsiveness and was not essential to the UX of the site.
