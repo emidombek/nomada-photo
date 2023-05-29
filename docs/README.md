@@ -3,8 +3,9 @@
 ![Devices Preview](/docs/images/nomada_photo_preview_screen.png)
 
 [Link to Live Site Here](https://github.com/emidombek/nomada-photo)
-
+## Table of Contents ## 
 - [Nomada Photography Readme](#nomada-photography-readme)
+  - [Table of Contents](#table-of-contents)
   - [Purpose and goals of the website](#purpose-and-goals-of-the-website)
   - [User stories](#user-stories)
   - [Content and Structure](#content-and-structure)
