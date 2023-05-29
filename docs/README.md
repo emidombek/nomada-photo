@@ -598,7 +598,7 @@ Technology used in this project is as follows:
 
  *Lighthouse Testing Results*
 
- [Click to view Lighthouse Testing Results Here](https://emidombek.github.io/nomada-photo/lighthouse_report/nomada_photo_lighthouse_report.html)
+ [Click to view Lighthouse Testing Results Here](https://emidombek.github.io/nomada-photo/lighthouse_report/nomada_lighthouse_report.html)
 ## Known Issues and Bugs
 
 - The additional hover dropdown menu was removed as it had too many issues with responsiveness and was not essential to the UX of the site.
