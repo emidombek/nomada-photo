@@ -104,7 +104,7 @@ body footer {
 
 }
 
-/* Text overlay positioning for hover effect this idea and code was taken from WW3 schools https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_opacity */
+/* Text overlay positioning for hover effect this idea and code was taken from WW3 schools see readme for link*/
 .middle {
   position: absolute;
   top: 50%;
@@ -229,7 +229,7 @@ body footer {
   --gallery-container-padding-bottom: 50px;
 }
 
-/* Grid display settings for the containers for the landing and destination pages*/
+/* Grid display settings for the containers for the landing and destination pages */
 .gallery-container,
 .gallery-container2 {
   display: grid;
@@ -242,7 +242,7 @@ body footer {
   padding-bottom: var(--gallery-container-padding-bottom);
 }
 
-/* Sets min and max row height to var and repeats twice 1fr ensures equal amount of space in the container is occupied by the rows */
+/* Sets min and max row height to var and repeats twice 1fr ensures equal amount of space in the container is occupied by the rows, conept taken from multiple Stack Overflow posts*/
 .gallery-container2 {
   grid-template-rows: repeat(2, minmax(var(--gallery-row-height), 1fr));
 }
@@ -364,7 +364,7 @@ h4 {
   padding: 5%;
 }
 
-/* Setting up image container to display two small images on top*/
+/* Setting up image container to display two small images on top, concepts found in multiple posts on Stackoverflow and fused into one*/
 .about-small-images {
   grid-row: 1 / 2;
   /* setting grid rows */
@@ -382,7 +382,7 @@ h4 {
   max-height: 200px;
 }
 
-/* Setting container to display one larger image on the bottom */
+/* Setting container to display one larger image on the bottom, concepts found in multiple posts on Stackoverflow and fused into one*/
 .bottom-image {
   grid-row: 2 / 3;
   /* setting grid rows */
