@@ -551,7 +551,6 @@ Technology used in this project is as follows:
 
 - Content:
 
-
   - All photos used on this website were taken by me, Emilia Dombek.
   - Wireframes were made using the Quickmockup Plugin in Adobe XD. Wireframes have also been imported into Figma for ease of viewing.
 
