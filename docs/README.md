@@ -154,14 +154,25 @@ The primary Design System is as follows:
   11. --text-color-accent: #CF755A;
   12. --text-color-secondary-accent: #737373;
   13. --line-height: 1.5;
+ 
+ *Design System Colors*
+ 
+ ![Design System Colors](/docs/images/nomada_photography_design_system.png)
 
-High Fidelity Wireframes and a Prototype that has been created in Adobe XD can be found here:
+ *Design System Fonts*
 
-- [Design Review Prototype in Adobe XD](https://xd.adobe.com/view/4d002e9a-15fe-4078-863d-420e3ac33da3-1853/)
+ ![Raleway 400](/docs/images/raleway400.png)
+ ![Raleway 600](/docs/images/raleway_600.png)
+ ![Raleway 800](/docs/images/raleway_700.png)
+ ![Source Serif Pro 400](/docs/images/source_serif_pro_400.png)
 
-- [Wireframes imported into Figma from Adobe XD](<https://www.figma.com/file/Vz4TudFv2r2o7fMv8JYdDF/Nomada-Photography?type=design&node-id=0%3A1&t=55xebaSEyXd1LKoy-1>)
+ *High Fidelity Wireframes and a Prototype that has been created in Adobe XD can be found here:*
 
-Main Landing Page wireframe:
+ - [Design Review Prototype in Adobe XD](https://xd.adobe.com/view/4d002e9a-15fe-4078-863d-420e3ac33da3-1853/)
+
+ - [Wireframes imported into Figma from Adobe XD](<https://www.figma.com/file/Vz4TudFv2r2o7fMv8JYdDF/Nomada-Photography?type=design&node-id=0%3A1&t=55xebaSEyXd1LKoy-1>)
+
+ *Main Landing Page wireframe:*
 
    <details>
    <summary>Click to view the Main Gallery Landing Page Wireframe</summary>
@@ -170,7 +181,7 @@ Main Landing Page wireframe:
    ![Main Gallery Landing Page Wireframe](/docs/images/photography_%20home.jpg)
    </details>
 
-Screenshot of all the wireframes in Figma:
+ *Screenshot of all the wireframes in Figma:*
 
    <details>
    <summary>Click to view a screenshot of Figma Wireframes</summary>
@@ -627,7 +638,7 @@ CSS flexbox knowledge and concepts were mostly learned from: Kevin Powell's Yout
  *Special Thanks*
 
  - I would like to acknowledge my daughter and husband for their support and understanding during this time of intense learning.
- - My mentor Juliia for her guidance and suggestions went above and beyond in making sure I could make my vision for this website come to life.
+ - My mentor Juliia for her guidance and suggestions who went above and beyond pushing me and making sure I could make my vision for this website come to life.
 
  *Design, IDE & Code*
 
