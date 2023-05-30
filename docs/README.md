@@ -2,7 +2,7 @@
 
 ![Devices Preview](/docs/images/nomada_photo_preview_screen.png)
 
-[Link to Live Site Here](https://github.com/emidombek/nomada-photo)
+[Link to Live Site Here](https://emidombek.github.io/nomada-photo/)
 ## Table of Contents ## 
 - [Nomada Photography Readme](#nomada-photography-readme)
   - [Table of Contents](#table-of-contents)
@@ -138,7 +138,7 @@ The design for the website was created in Adobe XD with the quick mockup plugin,
 No back buttons are included in the design intentionally the user can return to the top of the page by clicking on the 'Nomada Photography' heading at the bottom of the page and then using the navigation menu.
 - Image files were also not further compressed intentionally as this is a Photography Portfolio and maintaining the integrity of the colors and quality of the image takes priority over slightly longer loading times.
 - For devices that are not able to hover, I have either fixed the image overlays to show or created a click-to-show effect.
-- 
+  
 The primary Design System is as follows:
 
   1. --font-family: Raleway, sans-serif, Source Serif Pro, sans-serif;
@@ -274,7 +274,7 @@ The technology used in this project is as follows:
 
      - Screenshot of the HTML markup used for the Main Landing Page Gallery and the overlays:
 
-     ![Screenshot of HTML markup used for Main Landing Page Gallery](/docs/images/main_gallery_screenshot.png)
+     ![Screenshot of HTML markup used for Main Landing Page Gallery](/docs/images/main_gallery_html.png)
 
      - Screenshot of the HTML markup used for the Destination Gallery Pages and the overlays:
 
@@ -282,11 +282,7 @@ The technology used in this project is as follows:
 
      - Screenshot of the CSS used for the Gallery Grids:
 
-     ![Screenshot of part of the CSS used for Main Landing Page Gallery](/docs/images/main_destination_gallery_css.png)
-
-     - Screenshot of CSS setting used for Destination Gallery Grid Rows:
-
-     ![Screenshot of part of the CSS used for Destination Page Gallery](/docs/images/destination_gallery_row_setting.png)
+     ![Screenshot of part of the CSS used for Main Landing Page Gallery & Destination Galleries](/docs/images/gallerygrids_css.png)
 
      - Note: CSS styling for the various gallery overlays and image settings can be found in the same section of the CSS file.
 
@@ -307,11 +303,11 @@ The technology used in this project is as follows:
 
      - Screenshot of the HTML markup used for the Footer Banner and the overlays:
 
-     ![Screenshot of HTML markup used for Footer Banner](/docs/images/footer_banner_html.png)
+     ![Screenshot of HTML markup used for Footer Banner](/docs/images/footer_html.png)
 
      - Screenshot of the CSS used for the Footer Banner:
 
-     ![Screenshot of part of the CSS used for Footer Banner](/docs/images/footer_banner_css.png)
+     ![Screenshot of part of the CSS used for Footer Banner](/docs/images/footer_css.png)
 
      - Note: CSS styling for the social media icons and list items can be found in the same section of the CSS file.
 
@@ -457,7 +453,7 @@ The technology used in this project is as follows:
 
   1. In the GitHub repository, on the Code page navigate to the Environments section on the right-hand side of the page.
    Click on GitHub pages, this will take you to deployments history where you will be able to click on 'view deployment'.
-   The live link can be found here - [Link to Live Site Here](https://github.com/emidombek/nomada-photo)
+   The live link can be found here - [Link to Live Site Here](https://emidombek.github.io/nomada-photo/)
 
   **Local Deployment**
 
@@ -488,7 +484,8 @@ The technology used in this project is as follows:
  Validation:
 
  - All pages passed the W3C HTML validator with no warnings or errors.
- - Passed the W3C CSS Validator/Jigsaw with no errors. 20 warnings received, 18 in regards to CSS variables not being checked. 1 in regards to the usage of the -ms-transform vendor extension and 1 in regards to the border of the submit button on the contact page being the same as the background color (this was intentional).
+ - Passed the W3C CSS Validator/Jigsaw with no errors. 20 warnings received, 18 in regards to CSS variables not being checked. 1 in regards to the usage of the -ms-transform vendor extension and 1 in regards to the border of the submit button on the contact page is the same as the background color (this was intentional).
+ - The bottom CSS query was placed out of sequence intentionally to override all other media queries.
  
     <details>
        <summary>Click here to view warnings received for CSS in the W3C Validator</summary>
