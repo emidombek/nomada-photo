@@ -17,7 +17,7 @@
   - [Known Issues and Bugs](#known-issues-and-bugs)
   - [Resources](#resources)
   - [Acknowledgments](#acknowledgments)
-  - [Future improvements](#future-improvements)
+  - [Future Improvements](#future-improvements)
 
 
 ## Purpose and goals of the website
@@ -687,7 +687,7 @@ Body: The header (different hero image) and Footer are the same as the Gallery L
 
  - Snippets of code suggested to me by my mentor Juliia have been highlighted in the code comments. 
 
- ## Future improvements
+ ## Future Improvements
 
  In the future (once I have completed my Diploma)these are the following improvements I would like to add:
 
