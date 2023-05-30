@@ -156,7 +156,7 @@ The primary Design System is as follows:
   13. --line-height: 1.5;
  
  *Design System Colors*
- 
+
  ![Design System Colors](/docs/images/nomada_photography_design_system.png)
 
  *Design System Fonts*
@@ -194,16 +194,15 @@ The primary Design System is as follows:
 
 The technology used in this project is as follows:
 
-  - CSS
-  - HTML
-  - Code Institute Repo Template
-  - VScode
-  - Adobe XD
-  - Figma
-  - Git
-  - GitHub
-  - Gitpages
-
+  - [CSS](https://en.wikipedia.org/wiki/CSS) - style sheet language 
+  - [HTML](https://en.wikipedia.org/wiki/HTML) - standard markup language
+  - [Code Institute Repo Template](https://github.com/Code-Institute-Org/ci-full-template) - GitHub repository template
+  - [Visual Studio Code](https://code.visualstudio.com/) - source code editor
+  - [Adobe XD](https://www.adobe.com/products/xd/learn/get-started/what-is-adobe-xd-used-for.html) - vector-based experience design platform
+  - [Figma](https://www.figma.com/) - cloud based design tool 
+  - [Git](https://en.wikipedia.org/wiki/Git) - distributed version control system
+  - [GitHub](https://github.com/) - Git repository hosting service with a web-based graphical interface
+  - [Gitpages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages)- GitHub Pages is a static site hosting service.
 ## Code
 
  **All pages:**
@@ -606,7 +605,10 @@ Body: The header (different hero image) and Footer are the same as the Gallery L
 
  *Lighthouse Testing Results*
 
- [Click to view Lighthouse Testing Results Here](https://emidombek.github.io/nomada-photo/lighthouse_report/nomada_lighthouse_report.html)
+ - Main Gallery Page Results:
+  
+ [Click to view Lighthouse Testing Results for the Main Gallery Landing Page Here](https://emidombek.github.io/nomada-photo/lighthouse_report/nomada_lighthouse_report.html)
+
 ## Known Issues and Bugs
 
 - The additional hover dropdown menu was removed as it had too many issues with responsiveness and was not essential to the UX of the site.
@@ -622,7 +624,7 @@ Body: The header (different hero image) and Footer are the same as the Gallery L
 
 - IDE and Implementation:
 
-  - VSCode, Git, GitHub and Gitpages were used to code and deploy the website. I used the Code Academy Template to create my repo on GitHub.
+  - VSCode, Git, GitHub and Gitpages were used to code and deploy the website. I used the Code Institute Template to create my repo on GitHub.
   - To test and view the website locally I used a VSCode extension called 'Live Server' by Ritwick Dey.
   - I used the 'Mobile Simulator' extension on Chrome to test different devices for responsiveness.
 
