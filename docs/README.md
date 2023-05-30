@@ -608,10 +608,40 @@ Body: The header (different hero image) and Footer are the same as the Gallery L
 
  - Main Gallery Page Results:
   
- [Click to view Lighthouse Testing Results for the Main Gallery Landing Page Here](https://emidombek.github.io/nomada-photo/lighthouse_report/nomada_lighthouse_report.html)
+      [Click to view Lighthouse Testing Results for the Main Gallery Landing Page Here](https://emidombek.github.io/nomada-photo/lighthouse_report/nomada_lighthouse_report.html)
 
- 
+  - About Page Results:
 
+      [Click to view Lighthouse Testing Results for the About Page Here](https://emidombek.github.io/nomada-photo/lighthouse_report/nomada_about_lighthouse_report.html)
+
+ - Contact Page Results:
+
+      [Click to view Lighthouse Testing Results for the Contact Page Here](https://emidombek.github.io/nomada-photo/lighthouse_report/nomada_contact_lighthouse_report.html)
+
+ - Destination Page Results:
+    <details>
+      <summary>Click here to view a list of Links to Lighthouse Reports for the Destination Pages</summary>
+
+      [Click to view Lighthouse Testing Results for the Thank You Page Here](https://emidombek.github.io/nomada-photo/lighthouse_report/nomada_thank_you_lighthouse_report.html)
+
+      [Click to view Lighthouse Testing Results for the Gdansk Destination Page Here](https://emidombek.github.io/nomada-photo/lighthouse_report/nomada_gdansk_lighthouse_report.html)
+
+      [Click to view Lighthouse Testing Results for the Slieve League Destination Page Here](https://emidombek.github.io/nomada-photo/lighthouse_report/nomada_slieve_league_lighthouse_report.html)
+
+      [Click to view Lighthouse Testing Results for the Tatra Destination Page Here](https://emidombek.github.io/nomada-photo/lighthouse_report/nomada_tatra_lighthouse_report.html)
+
+      [Click to view Lighthouse Testing Results for the Torun Destination Page Here](https://emidombek.github.io/nomada-photo/lighthouse_report/nomada_torun_lighthouse_report.html)
+
+      [Click to view Lighthouse Testing Results for the Richmond Destination Page Here](https://emidombek.github.io/nomada-photo/lighthouse_report/nomada_richmond_lighthouse_report.html)
+
+      [Click to view Lighthouse Testing Results for the Bydgoszcz Destination Page Here](https://emidombek.github.io/nomada-photo/lighthouse_report/nomada_bydgoszcz_lighthouse_report.html)
+
+      [Click to view Lighthouse Testing Results for the Connemara Destination Page Here](https://emidombek.github.io/nomada-photo/lighthouse_report/nomada_connemara_lighthouse_report.html)
+
+      [Click to view Lighthouse Testing Results for the Chelmno Destination Page Here](https://emidombek.github.io/nomada-photo/lighthouse_report/nomada_chelmno_lighthouse_report.html)
+
+    </details>
+   
 ## Known Issues and Bugs
 
    - The additional hover dropdown menu was removed as it had too many issues with responsiveness and was not essential to the UX of the site.
