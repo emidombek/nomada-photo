@@ -331,23 +331,22 @@ The technology used in this project is as follows:
 
      - Screenshot of the HTML markup used for the About Page Main Element:
 
-     ![Screenshot of HTML markup used for the About Page](/docs/images/about_page_main_html.png)
+     ![Screenshot of HTML markup used for the About Page](/docs/images/about_page_html.png)
 
      - Screenshot of the CSS used for the About Page Container:
 
-     ![Screenshot of part of the CSS used for the About Page Container](/docs/images/about_page_css.png)
+     ![Screenshot of part of the CSS used for the About Page Container](/docs/images/about_page_css1.png)
 
      - Screenshot of the CSS used for the About Page Gallery:
 
-     ![Screenshot of part of the CSS used for the About Page Gallery](/docs/images/about_page_gallery_css.png)
+     ![Screenshot of part of the CSS used for the About Page Gallery](/docs/images/about_page_css2.png)
 
      </details>
 
  **Contact Page Description of Code and Content:**
 
  - Head: Same content as the Gallery Landing and Destination Pages.
-
-  - Body: Header (different hero image) and Footer are the same as the Gallery Landing and Destination Pages.
+Body: The header (different hero image) and Footer are the same as the Gallery Landing and Destination Pages.
 
   - Main: The section contains a heading, form and an image.
     
@@ -487,10 +486,10 @@ The technology used in this project is as follows:
  - Passed the W3C CSS Validator/Jigsaw with no errors. 20 warnings received, 18 in regards to CSS variables not being checked. 1 in regards to the usage of the -ms-transform vendor extension and 1 in regards to the border of the submit button on the contact page is the same as the background color (this was intentional).
  - The bottom CSS query was placed out of sequence intentionally to override all other media queries.
  
-    <details>
-       <summary>Click here to view warnings received for CSS in the W3C Validator</summary>
+     <details>
+      <summary>Click here to view warnings received for CSS in the W3C Validator</summary>
 
-       ![Screenshot of the warnings received for the CSS](/docs/images/css_warnings.png)
+      ![Screenshot of the warnings received for the CSS](/docs/images/css_warnings.png)
 
      </details>
 
@@ -601,7 +600,7 @@ The technology used in this project is as follows:
 
 - The additional hover dropdown menu was removed as it had too many issues with responsiveness and was not essential to the UX of the site.
 - There were several issues with my Commit Messages due to a lack of training on how/format these messages within the course I have been doing large commits and will be working on reducing these commits to smaller changes. I have now corrected these issues and am citing this here as I am aware of the importance of these messages.
-- This website is a Photography Portfolio and is image heavy. Some images may be slow to load even after being compressed in ImageOptim and the tinypng plugin for VScode.
+- This website is a Photography Portfolio and is image heavy. Some images may be slow to load even after being compressed in ImageOptim and the tiny-png plugin for VScode.
 
 ## Resources
 
