@@ -17,6 +17,7 @@
   - [Known Issues and Bugs](#known-issues-and-bugs)
   - [Resources](#resources)
   - [Acknowledgments](#acknowledgments)
+  - [Future improvements](#future-improvements)
 
 
 ## Purpose and goals of the website
@@ -609,31 +610,33 @@ Body: The header (different hero image) and Footer are the same as the Gallery L
   
  [Click to view Lighthouse Testing Results for the Main Gallery Landing Page Here](https://emidombek.github.io/nomada-photo/lighthouse_report/nomada_lighthouse_report.html)
 
+ 
+
 ## Known Issues and Bugs
 
-- The additional hover dropdown menu was removed as it had too many issues with responsiveness and was not essential to the UX of the site.
-- There were several issues with my Commit Messages due to a lack of training on how/format these messages within the course I have been doing large commits and will be working on reducing these commits to smaller changes. I have now corrected these issues and am citing this here as I am aware of the importance of these messages.
-- This website is a Photography Portfolio and is image heavy. Some images may be slow to load even after being compressed in ImageOptim and the tiny-png plugin for VScode.
+   - The additional hover dropdown menu was removed as it had too many issues with responsiveness and was not essential to the UX of the site.
+   - There were several issues with my Commit Messages due to a lack of training on how/format these messages within the course I have been doing large commits and will be working on reducing these commits to smaller changes. I have now corrected these issues and am citing this here as I am aware of the importance of these messages.
+   - This website is a Photography Portfolio and is image heavy. Some images may be slow to load even after being compressed in ImageOptim and the tiny-png plugin for VScode.
 
 ## Resources
 
-- Content:
+   - Content:
 
-  - All photos used on this website were taken by me, Emilia Dombek.
-  - Wireframes were made using the Quickmockup Plugin in Adobe XD. Wireframes have also been imported into Figma for ease of viewing.
+    - All photos used on this website were taken by me, Emilia Dombek.
+    - Wireframes were made using the Quickmockup Plugin in Adobe XD. Wireframes have also been imported into Figma for ease of viewing.
 
-- IDE and Implementation:
+   - IDE and Implementation:
 
-  - VSCode, Git, GitHub and Gitpages were used to code and deploy the website. I used the Code Institute Template to create my repo on GitHub.
-  - To test and view the website locally I used a VSCode extension called 'Live Server' by Ritwick Dey.
-  - I used the 'Mobile Simulator' extension on Chrome to test different devices for responsiveness.
+    - VSCode, Git, GitHub and Gitpages were used to code and deploy the website. I used the Code Institute Template to create my repo on GitHub.
+    - To test and view the website locally I used a VSCode extension called 'Live Server' by Ritwick Dey.
+    - I used the 'Mobile Simulator' extension on Chrome to test different devices for responsiveness.
 
-- Learning Resources:
+   - Learning Resources:
 
-  - W3 schools for CSS
-CSS flexbox knowledge and concepts were mostly learned from: Kevin Powell's Youtube Channel <https://www.youtube.com/@KevinPowell>
-  - Numerous Stack Overflow posts to help with understanding CSS concepts and media queries.
-  - My Code Institute mentor gave me several examples of code and suggestions.
+    - W3 schools for CSS
+   CSS flexbox knowledge and concepts were mostly learned from: Kevin Powell's Youtube Channel  <https://www.youtube.com/@KevinPowell>
+    - Numerous Stack Overflow posts to help with understanding CSS concepts and media queries.
+    - My Code Institute mentor gave me several examples of code and suggestions.
 
 ## Acknowledgments
 
@@ -653,3 +656,12 @@ CSS flexbox knowledge and concepts were mostly learned from: Kevin Powell's Yout
  - Most of my knowledge of CSS Flexbox and other concepts was taken from Kevin Powell's Youtube Channel. I also used one snippet of his code to implement a media query that only shows some hover effects on devices that can hover, the video with this snippet can be found [here](https://www.youtube.com/watch?v=uuluAyw9AI0)
 
  - Snippets of code suggested to me by my mentor Juliia have been highlighted in the code comments. 
+
+ ## Future improvements
+
+ In the future (once I have completed my Diploma)these are the following improvements I would like to add:
+
+ - Add a favicon
+ - Implement a fully functional form
+ - Create a custom 404 page
+ - Wave testing
