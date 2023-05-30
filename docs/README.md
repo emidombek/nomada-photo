@@ -622,21 +622,21 @@ Body: The header (different hero image) and Footer are the same as the Gallery L
 
    - Content:
 
-    - All photos used on this website were taken by me, Emilia Dombek.
-    - Wireframes were made using the Quickmockup Plugin in Adobe XD. Wireframes have also been imported into Figma for ease of viewing.
+     - All photos used on this website were taken by me, Emilia Dombek.
+     - Wireframes were made using the Quickmockup Plugin in Adobe XD. Wireframes have also been imported into Figma for ease of viewing.
 
    - IDE and Implementation:
 
-    - VSCode, Git, GitHub and Gitpages were used to code and deploy the website. I used the Code Institute Template to create my repo on GitHub.
-    - To test and view the website locally I used a VSCode extension called 'Live Server' by Ritwick Dey.
-    - I used the 'Mobile Simulator' extension on Chrome to test different devices for responsiveness.
+      - VSCode, Git, GitHub and Gitpages were used to code and deploy the website. I used the Code Institute Template to create my repo on GitHub.
+      - To test and view the website locally I used a VSCode extension called 'Live Server' by Ritwick Dey.
+      - I used the 'Mobile Simulator' extension on Chrome to test different devices for responsiveness.
 
    - Learning Resources:
 
-    - W3 schools for CSS
-   CSS flexbox knowledge and concepts were mostly learned from: Kevin Powell's Youtube Channel  <https://www.youtube.com/@KevinPowell>
-    - Numerous Stack Overflow posts to help with understanding CSS concepts and media queries.
-    - My Code Institute mentor gave me several examples of code and suggestions.
+      - W3 schools for CSS
+     CSS flexbox knowledge and concepts were mostly learned from: Kevin Powell's Youtube Channel  <https://www.youtube.com/@KevinPowell>
+      - Numerous Stack Overflow posts to help with understanding CSS concepts and media queries.
+      - My Code Institute mentor gave me several examples of code and suggestions.
 
 ## Acknowledgments
 
