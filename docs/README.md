@@ -131,7 +131,7 @@ As a potential client, I want to contact the photographer via the website's cont
 
 ## Design and Layout
 
-The design for the website was created in Adobe XD with the quick mockup plugin, wireframes were imported into Figma for ease of viewing and sharing. The design has evolved somewhat as I have been implementing and testing it for responsiveness. The initial concept was to develop a lightbox-style gallery containing only eight photos. However, during the website implementation process, this concept changed as I was coding it hands-on. It evolved into a per-page mini gallery for each destination, incorporating an extra set of four photos. This modification enabled the sharing of a broader range of work and provided users with a captivating travel-like experience when exploring the destinations.
+The design for the website was created in Adobe XD with the quick mockup plugin, and wireframes were imported into Figma for ease of viewing and sharing. The design has evolved somewhat as I have been implementing and testing it for responsiveness. The initial concept was to develop a lightbox-style gallery containing only eight photos. However, during the website implementation process, this concept changed as I was coding it hands-on. It evolved into a per-page mini gallery for each destination, incorporating an extra set of four photos. This modification enabled the sharing of a broader range of work and provided users with a captivating travel-like experience when exploring the destinations.
 
 - Overall styling: Removing default margins/padding/borders, adding basic background color, text styles and display properties to the Body by selecting Body/Header/Main/Footer.
 - Custom styling on some elements and several hover effects have been used in the Header, Main and Footer sections of the Body many of these have been removed or modified for smaller screens via media queries.
@@ -197,10 +197,10 @@ The technology used in this project is as follows:
 
   - [CSS](https://en.wikipedia.org/wiki/CSS) - style sheet language used to style the webpages
   - [HTML](https://en.wikipedia.org/wiki/HTML) - standard markup language 
-  - [Code Institute Repo Template](https://github.com/Code-Institute-Org/ci-full-template) - GitHub repository template used to created the repository.
-  - [Visual Studio Code](https://code.visualstudio.com/) - source code editor used to create, edit and publish the webpages with the assitance of Git/GitHub/GitPages.
+  - [Code Institute Repo Template](https://github.com/Code-Institute-Org/ci-full-template) - GitHub repository template used to create the repository.
+  - [Visual Studio Code](https://code.visualstudio.com/) - source code editor used to create, edit and publish the webpages with the assistance of Git/GitHub/GitPages.
   - [Adobe XD](https://www.adobe.com/products/xd/learn/get-started/what-is-adobe-xd-used-for.html) - vector-based experience design platform used to create the wireframes for this website
-  - [Figma](https://www.figma.com/) - cloud based design tool I used to share the wireframes.
+  - [Figma](https://www.figma.com/) - cloud-based design tool I used to share the wireframes.
   - [Git](https://en.wikipedia.org/wiki/Git) - distributed version control system
   - [GitHub](https://github.com/) - Git repository hosting service with a web-based graphical interface
   - [Gitpages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages)- GitHub Pages is a static site hosting service.
@@ -735,7 +735,7 @@ Body: The header (different hero image) and Footer are the same as the Gallery L
 
  ## Future Improvements
 
- In the future (once I have completed my Diploma)these are the following improvements I would like to add:
+ In the future (once I have completed my Diploma)these are the following improvements I would like to implement:
 
  - Add a favicon
  - Implement a fully functional form
