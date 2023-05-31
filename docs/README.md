@@ -673,7 +673,7 @@ Body: The header (different hero image) and Footer are the same as the Gallery L
  | 22                         | Y                                | Hover mouse over 1st image                      | Display overlay text                            | Tap for non-hover       |
  | 23                         | Y                                | Hover mouse over 2nd image                      | Display overlay text                            | Tap for non-hover       |
  | 24                         | Y                                | Hover mouse over 3rd image                      | Display overlay text                            | Tap for non-hover       |
- | 25                         | Y                                | Hover mouse over 3rd image                      | Display overlay                                 | Tap for non-hover       |
+ | 25                         | Y                                | Hover mouse over 4th image                      | Display overlay text                            | Tap for non-hover       |
  |                            |                                  |                                                 |                                                 |                         |
  | Contact Page Form          | Action                           | Pass                                            | Expected Result                                 | Notes                   |
  | 26                         | Type in Name                     | Text input field checks for text                | Y                                               |                         |
