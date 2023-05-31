@@ -504,6 +504,59 @@ Body: The header (different hero image) and Footer are the same as the Gallery L
 
      </details>
 
+     <details>
+      <summary>Click here to view the results for all pages in the HTML in the W3C Validator</summary>
+
+      1. Screenshot of the results for the HTML in the W3C Validator for the About page:
+
+          ![Screenshot of the results for the HTML in the W3C Validator for the About page](/docs/images/validate_about.png)
+
+      2. Screenshot of the results for the HTML in the W3C Validator for the Bydgoszcz page:
+
+          ![Screenshot of the results for the HTML in the W3C Validator for the Bydgoszcz page](/docs/images/validate_bydgoszcz.png)
+
+      3. Screenshot of the results for the HTML in the W3C Validator for the Chelmno page:
+
+          ![Screenshot of the results for the HTML in the W3C Validator for the Chelmno page](/docs/images/validate_chelmno_page.png)
+
+      4. Screenshot of the results for the HTML in the W3C Validator for the Connemara page:
+
+          ![Screenshot of the results for the HTML in the W3C Validator for the Connemara page](/docs/images/validate_connemara.png)
+
+      5. Screenshot of the results for the HTML in the W3C Validator for the Contact page:
+
+          ![Screenshot of the results for the HTML in the W3C Validator for the Contact page](/docs/images/validate_contact.png)
+
+      6. Screenshot of the results for the HTML in the W3C Validator for the Gdansk page:
+
+          ![Screenshot of the results for the HTML in the W3C Validator for the Gdansk page](/docs/images/validate_gdansk_gallery.png)
+
+      7. Screenshot of the results for the HTML in the W3C Validator for the Main Gallery Landing page:
+
+          ![Screenshot of the results for the HTML in the W3C Validator for the Main Gallery Landing page](/docs/images/validate_main_gallery.png)
+
+      8. Screenshot of the results for the HTML in the W3C Validator for the Richmond page:
+
+          ![Screenshot of the results for the HTML in the W3C Validator for the Richmond page](/docs/images/validate_richmond.png)
+
+      9. Screenshot of the results for the HTML in the W3C Validator for the Slieve League page:
+
+          ![Screenshot of the results for the HTML in the W3C Validator for the Slieve League page](/docs/images/validate_slieve_league.png)
+
+      10. Screenshot of the results for the HTML in the W3C Validator for the Tatra page:
+         
+          ![Screenshot of the results for the HTML in the W3C Validator for the Tatra page](/docs/images/validate_tatra.png)
+
+      11. Screenshot of the results for the HTML in the W3C Validator for the Thank You page:
+
+          ![Screenshot of the results for the HTML in the W3C Validator for the Thank You page](/docs/images/validate_thank_you_page.png)
+
+      12. Screenshot of the results for the HTML in the W3C Validator for the Torun page:
+
+          ![Screenshot of the results for the HTML in the W3C Validator for the Torun page](/docs/images/validate_torun.png)
+
+    </details>
+
  Responsiveness:
 
  1. The site was tested on the following devices:
