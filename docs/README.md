@@ -740,4 +740,4 @@ Body: The header (different hero image) and Footer are the same as the Gallery L
  - Add a favicon
  - Implement a fully functional form
  - Create a custom 404 page
- - Wave testing
+ - Wave Testing
