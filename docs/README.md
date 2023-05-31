@@ -195,14 +195,14 @@ The primary Design System is as follows:
 
 The technology used in this project is as follows:
 
-  - [CSS](https://en.wikipedia.org/wiki/CSS) - style sheet language used to style the webpages
-  - [HTML](https://en.wikipedia.org/wiki/HTML) - standard markup language 
+  - [CSS](https://en.wikipedia.org/wiki/CSS) - style sheet language used to style the webpages.
+  - [HTML](https://en.wikipedia.org/wiki/HTML) - standard markup language.
   - [Code Institute Repo Template](https://github.com/Code-Institute-Org/ci-full-template) - GitHub repository template used to create the repository.
   - [Visual Studio Code](https://code.visualstudio.com/) - source code editor used to create, edit and publish the webpages with the assistance of Git/GitHub/GitPages.
-  - [Adobe XD](https://www.adobe.com/products/xd/learn/get-started/what-is-adobe-xd-used-for.html) - vector-based experience design platform used to create the wireframes for this website
+  - [Adobe XD](https://www.adobe.com/products/xd/learn/get-started/what-is-adobe-xd-used-for.html) - vector-based experience design platform used to create the wireframes for this website.
   - [Figma](https://www.figma.com/) - cloud-based design tool I used to share the wireframes.
-  - [Git](https://en.wikipedia.org/wiki/Git) - distributed version control system
-  - [GitHub](https://github.com/) - Git repository hosting service with a web-based graphical interface
+  - [Git](https://en.wikipedia.org/wiki/Git) - distributed version control system.
+  - [GitHub](https://github.com/) - Git repository hosting service with a web-based graphical interface.
   - [Gitpages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages)- GitHub Pages is a static site hosting service.
 ## Code
 
