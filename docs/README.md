@@ -195,12 +195,12 @@ The primary Design System is as follows:
 
 The technology used in this project is as follows:
 
-  - [CSS](https://en.wikipedia.org/wiki/CSS) - style sheet language 
-  - [HTML](https://en.wikipedia.org/wiki/HTML) - standard markup language
-  - [Code Institute Repo Template](https://github.com/Code-Institute-Org/ci-full-template) - GitHub repository template
-  - [Visual Studio Code](https://code.visualstudio.com/) - source code editor
-  - [Adobe XD](https://www.adobe.com/products/xd/learn/get-started/what-is-adobe-xd-used-for.html) - vector-based experience design platform
-  - [Figma](https://www.figma.com/) - cloud based design tool 
+  - [CSS](https://en.wikipedia.org/wiki/CSS) - style sheet language used to style the webpages
+  - [HTML](https://en.wikipedia.org/wiki/HTML) - standard markup language 
+  - [Code Institute Repo Template](https://github.com/Code-Institute-Org/ci-full-template) - GitHub repository template used to created the repository.
+  - [Visual Studio Code](https://code.visualstudio.com/) - source code editor used to create, edit and publish the webpages with the assitance of Git/GitHub/GitPages.
+  - [Adobe XD](https://www.adobe.com/products/xd/learn/get-started/what-is-adobe-xd-used-for.html) - vector-based experience design platform used to create the wireframes for this website
+  - [Figma](https://www.figma.com/) - cloud based design tool I used to share the wireframes.
   - [Git](https://en.wikipedia.org/wiki/Git) - distributed version control system
   - [GitHub](https://github.com/) - Git repository hosting service with a web-based graphical interface
   - [Gitpages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages)- GitHub Pages is a static site hosting service.
@@ -641,7 +641,53 @@ Body: The header (different hero image) and Footer are the same as the Gallery L
       [Click to view Lighthouse Testing Results for the Chelmno Destination Page Here](https://emidombek.github.io/nomada-photo/lighthouse_report/nomada_chelmno_lighthouse_report.html)
 
     </details>
-   
+
+ *Manual Testing*
+
+ | Navigation                 | Pass                             | Action                                          | Expected Result                                 | Notes                   |
+ | -------------------------- | -------------------------------- | ----------------------------------------------- | ----------------------------------------------- | ----------------------- |
+ | 1                          | Y                                | Hover mouse over Hero image                     | Image/text/link overlay appears                 |                         |
+ | 2                          | Y                                | Click on Hero Image link                        | Jump to Logo Banner                             |                         |
+ | 3                          | Y                                | Click Home                                      | Redirection to Main Gallery Landing Page        |                         |
+ | 4                          | Y                                | Click About                                     | Redirection to About Page                       |                         |
+ | 5                          | Y                                | Click Contact                                   | Redirection to Contact Page                     |                         |
+ | Main Gallery Landing Page  | Pass                             | Action                                          | Expected Result                                 | Notes                   |
+ | 6                          | Y                                | Hover mouse over 1st image                      | Icon/image overlay appears                      | Displayed for non-hover |
+ | 7                          | Y                                | Hover mouse over 2nd image                      | Icon/image overlay appears                      | Displayed for non-hover |
+ | 8                          | Y                                | Hover mouse over 3rd image                      | Icon/image overlay appears                      | Displayed for non-hover |
+ | 9                          | Y                                | Hover mouse over 4th image                      | Icon/image overlay appears                      | Displayed for non-hover |
+ | 10                         | Y                                | Hover mouse over 5th image                      | Icon/image overlay appears                      | Displayed for non-hover |
+ | 11                         | Y                                | Hover mouse over 6th image                      | Icon/image overlay appears                      | Displayed for non-hover |
+ | 12                         | Y                                | Hover mouse over 7th image                      | Icon/image overlay appears                      | Displayed for non-hover |
+ | 13                         | Y                                | Hover mouse over 8th image                      | Icon/image overlay appears                      | Displayed for non-hover |
+ | Destination Page           | Pass                             | Action                                          | Expected Result                                 | Notes                   |
+ | 14                         | Y                                | Click 1st image                                 | Redirection to Gdansk Destination Page          |                         |
+ | 15                         | Y                                | Click 2nd image                                 | Redirection to Slieve League Destination Page   |                         |
+ | 16                         | Y                                | Click 3rd image                                 | Redirection to Tatra Desination Page            |                         |
+ | 17                         | Y                                | Click 4th image                                 | Redirection to Torun Destination Page           |                         |
+ | 18                         | Y                                | Click 5th image                                 | Redirection to Richmond Destination Page        |                         |
+ | 19                         | Y                                | Click 6th image                                 | Redirection to Bydgoszcz Destination Page       |                         |
+ | 20                         | Y                                | Click 7th image                                 | Redirection to Connemara Destination Page       |                         |
+ | 21                         | Y                                | Click 8th image                                 | Redirection to Chelmno Destination Page Gallery |                         |
+ | Destination Page Galleries | Pass                             | Action                                          | Expected Result                                 | Notes                   |
+ | 22                         | Y                                | Hover mouse over 1st image                      | Display overlay text                            | Tap for non-hover       |
+ | 23                         | Y                                | Hover mouse over 2nd image                      | Display overlay text                            | Tap for non-hover       |
+ | 24                         | Y                                | Hover mouse over 3rd image                      | Display overlay text                            | Tap for non-hover       |
+ | 25                         | Y                                | Hover mouse over 3rd image                      | Display overlay                                 | Tap for non-hover       |
+ |                            |                                  |                                                 |                                                 |                         |
+ | Contact Page Form          | Action                           | Pass                                            | Expected Result                                 | Notes                   |
+ | 26                         | Type in Name                     | Text input field checks for text                | Y                                               |                         |
+ | 27                         | Type in Email                    | Text input field check for correct email format | Y                                               |                         |
+ | 28                         | Type in Message                  | Text input field checks for text                | Y                                               |                         |
+ | 29                         | Click submit button              | Redirect to Thank You page                      | Y                                               | Dummy form              |
+ |                            |                                  |                                                 |                                                 |                         |
+ | Footer Banner              | Action                           | Pass                                            | Result                                          | Notes                   |
+ | 30                         | Click facebook icon              | Redirection to Facebook page                    | Y                                               |                         |
+ | 31                         | Click twitter icon               | Redirection to Twitter page                     | Y                                               |                         |
+ | 32                         | Click youtube icon               | Redirection to YouTube page                     | Y                                               |                         |
+ | 33                         | Click instagram icon             | Redirection to Instagram page                   | Y                                               |                         |
+ | 34                         | Click logo at the bottom of page | Jump to the top of the page                     | Y                                               |
+
 ## Known Issues and Bugs
 
    - The additional hover dropdown menu was removed as it had too many issues with responsiveness and was not essential to the UX of the site.
